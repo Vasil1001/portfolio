@@ -53,7 +53,7 @@ export default function HeroSection() {
           <div className="grid-span-1 grid grid-cols-2 justify-between rounded-2xl bg-[#4c535e] p-5">
             <p className="col-span-1 text-left text-xl font-bold text-[#00ADB5]">Hello this is Βασίλης</p>
             <div className="z-10 col-span-1 flex flex-row flex-wrap justify-end">
-              <div className="mr-2 mt-2 rounded-sm bg-[#e2e8f0] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">React</div>
+              <div className="mr-2 mt-2 rounded-sm bg-[#e2e8f0] px-4 py-1 font-inter font-semibold text-red-700 hover:bg-[#f7f7f9]">React</div>
               <div className="mr-2 mt-2 rounded-sm bg-[#e5e7eb] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">Tailwind</div>
               <div className="mr-2 mt-2 rounded-sm bg-[#e5e7eb] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">JavaScript</div>
               <div className="mr-2 mt-2 rounded-sm bg-[#e5e7eb] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">NodeJS</div>

@@ -3,8 +3,8 @@ import React from 'react'
 export default function HeroSection() {
   //e2e8f0 BLUEISH GRAY CARDS f6f6f6 LIGHT GRAY CARDS
   return (
-    <div className="items-center flex flex-col justify-center py-20">
-      <div className="rounded-2xl bg-[#e2e8f0] p-4 pt-8 text-center shadow-sm">
+    <div className="items-cetner flex flex-col justify-center py-20">
+      <div className="rounded-2xl bg-[#eeeeee] p-4 pt-8 text-center shadow-sm">
         <h1 className="mb-1 font-noto text-2xl font-semibold text-[#222831] md:mb-3 md:text-4xl">Hi, I'm Vasilis (Βασίλης) </h1>
         <p className="text-md font-inter text-gray-600 md:text-lg">
           I am a Computer Science graduate working with React, Tailwind, NodeJS and more on personal projects!
@@ -50,10 +50,10 @@ export default function HeroSection() {
         </div>
 
         <div className=" rounded-2xl bg-[#222831] p-8 py-40 text-center shadow-sm">
-          <div className="grid-span-1 grid grid-cols-2 justify-between rounded-2xl bg-[#4c535e] p-5">
+          <div className="grid-span-1 grid grid-cols-2 justify-between rounded-2xl bg-[#525961] p-5">
             <p className="col-span-1 text-left text-xl font-bold text-[#00ADB5]">Hello this is Βασίλης</p>
             <div className="z-10 col-span-1 flex flex-row flex-wrap justify-end">
-              <div className="mr-2 mt-2 rounded-sm bg-[#e2e8f0] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">React</div>
+              <div className="mr-2 mt-2 rounded-sm bg-[#e5e7eb] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">React</div>
               <div className="mr-2 mt-2 rounded-sm bg-[#e5e7eb] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">Tailwind</div>
               <div className="mr-2 mt-2 rounded-sm bg-[#e5e7eb] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">JavaScript</div>
               <div className="mr-2 mt-2 rounded-sm bg-[#e5e7eb] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">NodeJS</div>
