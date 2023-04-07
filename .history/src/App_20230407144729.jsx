@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './index.css'
@@ -10,33 +10,14 @@ import Pallete from './components/Pallete'
 //ecf0f4
 function App() {
   const [theme, setTheme] = useState(null)
-
-  useEffect(() => {
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      setTheme('dark')
-    } else {
-      setTheme('light')
-    }
-  }, [theme])
-
-  useEffect(() => {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-  })
-
+  
   return (
     <div className="bg-white dark:bg-[#202124]">
-      <div className="mx-auto flex min-h-screen w-11/12 flex-col justify-center pt-5 text-center xl:mx-auto xl:w-8/12 xl:pt-10">
+      <div className="mx-auto flex justify-center min-h-screen w-11/12 flex-col pt-5 text-center xl:mx-auto xl:w-8/12 xl:pt-10">
         <Navbar />
-        <button type="button" onClick={handleThemeSwitch} className="fixed right-2 top-2 z-10 bg-indigo-500 text-lg rounded-md p-1">
-          Dark
-        </button>
         <HeroSection />
-        <Skills />
-        <Pallete />
+        <Skills/>
+        <Pallete/>
         <div className="flex">
           <a href="https://vitejs.dev" target="_blank">
             <img src={viteLogo} className="logo" alt="Vite logo" />

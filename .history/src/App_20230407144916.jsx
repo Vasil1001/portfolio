@@ -12,28 +12,14 @@ function App() {
   const [theme, setTheme] = useState(null)
 
   useEffect(() => {
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      setTheme('dark')
-    } else {
-      setTheme('light')
-    }
-  }, [theme])
+    if(window.watchMedia('(prefers-color-scheme: dark)'))
+  }, [])
 
-  useEffect(() => {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-  })
-
+  
   return (
     <div className="bg-white dark:bg-[#202124]">
       <div className="mx-auto flex min-h-screen w-11/12 flex-col justify-center pt-5 text-center xl:mx-auto xl:w-8/12 xl:pt-10">
         <Navbar />
-        <button type="button" onClick={handleThemeSwitch} className="fixed right-2 top-2 z-10 bg-indigo-500 text-lg rounded-md p-1">
-          Dark
-        </button>
         <HeroSection />
         <Skills />
         <Pallete />

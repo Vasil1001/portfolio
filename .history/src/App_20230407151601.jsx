@@ -29,11 +29,9 @@ function App() {
 
   return (
     <div className="bg-white dark:bg-[#202124]">
-      <div className="mx-auto flex min-h-screen w-11/12 flex-col justify-center pt-5 text-center xl:mx-auto xl:w-8/12 xl:pt-10">
+      <div className="mx-auto  flex min-h-screen w-11/12 flex-col justify-center pt-5 text-center xl:mx-auto xl:w-8/12 xl:pt-10">
         <Navbar />
-        <button type="button" onClick={handleThemeSwitch} className="fixed right-2 top-2 z-10 bg-indigo-500 text-lg rounded-md p-1">
-          Dark
-        </button>
+        <button type="button" onClick={handleThemeSwitch} className="fixed right-2 top-2 z-10 bg-indigo-500">Dark</button>
         <HeroSection />
         <Skills />
         <Pallete />
