@@ -10,17 +10,16 @@ import Pallete from './components/Pallete'
 //ecf0f4
 function App() {
   const [theme, setTheme] = useState(null)
-
   const handleThemeSwitch = () => {
-    setTheme(theme === 'dark' ? 'light' : 'dark')
+    setTheme(theme === 'dark'? 'dark' : 'light')
   }
   useEffect(() => {
-    if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
       setTheme('dark')
     } else {
       setTheme('light')
     }
-  }, [])
+  }, [theme])
 
   useEffect(() => {
     if (theme === 'dark') {
@@ -28,7 +27,7 @@ function App() {
     } else {
       document.documentElement.classList.remove('dark')
     }
-  }, [theme])
+  })
 
   return (
     <div className="bg-white dark:bg-[#202124]">

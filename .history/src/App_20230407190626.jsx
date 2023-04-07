@@ -20,7 +20,7 @@ function App() {
     } else {
       setTheme('light')
     }
-  }, [])
+  }, [theme])
 
   useEffect(() => {
     if (theme === 'dark') {

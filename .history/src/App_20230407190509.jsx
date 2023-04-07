@@ -15,12 +15,12 @@ function App() {
     setTheme(theme === 'dark' ? 'light' : 'dark')
   }
   useEffect(() => {
-    if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
       setTheme('dark')
     } else {
       setTheme('light')
     }
-  }, [])
+  }, [theme])
 
   useEffect(() => {
     if (theme === 'dark') {
@@ -28,7 +28,7 @@ function App() {
     } else {
       document.documentElement.classList.remove('dark')
     }
-  }, [theme])
+  })
 
   return (
     <div className="bg-white dark:bg-[#202124]">

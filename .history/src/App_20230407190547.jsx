@@ -20,7 +20,7 @@ function App() {
     } else {
       setTheme('light')
     }
-  }, [])
+  }, [theme])
 
   useEffect(() => {
     if (theme === 'dark') {
@@ -28,7 +28,7 @@ function App() {
     } else {
       document.documentElement.classList.remove('dark')
     }
-  }, [theme])
+  })
 
   return (
     <div className="bg-white dark:bg-[#202124]">

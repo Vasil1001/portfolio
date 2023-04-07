@@ -10,17 +10,16 @@ import Pallete from './components/Pallete'
 //ecf0f4
 function App() {
   const [theme, setTheme] = useState(null)
-
-  const handleThemeSwitch = () => {
-    setTheme(theme === 'dark' ? 'light' : 'dark')
-  }
+const handleThemeSwitch() {
+    if (theme === 'dark') {
+}
   useEffect(() => {
-    if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
       setTheme('dark')
     } else {
       setTheme('light')
     }
-  }, [])
+  }, [theme])
 
   useEffect(() => {
     if (theme === 'dark') {
@@ -28,14 +27,14 @@ function App() {
     } else {
       document.documentElement.classList.remove('dark')
     }
-  }, [theme])
+  })
 
   return (
     <div className="bg-white dark:bg-[#202124]">
       <div className="mx-auto flex min-h-screen w-11/12 flex-col justify-center pt-5 text-center xl:mx-auto xl:w-8/12 xl:pt-10">
         <Navbar />
-        <button type="button" onClick={handleThemeSwitch} className="fixed right-2 top-2 z-10 rounded-md bg-indigo-500 p-1 text-lg">
-          {theme === 'dark' ? '🌞' : '🌙'}
+        <button type="button" onClick={handleThemeSwitch} className="fixed right-2 top-2 z-10 bg-indigo-500 text-lg rounded-md p-1">
+          Dark
         </button>
         <HeroSection />
         <Skills />

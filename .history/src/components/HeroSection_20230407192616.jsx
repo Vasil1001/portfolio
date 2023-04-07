@@ -19,9 +19,9 @@ export default function HeroSection() {
       </div>
 
       <div className="grid grid-cols-4 space-x-3.5">
-        <div className="col-span-2 row-span-6 mt-3.5 rounded-2xl border border-[#d8d9da] bg-[#e2e8f0] dark:bg-[#393E46] dark:border-[#727273] p-7 text-center md:col-span-2">
+        <div className="col-span-2 row-span-6 mt-3.5 rounded-2xl border border-[#d8d9da] bg-[#e2e8f0] dark:bg-[#393E46]  p-7 text-center md:col-span-2">
           <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#222831] md:mb-3 dark:text-white md:text-4xl">Hi, I'm Vasilis (Βασίλης) </h1>
-          <p className="text-md max-w-md text-left font-roboto text-gray-500 md:text-md md:text-lg dark:text-gray-200">
+          <p className="text-md max-w-md text-left font-inter text-gray-500 md:text-md md:text-lg dark:text-white">
             I am a Computer Science graduate working with React, Tailwind, NodeJS and more on personal projects!
           </p>
           <a
