@@ -17,7 +17,7 @@ export default function HeroSection() {
         </a>
       </div>
 
-      <div className="grid grid-cols-4 space-x-3.5">
+      <div className="grid grid-cols-4 gap-3.5 space-3.5">
         <div className="col-span-2 md:col-span-2 row-span-6 mt-3.5 rounded-2xl border border-[#d8d9da] bg-[#e2e8f0] p-7 text-center">
           <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#222831] md:mb-3 md:text-4xl">Hi, I'm Vasilis (Βασίλης) </h1>
           <p className="text-md max-w-md text-left font-inter text-gray-500 md:text-lg md:text-xl">
@@ -31,17 +31,7 @@ export default function HeroSection() {
           </a>
         </div>
 
-        
-
-        <div className="col-span-2 lg:col-span-2 mt-3.5 rounded-2xl border border-[#d8d9da] bg-[#e2e8f0] p-7 text-center">
-          <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#222831] md:mb-3 md:text-4xl">Hi, I'm Vasilis (Βασίλης) </h1>
-          <p className="text-md max-w-md text-left font-inter text-gray-500 md:text-lg md:text-xl">
-             NodeJS and more on personal projects!
-          </p>
-         
-        </div>
-
-        <div className="col-span-2 lg:col-span-1 mt-3.5 rounded-2xl border border-[#d8d9da] bg-[#e2e8f0] p-7 text-center">
+        <div className="col-span-2 lg:col-span-1  mt-3.5 rounded-2xl border border-[#d8d9da] bg-[#e2e8f0] p-7 text-center">
           <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#222831] md:mb-3 md:text-4xl">Hi, I'm Vasilis (Βασίλης) </h1>
           <p className="text-md max-w-md text-left font-inter text-gray-500 md:text-lg md:text-xl">
             I am a Computer Science graduate working with React, Tailwind, NodeJS and more on personal projects!
@@ -54,10 +44,10 @@ export default function HeroSection() {
           </a>
         </div>
 
-        <div className="col-span-2 lg:col-span-1 mt-3.5 rounded-2xl border border-[#d8d9da] bg-[#e2e8f0] p-7 text-center">
+        <div className="col-span-2 lg:col-span-1  mt-3.5 rounded-2xl border border-[#d8d9da] bg-[#e2e8f0] p-7 text-center">
           <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#222831] md:mb-3 md:text-4xl">Hi, I'm Vasilis (Βασίλης) </h1>
           <p className="text-md max-w-md text-left font-inter text-gray-500 md:text-lg md:text-xl">
-             NodeJS and more on personal projects!
+            I am a Computer Science graduate working with React, Tailwind, NodeJS and more on personal projects!
           </p>
           <a
             href="#"

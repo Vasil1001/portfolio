@@ -6,7 +6,6 @@ import './App.css'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import Skills from './components/Skills'
-import Pallete from './components/Pallete'
 //ecf0f4
 function App() {
   const [theme, setTheme] = useState(null)
@@ -16,7 +15,7 @@ function App() {
         <Navbar />
         <HeroSection />
         <Skills/>
-        <Pallete/>
+
         <div className="flex">
           <a href="https://vitejs.dev" target="_blank">
             <img src={viteLogo} className="logo" alt="Vite logo" />
