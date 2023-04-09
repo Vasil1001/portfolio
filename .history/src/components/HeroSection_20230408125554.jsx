@@ -1,5 +1,4 @@
 import React from 'react'
-import galaxy from '../assets/galaxy.png'
 
 export default function HeroSection() {
   //BLUEISH GRAY CARDS e2e8f0 dark mode | light mode eaeff4  f6f6f6 LIGHT GRAY CARDS e6edf6 ecf0f4 | eaeff4 f1f1f1 | cccdcf f0f8ff e8edf4
@@ -17,7 +16,7 @@ export default function HeroSection() {
         >
           See Projects
         </a>
-        <img src={galaxy} alt="galaxy" className='w-40' />
+        <img src="./assets/galaxy.png" alt="galaxy" />
       </div>
 
       <div className="grid grid-cols-4 space-x-3.5">
