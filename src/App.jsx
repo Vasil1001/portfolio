@@ -7,7 +7,8 @@ import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import Skills from './components/Skills'
 import Pallete from './components/Pallete'
-import {BsMoonStars} from 'react-icons/bs'
+import { BsMoonStars } from 'react-icons/bs'
+import AboutMe from './components/AboutMe'
 //ecf0f4
 function App() {
   const [theme, setTheme] = useState(null)
@@ -35,10 +36,15 @@ function App() {
     <div className="bg-[#f8fbff] dark:bg-[#252529]">
       <div className="mx-auto flex min-h-screen w-11/12 flex-col justify-center pt-5 text-center xl:mx-auto xl:w-7/12 xl:pt-5">
         <Navbar />
-        <button type="button" onClick={handleThemeSwitch} className="fixed right-2 top-2 z-10 rounded-md bg-[#464b54] dark:bg-[#393e46] p-0.5 text-lg">
+        <button
+          type="button"
+          onClick={handleThemeSwitch}
+          className="fixed right-2 top-2 z-10 rounded-md bg-[#464b54] p-0.5 text-lg dark:bg-[#393e46]"
+        >
           {theme === 'dark' ? '🌞' : '🌙'}
         </button>
         <HeroSection />
+        <AboutMe />
         <Skills />
         <Pallete />
         <div className="flex">
