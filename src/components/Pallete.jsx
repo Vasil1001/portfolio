@@ -20,3 +20,4 @@ export default function Pallete() {
     </div>
   )
 }
+// APP BG 202124 / 1E1E20 / 252529 

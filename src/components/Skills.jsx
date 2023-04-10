@@ -25,7 +25,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className=" rounded-2xl bg-[#222831] p-8 py-40 text-center shadow-sm">
+        <div className=" rounded-2xl bg-[#202124] p-8 py-40 text-center shadow-sm">
           <div className="grid-span-1 grid grid-cols-2 justify-between rounded-2xl bg-[#393E46] p-5">
             <p className="col-span-1 text-left text-xl font-bold text-[#00ADB5]">Hello this is Βασίλης</p>
             <div className="z-10 col-span-1 flex flex-row flex-wrap justify-end">
