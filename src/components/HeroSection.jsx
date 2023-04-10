@@ -18,6 +18,8 @@ export default function HeroSection() {
           See Projects
         </a>
         <img src={galaxy} alt="galaxy" className='w-40' />
+        <img src={galaxy} alt="galaxy" className='w-40' />
+        <img src={galaxy} alt="galaxy" className='w-40' />
       </div>
 
       <div className="grid grid-cols-4 space-x-3.5">
