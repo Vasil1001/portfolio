@@ -1,19 +1,20 @@
 import React from 'react'
 import galaxy from '../assets/galaxy.png'
 import galaxy_small_planets from '../assets/galaxy-small-planets.png'
+import blue_planet_cropped from '../assets/blue_planet_cropped.png'
 
 export default function HeroSection() {
   //BLUEISH GRAY CARDS e2e8f0 dark mode | light mode eaeff4  f6f6f6 LIGHT GRAY CARDS e6edf6 ecf0f4 | f1f1f1 or f0f2f4 |   e8edf4
   // dark: dcdedf or lighter e2e8f0
   //latest ac64e3 PURPLER 10b981 VASILIS TITLE
   return (
-    <div className="mb-3.5 mt-10 w-full items-center justify-center">
-      <div className=" flex p-1">
-        <div className="flex flex-col ">
-          <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#00adb5] md:mb-3 md:text-5xl">
+    <div className="mb-3.5 w-full items-center justify-center">
+      <div className=" relative flex flex-wrap rounded-xl bg-[#f1f1f5]  dark:bg-[#252529]">
+        <div className="align-center bottom-44 z-30 flex h-[calc(100vh-300px)] flex-col flex-wrap justify-center  overflow-auto text-center md:relative  xl:left-0">
+          <h1 className="place-center mx-auto mb-1 text-center font-noto text-4xl font-semibold text-red-200 dark:text-[#00adb5] md:mb-3 md:text-5xl md:text-[#202124]">
             Hi, I'm Vasilis <b className="underline">(Βασίλης)</b>
           </h1>
-          <p className="text-md max-w-lg text-left font-roboto text-gray-600 dark:text-[#f7efe8] md:text-xl">
+          <p className="text-md max-w-sm text-left font-roboto text-gray-600 dark:text-[#e8e0da] md:text-xl">
             I am a Software Engineer who enjoys building frontend and fullstack software and web applications mainly with{' '}
             <b className="text-[#202124] dark:text-[#5fd6e6]">ReactJS</b>, <b className="text-[#202124] dark:text-[#35b3eb]">TailwindCSS</b>,{' '}
             <b className="text-[#202124] dark:text-[#80bc02]">NodeJS</b> & more!
@@ -26,8 +27,9 @@ export default function HeroSection() {
           </a>
         </div>
 
-        <div className="mx-auto justify-center ">
-          <img src={galaxy_small_planets} alt="galaxy" className="w-42 h-48" />
+        <div className="invisible absolute bottom-36 right-0 z-0 mx-auto flex h-[calc(100vh-300px)] max-w-[400px] flex-col  justify-center opacity-90 md:visible  xl:bottom-32 xl:right-0 md:max-w-[400px] lg:max-w-[470px] xl:max-w-[500px] 2xl:max-w-[580px] 3xl:max-w-[850px]">
+          {/* <img src={galaxy_small_planets} alt="galaxy" className="w-42 h-48" /> */}
+          <img src={blue_planet_cropped} alt="blue_planet" className="" />
         </div>
       </div>
 
