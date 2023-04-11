@@ -7,8 +7,11 @@ import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import Skills from './components/Skills'
 import Pallete from './components/Pallete'
-import { BsMoonStars } from 'react-icons/bs'
+import { BsFillMoonStarsFill } from 'react-icons/bs'
 import AboutMe from './components/AboutMe'
+import { BsLightbulb } from 'react-icons/bs'
+import { BsLightbulbOffFill } from 'react-icons/bs'
+
 //ecf0f4
 function App() {
   const [theme, setTheme] = useState(null)
@@ -39,9 +42,9 @@ function App() {
         <button
           type="button"
           onClick={handleThemeSwitch}
-          className="fixed right-2 top-2 z-10 rounded-md bg-[#464b54] p-0.5 text-lg dark:bg-[#393e46]"
+          className="fixed right-2 top-2 p-1 z-10 rounded-md bg-[#a9a387] p-0.5 text-lg dark:bg-[#393e46]"
         >
-          {theme === 'dark' ? '🌞' : '🌙'}
+          {theme === 'dark' ? <BsLightbulb fill='yellow' fontSize="1.3rem"/> : <BsLightbulbOffFill fill='[#fadb3c]' fontSize="1.3rem"/>}
         </button>
         <HeroSection />
         <AboutMe />

@@ -24,6 +24,7 @@ export default function AboutMe() {
             I learnt Java and Spring Boot at university, and afterwards, I made projects that helped me grow as a developer with React, Node.js,
             Express.js, MongoDB, Firebase. I am looking forward to learning more.
             <br /> <br />
+            
           </p>
         </div>
         {/* <img src={galaxy} alt="galaxy" className="w-40" /> */}
