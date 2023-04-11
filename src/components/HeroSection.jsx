@@ -5,12 +5,12 @@ import galaxy_small_planets from '../assets/galaxy-small-planets.png'
 export default function HeroSection() {
   //BLUEISH GRAY CARDS e2e8f0 dark mode | light mode eaeff4  f6f6f6 LIGHT GRAY CARDS e6edf6 ecf0f4 | f1f1f1 or f0f2f4 |   e8edf4
   // dark: dcdedf or lighter e2e8f0
-  //latest ac64e3 PURPLER
+  //latest ac64e3 PURPLER 10b981 VASILIS TITLE
   return (
     <div className="mb-3.5 mt-10 w-full items-center justify-center">
       <div className=" flex p-1">
         <div className="flex flex-col ">
-          <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#10b981] md:mb-3 md:text-5xl">
+          <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#00adb5] md:mb-3 md:text-5xl">
             Hi, I'm Vasilis <b className="underline">(Βασίλης)</b>
           </h1>
           <p className="text-md max-w-lg text-left font-roboto text-gray-600 dark:text-[#f7efe8] md:text-xl">

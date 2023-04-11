@@ -38,13 +38,13 @@ function App() {
   return (
     <div className="bg-[#f8fbff] dark:bg-[#252529]">
       <div className="mx-auto flex min-h-screen w-11/12 flex-col justify-center pt-5 text-center xl:mx-auto xl:w-7/12 xl:pt-5">
-        <Navbar />
+        <Navbar theme={theme} handleThemeSwitch={handleThemeSwitch} />
         <button
           type="button"
           onClick={handleThemeSwitch}
-          className="fixed right-2 top-2 p-1 z-10 rounded-md bg-[#a9a387] p-0.5 text-lg dark:bg-[#393e46]"
+          className="fixed right-2 top-2 z-10 rounded-md bg-[#a9a387] p-0.5 p-1 text-lg dark:bg-[#393e46]"
         >
-          {theme === 'dark' ? <BsLightbulb fill='yellow' fontSize="1.3rem"/> : <BsLightbulbOffFill fill='[#fadb3c]' fontSize="1.3rem"/>}
+          {theme === 'dark' ? <BsLightbulb fill="yellow" fontSize="1.3rem" /> : <BsLightbulbOffFill fill="[#fadb3c]" fontSize="1.3rem" />}
         </button>
         <HeroSection />
         <AboutMe />
