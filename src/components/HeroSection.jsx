@@ -12,7 +12,7 @@ export default function HeroSection() {
       <div className=" relative flex flex-wrap rounded-xl bg-[#f1f1f5]  dark:bg-[#252529]">
         <div className="align-center bottom-44 z-30 flex h-[calc(100vh-300px)] flex-col flex-wrap justify-center  overflow-auto text-center md:relative  xl:left-0">
           <h1 className="place-center mx-auto mb-1 text-center font-noto text-4xl font-semibold text-red-200 dark:text-[#00adb5] md:mb-3 md:text-5xl md:text-[#202124]">
-            Hi, I'm Vasilis <b className="underline">(Βασίλης)</b>
+            Hi, I'm Vasilis <b className="underline p-3 ">(Βασίλης)</b>
           </h1>
           <p className="text-md max-w-sm text-left font-roboto text-gray-600 dark:text-[#e8e0da] md:text-xl">
             I am a Software Engineer who enjoys building frontend and fullstack software and web applications mainly with{' '}

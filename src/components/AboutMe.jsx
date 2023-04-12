@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function AboutMe() {
   return (
-    <div className="grid grid-cols-3 gap-3.5">
-      <div className="col-span-2 mb-3.5 rounded-2xl border border-[#e3e4e4] bg-[#f1f1f5] p-7 text-center dark:bg-[#edeeef]">
+    <div className="grid grid-cols-3 grid-rows-2 gap-3.5">
+      <div className="col-span-2 row-span-2 mb-3.5 rounded-2xl border border-[#e3e4e4] bg-[#f1f1f5] p-7 text-center dark:bg-[#edeeef]">
         <div className="">
           <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
             A little about me
@@ -30,7 +30,7 @@ export default function AboutMe() {
         {/* <img src={galaxy} alt="galaxy" className="w-40" /> */}
       </div>
 
-      <div className="col-span-1 mb-3.5 rounded-2xl border border-[#e3e4e4] bg-[#f1f1f5] p-7 text-center dark:bg-[#edeeef]">
+      <div className="col-span-1 row-span-1 mb-3.5 rounded-2xl border border-[#e3e4e4] bg-[#f1f1f5] p-7 text-center dark:bg-[#edeeef]">
         <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">Skills</h1>
         <div className="col-span-1">
           <div className="z-10 col-span-1 flex flex-row flex-wrap justify-end">
