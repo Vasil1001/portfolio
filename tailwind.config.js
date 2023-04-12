@@ -25,9 +25,11 @@ export default {
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
 
-      '2xl': '1536px',
+      '2xl': '1474px',
       // => @media (min-width: 1536px) { ... }
       
+      '2.5xl': '1750',
+      // => @media (min-width: 1280px) { ... }
       '3xl': '2000px',
       // => @media (min-width: 1536px) { ... }
       },

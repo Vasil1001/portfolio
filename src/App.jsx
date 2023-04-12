@@ -37,7 +37,7 @@ function App() {
   // APP BG 202124 / 1E1E20 / 252529
   return (
     <div className="bg-[#f8fbff] dark:bg-[#252529]">
-      <div className="mx-auto flex min-h-screen w-11/12 flex-col justify-center pt-5 text-center xl:mx-auto xl:w-8/12 2xl:w-7/12 xl:pt-5">
+      <div className="mx-auto flex min-h-screen p-5 sm:p-7  xl:p-0 w-12/12 flex-col justify-center pt-5 text-center xl:mx-auto xl:w-9/12 2xl:w-8/12 xl:pt-5">
         <Navbar theme={theme} handleThemeSwitch={handleThemeSwitch} />
         <button
           type="button"
