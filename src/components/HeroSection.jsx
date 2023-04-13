@@ -8,32 +8,32 @@ export default function HeroSection() {
   // dark: dcdedf or lighter e2e8f0
   //latest ac64e3 PURPLER 10b981 VASILIS TITLE DARK EMERALD - 00adb5
   return (
-    <div className="mb-3.5 w-full items-center justify-center">
-      <div className=" relative flex flex-wrap rounded-xl bg-[#f8fbff]  dark:bg-[#252529]">
-        <div className="align-center  z-30 flex h-[calc(100vh-300px)] flex-col flex-wrap justify-center  overflow-auto text-center md:relative  xl:left-0">
+    <div className="z-0 mb-3.5 w-full items-center justify-center">
+      <div className="relative flex flex-wrap rounded-xl">
+        <div className="align-center z-10 flex h-[calc(100vh-300px)] flex-col flex-wrap justify-center overflow-auto  px-6 text-center md:relative  xl:left-0">
           <h1 className="place-center mx-auto mb-1 text-center font-noto text-5xl font-semibold text-red-200 dark:text-[#16c4cd] md:mb-3 md:text-5xl md:text-[#202124]">
-            Hi, I'm Vasilis <b className="underline p-3 ">(Βασίλης)</b>
+            Hi, I'm Vasilis <b className="p-3 underline ">(Βασίλης)</b>
           </h1>
-          <p className="text-xl mt-4 md:mt-0 max-w-lg text-justify font-roboto text-gray-600 dark:text-[#e8e0da] md:text-xl">
+          <p className="mt-4 max-w-lg text-justify font-roboto text-xl text-gray-600 dark:text-[#e8e0da] md:mt-0 md:text-xl">
             I am a Software Engineer who enjoys building frontend and fullstack software and web applications mainly with{' '}
             <b className="text-[#202124] dark:text-[#17c2d9]">ReactJS</b>, <b className="text-[#202124] dark:text-[#35b3eb]">TailwindCSS</b>,{' '}
             <b className="text-[#202124] dark:text-[#80bc02]">NodeJS</b> & more!
           </p>
           <a
             href="#"
-            className="mt-3 inline-block max-w-full md:max-w-xs rounded-md border border-gray-200 bg-gradient-to-r from-[#ecf6ff] to-[#fdf5ef] px-6 py-2 font-inter text-base font-medium text-gray-700 shadow-md hover:border-gray-300 hover:from-[#e8f4ff] hover:to-[#fdf4ec] hover:shadow-md "
+            className="mt-3 inline-block max-w-full rounded-md border border-gray-200 bg-gradient-to-r from-[#ecf6ff] to-[#fdf5ef] px-6 py-2 font-inter text-base font-medium text-gray-700 shadow-md hover:border-gray-300 hover:from-[#e8f4ff] hover:to-[#fdf4ec] hover:shadow-md md:max-w-xs "
           >
             See Projects
           </a>
         </div>
 
-        <div className="invisible absolute top-2 right-2 z-0 mx-auto flex h-[calc(100vh-300px)] max-w-[400px] flex-col  justify-center opacity-90 md:visible xl:bottom-32 xl:right-0 md:max-w-[400px] lg:max-w-[470px] xl:max-w-[540px] 2xl:max-w-[580px] 2.5xl:max-w-[700px]  3xl:max-w-[850px]">
+        <div className="invisible absolute  right-2 top-2 z-0 mx-auto flex h-[calc(100vh-300px)] max-w-[400px] flex-col justify-center  opacity-75 md:visible md:max-w-[400px] md:opacity-70 lg:opacity-100 lg:max-w-[470px] xl:bottom-32 xl:right-0 xl:max-w-[540px] 2xl:max-w-[580px] 2.5xl:max-w-[700px]  3xl:max-w-[850px]">
           {/* <img src={galaxy_small_planets} alt="galaxy" className="w-42 h-48" /> */}
           <img src={blue_planet_cropped_flipped} alt="blue_planet" className="" />
         </div>
       </div>
 
-      <div className="mt-3.5 rounded-2xl border border-[#e3e4e4] bg-[#f0f1f2] p-7 text-center dark:bg-[#edeeef]">
+      <div className="mt-3.5 rounded-2xl border border-[#e3e4e4] bg-[#f0f1f2] p-6 text-center dark:bg-[#edeeef]">
         <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">A little about me</h1>
         <p className="text-md max-w-lg text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-xl">
           I grew up in Northern Greece, a small town near the sea.

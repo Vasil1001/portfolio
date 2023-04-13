@@ -7,13 +7,18 @@ import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import Skills from './components/Skills'
 import Pallete from './components/Pallete'
-import { BsFillMoonStarsFill } from 'react-icons/bs'
 import AboutMe from './components/AboutMe'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import { BsLightbulb } from 'react-icons/bs'
 import { BsLightbulbOffFill } from 'react-icons/bs'
+import Home from './pages/Home'
+import About from './pages/About'
+import Projects from './pages/Projects'
+import Experience from './pages/Experience'
 
 //ecf0f4
 function App() {
+  // APP BG 202124 / 1E1E20 / 252529 f2f2f2 CREAM GRAY AND WHITE CARDS
   const [theme, setTheme] = useState(null)
 
   const handleThemeSwitch = () => {
@@ -34,32 +39,20 @@ function App() {
       document.documentElement.classList.remove('dark')
     }
   }, [theme])
-  // APP BG 202124 / 1E1E20 / 252529
   return (
-    <div className="bg-[#f8fbff] dark:bg-[#252529]">
-      <div className="mx-auto flex min-h-screen p-5 sm:p-7  xl:p-0 w-12/12 flex-col justify-center pt-5 text-center xl:mx-auto xl:w-9/12 2xl:w-8/12 xl:pt-5">
-        <Navbar theme={theme} handleThemeSwitch={handleThemeSwitch} />
-        <button
-          type="button"
-          onClick={handleThemeSwitch}
-          className="fixed right-2 top-2 z-10 rounded-md bg-[#a9a387] p-0.5 p-1 text-lg dark:bg-[#393e46]"
-        >
-          {theme === 'dark' ? <BsLightbulb fill="yellow" fontSize="1.3rem" /> : <BsLightbulbOffFill fill="[#fadb3c]" fontSize="1.3rem" />}
-        </button>
-        <HeroSection />
-        <AboutMe />
-        <Skills />
-        <Pallete />
-        <div className="flex">
-          <a href="https://vitejs.dev" target="_blank">
-            <img src={viteLogo} className="logo" alt="Vite logo" />
-          </a>
-          <a href="https://reactjs.org" target="_blank">
-            <img src={reactLogo} className="logo react" alt="React logo" />
-          </a>
+    <Router>
+      <div className="bg-[#f8fbff] dark:bg-[#252529]">
+      <Navbar theme={theme} handleThemeSwitch={handleThemeSwitch} />
+        <div className=" z-20 mx-auto flex min-h-screen flex-col  justify-center p-5 pt-5 text-center sm:p-7 xl:mx-auto xl:w-9/12 xl:p-0 xl:pt-5 2xl:w-8/12">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/Experience" element={<Experience />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
         </div>
       </div>
-    </div>
+    </Router>
   )
 }
 
