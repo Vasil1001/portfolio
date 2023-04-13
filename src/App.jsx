@@ -38,7 +38,7 @@ function App() {
     } else {
       document.documentElement.classList.remove('dark')
     }
-  }, [theme])
+  }, [theme]) //f2f2f2 f3f4f6 edeeef e9edf1 f7f8fa f8fbff f6f6f6
   return (
     <Router>
       <div className="bg-[#f8fbff] dark:bg-[#252529]">
