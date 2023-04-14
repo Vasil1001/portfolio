@@ -7,6 +7,7 @@ export default function HeroSection() {
   //BLUEISH GRAY CARDS e2e8f0 dark mode | light mode eaeff4  f6f6f6 LIGHT GRAY CARDS e6edf6 ecf0f4 | f1f1f1 or f0f2f4 |   e8edf4
   // dark: dcdedf or lighter e2e8f0
   //latest ac64e3 PURPLER 10b981 VASILIS TITLE DARK EMERALD - 00adb5
+  // 20294c DARK BLUE FOR NAME ON LIGHT
   return (
     <div className="z-0 mb-3.5 w-full items-center justify-center">
       <div className="relative flex flex-wrap rounded-xl">
