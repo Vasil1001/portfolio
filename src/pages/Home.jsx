@@ -6,19 +6,16 @@ import '../App.css'
 import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
 import Skills from '../components/Skills'
-import Pallete from '../components/Pallete'
 import AboutMe from '../components/AboutMe'
+import Projects from '../components/Projects'
 
 export default function Home() {
-  
   return (
     <div>
-      
-
       <HeroSection />
       <AboutMe />
+      <Projects/>
       <Skills />
-      <Pallete />
       <div className="flex">
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

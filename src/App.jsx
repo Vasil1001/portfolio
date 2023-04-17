@@ -1,16 +1,8 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './index.css'
 import './App.css'
-import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
-import Skills from './components/Skills'
-import Pallete from './components/Pallete'
-import AboutMe from './components/AboutMe'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import { BsLightbulb } from 'react-icons/bs'
-import { BsLightbulbOffFill } from 'react-icons/bs'
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
@@ -44,7 +36,7 @@ function App() {
   }, [theme]) //f2f2f2 f3f4f6 edeeef e9edf1 f7f8fa f8fbff f6f6f6 edeef2 fcfbf8 f9f8f5
   return (
     <Router>
-      <div className="bg-gradient-to-b from-[#f2f2f2] via-white to-[#f8fbff] dark:bg-bg-gradient-to-b dark:from-[#252529] dark:to-[#252529]">
+      <div className="bg-gradient-to-b from-[#ebe9e9] via-white to-[#f8fbff] dark:bg-bg-gradient-to-b dark:from-[#252529] dark:to-[#252529]">
         <Navbar theme={theme} handleThemeSwitch={handleThemeSwitch} />
         <div className=" z-20 mx-auto flex min-h-screen flex-col  justify-center p-5 pt-5 text-center sm:p-7 xl:mx-auto xl:w-9/12 xl:p-0 xl:pt-5 2xl:w-8/12">
           <Routes>

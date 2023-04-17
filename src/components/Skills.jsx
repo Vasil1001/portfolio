@@ -3,7 +3,7 @@ import React from 'react'
 export default function Skills() {
   //BLUEISH GRAY CARDS e2e8f0 dark mode | light mode eaeff4  f6f6f6 LIGHT GRAY CARDS e6edf6 ecf0f4 | eaeff4 f1f1f1 | cccdcf f0f8ff
   return (
-    <div className="grid grid-cols-2 gap-3.5 text-center">
+    <div className="grid grid-cols-2 mt-3.5 gap-3.5 text-center">
         <div className="rounded-2xl bg-[#202124] text-center shadow-sm">
           <div className="grid-span-1 grid grid-cols-2 justify-between rounded-2xl bg-[#393E46] p-5">
             <div className="z-10 col-span-1 flex flex-row flex-wrap justify-start">
