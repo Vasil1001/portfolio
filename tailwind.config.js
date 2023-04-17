@@ -11,7 +11,7 @@ export default {
     }),
     extend: {
       backgroundImage: {
-				creamwhite: 'linear-gradient(to bottom, #fcfbf8 #f8fbff, transparent 100%)',
+        creamwhite: 'linear-gradient(to bottom, #fcfbf8 #f8fbff, transparent 100%)',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
@@ -42,5 +42,5 @@ export default {
     },
   },
 
-  plugins: [require('tailwindcss-gradients')],
+  plugins: [require('tailwindcss-gradients'), require('daisyui')],
 }

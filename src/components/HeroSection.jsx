@@ -13,25 +13,13 @@ export default function HeroSection() {
   const names = ['Vasilis', 'Βασίλης', 'Vasilis']
 
   // https://stackoverflow.com/questions/64916779/change-text-at-every-time-interval-react
-  useEffect(() => {
-    if (currentIndex === names.length - 1) {
-      console.log('stopping')
-      return
-    }
-    const interval = setInterval(() => {
-      const updatedData = currentIndex + 1
-      setCurrentIndex(updatedData)
-    }, 3000)
-
-    return () => clearInterval(interval)
-  }, [currentIndex])
 
   return (
     <div className="z-0 mb-3.5 w-full items-center justify-center ">
       <div className="bg-emerald relative flex flex-wrap rounded-xl">
-        <div className="align-center z-10 flex h-[calc(100vh-300px)] flex-col flex-wrap justify-center overflow-auto  px-6 text-center md:relative  xl:left-0">
-          <h1 className="place-center mx-auto  mb-1 text-center font-noto text-5xl font-semibold text-red-200  dark:text-[#16c4cd] md:mb-3 md:text-5xl md:text-[#202124]">
-            Hi, I'm {names[currentIndex]} <b className="p-3 bg-gradient-to-r from-[#16c4cd]  to-blue-500 bg-clip-text text-transparent underline ">(Βασίλης)</b>
+        <div className="align-center z-10 flex h-[calc(100vh-200px)] flex-col flex-wrap justify-center overflow-auto  px-6 text-center md:relative  xl:left-0">
+          <h1 className="place-center mx-auto  mb-1 text-center wrap font-noto text-5xl font-semibold text-red-200  dark:text-[#16c4cd] md:mb-3 md:text-6xl md:text-[#202124]">
+            Hi, I'm Vasilis <b className="bg-gradient-to-r from-[#16c4cd]  to-blue-500 bg-clip-text p-3 text-transparent underline">(Βασίλης)</b>
           </h1>
           <p className="mt-4 max-w-lg text-justify font-roboto text-xl text-gray-600 dark:text-[#e8e0da] md:mt-0 md:text-xl">
             I am a Software Engineer who enjoys building frontend and fullstack software and web applications mainly with{' '}
@@ -46,7 +34,7 @@ export default function HeroSection() {
           </a>
         </div>
 
-        <div className="invisible absolute  right-2 top-2 z-0 mx-auto flex h-[calc(100vh-300px)] max-w-[400px] flex-col justify-center  opacity-75 md:visible md:max-w-[400px] md:opacity-70 lg:max-w-[470px] lg:opacity-100 xl:bottom-32 xl:right-0 xl:max-w-[540px] 2xl:max-w-[580px] 2.5xl:max-w-[700px]  3xl:max-w-[850px]">
+        <div className="invisible absolute  right-2 top-28 z-0 mx-auto flex h-[calc(100vh-300px)] max-w-[400px] flex-col justify-center  opacity-75 lg:visible md:max-w-[400px] md:opacity-70 2xl:top-20 3xl:top-0 lg:max-w-[470px] lg:opacity-100 xl:bottom-32 xl:right-0 xl:max-w-[540px] 2xl:max-w-[580px] 2.5xl:max-w-[700px]  3xl:max-w-[850px]">
           {/* <img src={galaxy_small_planets} alt="galaxy" className="w-42 h-48" /> */}
           <img src={blue_planet_cropped_flipped} alt="blue_planet" className="" />
         </div>
@@ -78,7 +66,7 @@ export default function HeroSection() {
 
           <a
             href="#"
-            className="mt-3 inline-block rounded-md border border-gray-200 bg-gradient-to-r from-[#f0f8ff] to-[#f7f7f8] bg-emerald px-6 py-2 font-inter text-base font-medium text-gray-700 shadow-md hover:border-gray-300 hover:from-[#e8f4ff] hover:to-[#fdf4ec] hover:shadow-xl"
+            className="bg-emerald mt-3 inline-block rounded-md border border-gray-200 bg-gradient-to-r from-[#f0f8ff] to-[#f7f7f8] px-6 py-2 font-inter text-base font-medium text-gray-700 shadow-md hover:border-gray-300 hover:from-[#e8f4ff] hover:to-[#fdf4ec] hover:shadow-xl"
           >
             See GitHub
           </a>
@@ -92,12 +80,12 @@ export default function HeroSection() {
 
         <div className="col-span-2 mt-3.5 rounded-2xl border border-[#d8d9da] bg-[#f1f1f5] p-7 text-center lg:col-span-2">
           <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#222831] md:mb-3 md:text-4xl">NodeJS Project</h1>
-          <p className="text-md max-w-md text-left font-inter text-gray-500 md:text-lg md:text-xl">NodeJS and more on personal projects!</p>
+          <p className="text-md max-w-md text-left font-inter text-gray-500 md:text-xl">NodeJS and more on personal projects!</p>
         </div>
 
         <div className="col-span-2 mt-3.5 rounded-2xl border border-[#d8d9da] bg-[#f1f1f1] p-7 text-center lg:col-span-1">
           <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#222831] md:mb-3 md:text-4xl">SwiftUI</h1>
-          <p className="text-md max-w-md text-left font-inter text-gray-500 md:text-lg md:text-xl">
+          <p className="text-md max-w-md text-left font-inter text-gray-500 md:text-xl">
             I am a Computer Science graduate working with React, Tailwind, NodeJS and more on personal projects!
           </p>
           <a
@@ -110,7 +98,7 @@ export default function HeroSection() {
 
         <div className="col-span-2 mt-3.5 rounded-2xl border border-[#d8d9da] bg-[#f5f5f1] p-7 text-center lg:col-span-1">
           <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#222831] md:mb-3 md:text-4xl">UIKit</h1>
-          <p className="text-md max-w-md text-left font-inter text-gray-500 md:text-lg md:text-xl">NodeJS and more on personal projects!</p>
+          <p className="text-md max-w-md text-left font-inter text-gray-500 md:text-xl">NodeJS and more on personal projects!</p>
           <a
             href="#"
             className="mt-3 inline-block rounded-md border border-gray-200 bg-gradient-to-r from-[#f0f8ff] to-[#f7f7f8] px-6 py-2 font-inter text-base font-medium text-gray-700 shadow-md hover:border-gray-300 hover:from-[#e8f4ff] hover:to-[#fdf4ec] hover:shadow-xl"
