@@ -36,9 +36,9 @@ function App() {
   }, [theme]) //f2f2f2 f3f4f6 edeeef e9edf1 f7f8fa f8fbff f6f6f6 edeef2 fcfbf8 f9f8f5
   return (
     <Router>
-      <div className="bg-gradient-to-b from-[#ebe9e9] via-white to-[#f8fbff] dark:bg-bg-gradient-to-b dark:from-[#252529] dark:to-[#252529]">
+      <div className="bg-gradient-to-b from-[#f8f5f5] via-white to-[#f8fbff] dark:bg-bg-gradient-to-b dark:from-[#252529] dark:to-[#252529]">
         <Navbar theme={theme} handleThemeSwitch={handleThemeSwitch} />
-        <div className=" z-20 mx-auto flex min-h-screen flex-col  justify-center p-5 pt-5 text-center sm:p-7 xl:mx-auto xl:w-9/12 xl:p-0 xl:pt-5 2xl:w-8/12">
+        <div className=" z-20 mx-auto flex min-h-screen flex-col  justify-center  text-center sm:p-7 xl:mx-auto xl:w-9/12 xl:p-0 xl:pt-5 2xl:w-8/12">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Time() {
     //https://tailwindcomponents.com/component/vertical-timeline-1
   return (
-    <div>
+    <div className="">
     <h3 className="text-2xl text-gray-700 font-bold mb-6 ml-3">Latest News</h3>
     
     <ol >
