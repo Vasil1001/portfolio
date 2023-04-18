@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Projects() {
   return (
-    <div>
-      <div className="align-center flex flex-col items-center  justify-center rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef]">
+    <div className="mt-3.5"> 
+      <div className="align-center flex flex-col mt-3.5 items-center  justify-center rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef]">
         <h1 className="text-center  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Projects</h1>
         <p className="text-md max-w-lg text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-xl"></p>
       </div>
