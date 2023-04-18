@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react'
 import galaxy from '../assets/galaxy.png'
 import galaxy_small_planets from '../assets/galaxy-small-planets.png'
 import blue_planet_cropped_flipped from '../assets/blue_planet_cropped_flipped.png'
+import purple_rock_kb from '../assets/ai/purple-rock-kb.webp'
 
 export default function HeroSection() {
   //BLUEISH GRAY CARDS e2e8f0 dark mode | light mode eaeff4  f6f6f6 LIGHT GRAY CARDS e6edf6 ecf0f4 | f1f1f1 or f0f2f4 |   e8edf4
@@ -18,13 +19,13 @@ export default function HeroSection() {
     <div className="z-0 mb-3.5 w-full items-center justify-center ">
       <div className="bg-emerald relative flex flex-wrap rounded-xl">
         <div className="align-center z-10 flex h-[calc(100vh-200px)] flex-col flex-wrap justify-center overflow-auto  px-6 text-center md:relative  xl:left-0">
-          <h1 className="place-center wrap  mx-auto mb-1 text-center font-noto text-5xl font-semibold text-red-200  dark:text-[#16c4cd] md:mb-3 md:text-6xl md:text-[#202124]">
-            Hi, I'm Vasilis <b className="bg-gradient-to-r from-[#16c4cd]  to-blue-500 bg-clip-text p-3 text-transparent underline">(Βασίλης)</b>
+          <h1 className="mb-1 text-left font-noto text-6xl font-semibold dark:text-[#16c4cd] md:mb-3 md:text-7xl text-[#202124]">
+            Hi, I'm <b className="bg-[#202124] dark:bg-gradient-to-r from-[#16c4cd]  to-blue-500 bg-clip-text p-3 text-transparent underline">Vasilis</b>
           </h1>
-          <p className="mt-4 max-w-lg text-justify font-roboto text-xl text-gray-600 dark:text-[#e8e0da] md:mt-0 md:text-xl">
-            I am a Software Engineer who enjoys building frontend and fullstack software and web applications mainly with{' '}
-            <b className="text-[#202124] dark:text-[#17c2d9]">ReactJS</b>, <b className="text-[#202124] dark:text-[#35b3eb]">TailwindCSS</b>,{' '}
-            <b className="text-[#202124] dark:text-[#80bc02]">NodeJS</b> & more!
+          <p className="mt-4 max-w-lg text-left font-roboto text-2xl text-[#202124] dark:text-[#e8e0da] md:mt-0 md:text-2xl">
+            I am a Software Engineer who enjoys building frontend and fullstack software and web applications mainly with
+            <b className="dark:text-[#17c2d9]"> ReactJS</b>, <b className="text-[#202124] dark:text-[#35b3eb]">TailwindCSS</b>,{' '}
+            <b className="dark:text-[#80bc02]">NodeJS</b> & more!
           </p>
           <a
             href="#"
@@ -34,7 +35,7 @@ export default function HeroSection() {
           </a>
         </div>
 
-        <div className="invisible absolute  right-2 top-28 z-0 mx-auto flex h-[calc(100vh-300px)] max-w-[400px] flex-col justify-center  opacity-75 md:max-w-[400px] md:opacity-70 lg:visible lg:max-w-[470px] lg:opacity-100 xl:bottom-32 xl:right-0 xl:max-w-[540px] 2xl:top-20 2xl:max-w-[580px] 2.5xl:max-w-[700px] 3xl:top-0  3xl:max-w-[850px]">
+        <div className="invisible absolute  right-2 top-28 z-0 mx-auto flex h-[calc(100vh-300px)] max-w-[400px] flex-col justify-center wrap opacity-75 md:max-w-[400px] md:opacity-70 lg:visible lg:max-w-[470px] lg:opacity-100 xl:bottom-32 xl:right-0 xl:max-w-[540px] 2xl:top-20 2xl:max-w-[580px] 2.5xl:max-w-[700px] 3xl:top-0  3xl:max-w-[850px]">
           {/* <img src={galaxy_small_planets} alt="galaxy" className="w-42 h-48" /> */}
           <img src={blue_planet_cropped_flipped} alt="blue_planet" className="" />
         </div>
@@ -56,9 +57,9 @@ export default function HeroSection() {
         </div>
       </div>
 
-      
+          
     </div>
   )
 }
 
-//393e46
+

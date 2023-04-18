@@ -1,14 +1,45 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   darkMode: 'class',
   theme: {
-    gradients: (theme) => ({
-      // Array definition (defaults to linear gradients).
-      creamwhite: ['to bottom', '#fcfbf8', '#f8fbff'],
-      fireopal: ['to right', '#40E0D0', '#FF8C00', '#FF0080'],
-      emerald: ['to right', theme('colors.green.400'), theme('colors.teal.500')],
-    }),
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      white: colors.white,
+      rose: colors.rose,
+      pink: colors.pink,
+      fuchsia: colors.fuchsia,
+      purple: colors.purple,
+      violet: colors.violet,
+      indigo: colors.indigo,
+      blue: colors.blue,
+      lightBlue: colors.lightBlue, // Only in Tailwind CSS <=v2.1
+      sky: colors.sky, // As of Tailwind CSS v2.2, `lightBlue` has been renamed to `sky`
+      cyan: colors.cyan,
+      teal: colors.teal,
+      emerald: colors.emerald,
+      green: colors.green,
+      lime: colors.lime,
+      yellow: colors.yellow,
+      amber: colors.amber,
+      orange: colors.orange,
+      red: colors.red,
+      slate: colors.slate,
+      zinc: colors.zinc,
+      gray: colors.gray,
+      neutral: colors.blueGray,
+      stone: colors.stone,
+    },
+
+    // gradients: (theme) => ({
+    //   // Array definition (defaults to linear gradients).
+    //   creamwhite: ['to bottom', '#fcfbf8', '#f8fbff'],
+    //   fireopal: ['to right', '#40E0D0', '#FF8C00', '#FF0080'],
+    //   emerald: ['to right', theme('colors.green.400'), theme('colors.teal.500')],
+    // }),
     extend: {
       backgroundImage: {
         creamwhite: 'linear-gradient(to bottom, #fcfbf8 #f8fbff, transparent 100%)',
@@ -41,6 +72,6 @@ export default {
       },
     },
   },
-
+  variants: {},
   plugins: [require('tailwindcss-gradients'), require('daisyui')],
 }
