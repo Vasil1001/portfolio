@@ -7,39 +7,36 @@ export default function Navbar({ handleThemeSwitch, theme }) {
   return (
     <div className="align-center mx-auto mb-3.5 flex items-center justify-between p-5 px-2 pt-5 text-center sm:p-7 xl:mx-auto xl:w-9/12 xl:p-0 xl:pt-5 2xl:w-8/12">
       <p className=" font-inter font-medium dark:text-[#f6eee8]">Vasil Dzhakov</p>
-      <div className="fixed z-50 left-1/2 top-2 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 shadow-sm hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-md dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] md:block ">
+      <div className="fixed z-50 left-1/2 top-3 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 shadow-sm hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-md dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] lg:block ">
         <Link to="/">
-          <button className="mr-1.5 ml-1 rounded-xl border border-[#d1cfcf] bg-[#d6e0e9] p-3 px-2.5 py-2 font-roboto font-bold text-gray-800 hover:bg-[#e5eaf1]">
+          <button className="mr-1.5 rounded-xl text-sm border border-[#d1cfcf] bg-[#d6e0e9] p-3 px-2.5 py-1 font-noto text-gray-800 hover:bg-[#e5eaf1]">
             Home
           </button>
         </Link>
         <Link to="/projects">
-          <button className="mr-1.5 rounded-xl p-3 px-2.5 py-2 font-roboto text-gray-500 hover:bg-[#e5eaf1]">Projects</button>
+          <button className="mr-1.5 rounded-xl text-sm  px-2.5 py-1 font-noto text-gray-500 hover:bg-[#e5eaf1]">Projects</button>
         </Link>
         <Link to="/experience">
-          <button className="mr-1.5 rounded-xl  p-3 px-2.5 py-2 font-roboto text-gray-500 hover:bg-[#e5eaf1]">Experience</button>
+          <button className=" rounded-xl text-sm px-2.5 py-1 font-noto text-gray-500 hover:bg-[#e5eaf1]">Experience</button>
         </Link>
         <Link to="/about">
-          <button className="mr-1.5 rounded-xl p-3 px-2.5 py-2 font-roboto text-gray-500  hover:bg-[#e5eaf1]">About</button>
+          <button className="rounded-xl text-sm px-2.5 py-1 font-noto text-gray-500  hover:bg-[#e5eaf1]">About</button>
         </Link>
-        <Link to="/">
-          <button className="mr-1 rounded-xl p-3 px-2.5 py-2 font-roboto text-gray-500 hover:bg-[#e5eaf1]">Blog</button>
-        </Link>
+        
       </div>
-      <div className="flex gap-2.5 dark:text-[#e0eaf2]">
-        <div className="flex"></div>
+
+      <div className="flex gap-2 dark:text-[#e0eaf2]">
         <a className="tooltip tooltip-bottom" data-tip="linkedin.com/in/vasil1001" target="_blank" href="https://www.linkedin.com/in/vasil1001/">
         <BsLinkedin
-          className="tooltip cursor-pointer rounded-md hover:fill-[#0069b9] dark:fill-[#f9f3ee]  dark:hover:fill-[#00adb5]"
+          className="tooltip text-[1.8rem]  cursor-pointer rounded-md hover:fill-[#0069b9] dark:fill-[#f9f3ee]  dark:hover:fill-[#00adb5]"
           fill="black"
-          fontSize="1.9rem"
+
         />
         </a>
         <a className="tooltip tooltip-bottom" data-tip="github.com/Vasil1001" target="_blank" href="https://github.com/Vasil1001">
           <BsGithub
-            className=" cursor-pointer hover:fill-[#0069b9] dark:fill-[#f9f3ee] dark:hover:fill-[#00adb5]"
+            className=" cursor-pointer text-[1.8rem]  hover:fill-[#0069b9] dark:fill-[#f9f3ee] dark:hover:fill-[#00adb5]"
             fill="black"
-            fontSize="1.9rem"
             data-tip="hello"
           />
         </a>
@@ -47,7 +44,7 @@ export default function Navbar({ handleThemeSwitch, theme }) {
         {/* <BsFillFileEarmarkTextFill
           className="cursor-pointer hover:fill-[#0069b9] dark:fill-[#f9f3ee] dark:hover:fill-[#00adb5]"
           fill="black"
-          fontSize="1.9rem"
+          fontSize="1.8rem"
         /> */}
 
         <CVButton />

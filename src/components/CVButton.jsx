@@ -8,7 +8,7 @@ export default function CVButton() {
       <div className="button cursor-pointer" data-tooltip="Download CV">
         <div className="button-wrapper ">
           <div className="text ">
-            <BsFillFileEarmarkTextFill className="cursor-pointer hover:fill-[#0069b9] dark:fill-[#f9f3ee] " fill="black" fontSize="1.9rem" />
+            <BsFillFileEarmarkTextFill className="cursor-pointer hover:fill-[#0069b9] dark:fill-[#f9f3ee] " fill="black" fontSize="1.8rem" />
           </div>
 
           <span className="icon dark:hover:bg-[#00adb5]">

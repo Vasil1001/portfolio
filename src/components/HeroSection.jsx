@@ -17,21 +17,21 @@ export default function HeroSection() {
 
   return (
     <div className="z-0 mb-3.5 w-full items-center justify-center ">
-      <div className="flex h-[calc(100vh-200px)] flex-wrap rounded-xl">
-        <div className="align-center z-10 flex flex-col flex-wrap justify-center overflow-auto  px-6 text-center md:relative  xl:left-0">
-          <h1 className="mb-1 text-left font-noto text-6xl font-semibold text-[#202124] dark:text-[#16c4cd] md:mb-3 md:text-7xl">
+      <div className="flex h-[calc(100vh-200px)]  rounded-xl">
+        <div className="align-center z-20 flex flex-col justify-center px-6 text-center md:relative  xl:left-0">
+          <h1 className="mb-1 max-w-full text-left font-noto text-6xl font-semibold text-[#202124] dark:text-[#16c4cd] md:mb-3 md:text-8xl">
             Hi, I'm
             <b className="bg-[#202124] from-[#16c4cd] to-blue-500  bg-clip-text p-3 text-transparent underline dark:bg-gradient-to-r">Vasilis</b>
           </h1>
-          <p className="mt-4 max-w-lg text-left font-roboto text-xl text-[#515357] dark:text-[#e8e0da] md:mt-0">
+          <p className="mt-4 max-w-lg text-left font-inter text-lg text-[#515357] dark:text-[#cec7c2] md:mt-0">
             I am a Software Developer that builds frontend and fullstack software and web applications mainly with React, Tailwind, NodeJS & more!
           </p>
-          <a
+          {/* <a
             href="#"
             className="mt-3 inline-block max-w-full rounded-md border border-gray-200 bg-gradient-to-r from-[#ecf6ff] to-[#fdf5ef] px-6 py-2 font-inter text-base font-medium text-gray-700 shadow-md hover:border-gray-300 hover:from-[#e8f4ff] hover:to-[#fdf4ec] hover:shadow-md md:max-w-xs "
           >
             See Projects
-          </a>
+          </a> */}
         </div>
 
         <div className="wrap invisible right-2 top-28 z-10 mx-auto flex max-w-[400px] flex-col justify-center opacity-75 md:max-w-[400px] md:opacity-70 lg:visible lg:max-w-[470px] lg:opacity-100 xl:bottom-32 xl:right-0 xl:max-w-[540px] 2xl:top-20 2xl:max-w-[580px] 2.5xl:max-w-[700px] 3xl:top-0  3xl:max-w-[750px]">
@@ -65,8 +65,8 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="card align-center col-span-1 row-span-1  mt-3.5 flex flex-col items-center  justify-center rounded-2xl border-2 border-[#e3e4e4] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018]">
-          <div className="w-full flex-1 flex-wrap  overflow-hidden rounded-xl card2">
+        <div className="align-center card col-span-1 row-span-1  mt-3.5 flex flex-col items-center  justify-center rounded-2xl border-2 border-[#e3e4e4] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018]">
+          <div className="card2 w-full flex-1  flex-wrap overflow-hidden rounded-xl">
             <img src={purple_rock_kb} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
           </div>
         </div>
