@@ -3,64 +3,71 @@ import React from 'react'
 export default function Timeline() {
   return (
     <section>
-      <div className="bg-[#202124] text-white max-h-screen overflow-y-auto">
+      <div className="h-full rounded-xl text-white ">
         <div className="container mx-auto flex flex-col items-start md:my-2 md:flex-row">
-          <div className="sticky mt-2 flex w-full flex-col px-8 md:top-36 md:mt-12 lg:w-1/3">
-            <p className="tracking-loose ml-2 uppercase text-yellow-300">Working Process</p>
-            <p className="mb-2 text-3xl leading-normal md:text-4xl md:leading-relaxed">Working Process of Fest</p>
-          </div>
-          <div className="sticky ml-0 md:ml-12 lg:w-2/3">
+          <div className="lg:w-3/3">
             <div className="container mx-auto h-full w-full">
-              <div className="wrap relative h-full overflow-hidden p-10">
+              <div className="wrap relative h-full overflow-hidden p-2">
                 <div
                   className="border-2-2 border-yellow-555 absolute h-full border"
-                  style={{ right: '50%', border: '2px solid #FFC100', borderRadius: '1%' }}
+                  style={{ right: '50%', border: '2px solid #383b41', borderRadius: '1%' }}
                 ></div>
                 <div
                   className="border-2-2 border-yellow-555 absolute h-full border"
-                  style={{ left: '50%', border: '2px solid #FFC100', borderRadius: '1%' }}
+                  style={{ left: '50%', border: '2px solid #383b41', borderRadius: '1%' }}
                 ></div>
-                <div className="left-timeline mb-8 flex w-full flex-row-reverse items-center justify-between">
-                  <div className="order-1 w-5/12"></div>
-                  <div className="order-1 w-5/12 px-1 py-4 text-right">
-                    <p className="mb-3 text-base text-yellow-300">1-6 May, 2021</p>
-                    <h4 className="mb-3 text-lg font-bold md:text-2xl">Registration</h4>
-                    <p className="text-sm leading-snug text-gray-50 text-opacity-100 md:text-base">
-                      Pick your favourite event(s) and register in that event by filling the form corresponding to that event. Its that easy :)
-                    </p>
-                  </div>
-                </div>
-                <div className="right-timeline mb-8 flex w-full items-center justify-between">
-                  <div className="order-1 w-5/12"></div>
-                  <div className="order-1  w-5/12 px-1 py-4 text-left">
-                    <p className="mb-3 text-base text-yellow-300">6-9 May, 2021</p>
-                    <h4 className="mb-3 text-lg font-bold md:text-2xl">Participation</h4>
-                    <p className="text-sm leading-snug text-gray-50 text-opacity-100 md:text-base">
-                      Participate online. The links for your registered events will be sent to you via email and whatsapp groups. Use those links and
-                      show your talent.
-                    </p>
-                  </div>
-                </div>
-                <div className="left-timeline mb-8 flex w-full flex-row-reverse items-center justify-between">
-                  <div className="order-1 w-5/12"></div>
-                  <div className="order-1 w-5/12 px-1 py-4 text-right">
-                    <p className="mb-3 text-base text-yellow-300"> 10 May, 2021</p>
-                    <h4 className="mb-3 text-lg font-bold md:text-2xl">Result Declaration</h4>
-                    <p className="text-sm leading-snug text-gray-50 text-opacity-100 md:text-base">
-                      The ultimate genius will be revealed by our judging panel on 10th May, 2021 and the resukts will be announced on the whatsapp
-                      groups and will be mailed to you.
+                
+
+                <div className="right-timeline mb-9 flex w-full items-center justify-between">
+                  <div className="order-1 w-4/12"></div>
+                  <div className="order-1 w-6/12 rounded-lg bg-[#ffffff] p-5 px-8 py-4 text-left shadow-xl">
+                    <p className="mb-1 text-base text-[#7e22ce]">June 2019 - July 2019</p>
+                    <h4 className="mb-3 text-lg font-bold text-[#383b41] md:text-2xl">Web Developer Internship @ Voyager Seville</h4>
+                    <p className="text-sm leading-snug text-[#383b41] text-opacity-100 md:text-base">
+                      I had the opportunity to work as a Web Developer Intern in Spain at company that provided tour guide services to the most
+                      popular tourist attracions in Seville. My daily tasks included:<br></br> <br></br>- Developing responsive layouts for the
+                      company's website using WordPress <br></br>- Adding functionality for pages translated in multiple languages <br></br>-
+                      Collaborating with a team to organize bookings and guide English speaking groups with the tours - Fixing the company blog page
+                      and writing articles about the company's attractions
                     </p>
                   </div>
                 </div>
 
-                <div className="right-timeline mb-8 flex w-full items-center justify-between">
-                  <div className="order-1 w-5/12"></div>
+                <div className="left-timeline mb-9 flex w-full flex-row-reverse items-center justify-between">
+                  <div className="order-1 w-4/12"></div>
+                  <div className="order-1 w-6/12 rounded-lg bg-[#ffffff] p-5 px-8 py-4 text-right shadow-xl">
+                    <p className="mb-1 text-base text-[#7e22ce]"> 10 May, 2021</p>
+                    <h4 className="mb-3 text-lg font-bold text-[#383b41] md:text-2xl">Construction</h4>
+                    <p className="text-sm leading-snug text-[#383b41] text-opacity-100 md:text-base">
+                      During the pandemic, lot's of places closed down along with my waiter job, so I started working at a construction firm, RIR
+                      Construction after my classes and on my free days, and full time during holidays.<br></br>
+                      <br></br>- Learned to use various tools confidently to be able to find solutions to a given plan.<br></br>- Collaborated with a
+                      team to accomplish tasks following designs from architects.
+                    </p>
+                  </div>
+                </div>
 
-                  <div className="order-1  w-5/12 px-1 py-4">
-                    <p className="mb-3 text-base text-yellow-300">12 May, 2021</p>
-                    <h4 className="mb-3 text-left  text-lg font-bold md:text-2xl">Prize Distribution</h4>
-                    <p className="text-sm leading-snug text-gray-50 text-opacity-100 md:text-base">
-                      The winners will be contacted by our team for their addresses and the winning goodies will be sent at their addresses.
+                <div className="left-timeline mb-9 flex w-full items-center justify-between">
+                  <div className="order-1 w-4/12"></div>
+                  <div className="order-1 w-6/12 rounded-lg bg-[#ffffff] p-5 px-8 py-4 text-left shadow-xl">
+                    <p className="mb-1 text-base text-[#7e22ce]">June 2017 - December 2020</p>
+                    <h4 className="mb-3 text-lg font-bold text-[#383b41] md:text-2xl">Waiter at ASAP Catering</h4>
+                    <p className="text-sm leading-snug text-[#383b41] text-opacity-100 md:text-base">
+                      My first job in London was at a catering company in London, called ASAP Catering, and I was a waiter for 3 years. I worked in
+                      many different venues and helped organized many events, from small private parties to big corporate events.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="left-timeline mb-9 flex w-full flex-row-reverse items-center justify-between">
+                  <div className="order-1 w-5/12"></div>
+                  <div className="order-1 w-6/12 rounded-lg bg-[#ffffff] p-5 px-8 py-4 text-right shadow-xl">
+                    <p className="mb-1 text-base text-[#7e22ce]">10 June, 2017</p>
+                    <h4 className="mb-3 text-lg font-bold text-[#383b41] md:text-2xl">Moved to London</h4>
+                    <p className="text-sm leading-snug text-gray-600 text-opacity-100 md:text-base">
+                      I moved to London from Greece for university and in 2017 & ended up going to the University of Westminster and studying Computer
+                      Science. I worked part time jobs during my time at the University of Westminster, and developed a passion for software
+                      engineering through personal projects and university.
                     </p>
                   </div>
                 </div>

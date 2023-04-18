@@ -17,15 +17,14 @@ export default function HeroSection() {
 
   return (
     <div className="z-0 mb-3.5 w-full items-center justify-center ">
-      <div className="bg-emerald relative flex flex-wrap rounded-xl">
-        <div className="align-center z-10 flex h-[calc(100vh-200px)] flex-col flex-wrap justify-center overflow-auto  px-6 text-center md:relative  xl:left-0">
-          <h1 className="mb-1 text-left font-noto text-6xl font-semibold dark:text-[#16c4cd] md:mb-3 md:text-7xl text-[#202124]">
-            Hi, I'm <b className="bg-[#202124] dark:bg-gradient-to-r from-[#16c4cd]  to-blue-500 bg-clip-text p-3 text-transparent underline">Vasilis</b>
+      <div className="flex h-[calc(100vh-200px)] flex-wrap rounded-xl">
+        <div className="align-center z-10 flex flex-col flex-wrap justify-center overflow-auto  px-6 text-center md:relative  xl:left-0">
+          <h1 className="mb-1 text-left font-noto text-6xl font-semibold text-[#202124] dark:text-[#16c4cd] md:mb-3 md:text-7xl">
+            Hi, I'm
+            <b className="bg-[#202124] from-[#16c4cd] to-blue-500  bg-clip-text p-3 text-transparent underline dark:bg-gradient-to-r">Vasilis</b>
           </h1>
-          <p className="mt-4 max-w-lg text-left font-roboto text-2xl text-[#202124] dark:text-[#e8e0da] md:mt-0 md:text-2xl">
-            I am a Software Engineer who enjoys building frontend and fullstack software and web applications mainly with
-            <b className="dark:text-[#17c2d9]"> ReactJS</b>, <b className="text-[#202124] dark:text-[#35b3eb]">TailwindCSS</b>,{' '}
-            <b className="dark:text-[#80bc02]">NodeJS</b> & more!
+          <p className="mt-4 max-w-lg text-left font-roboto text-xl text-[#515357] dark:text-[#e8e0da] md:mt-0">
+            I am a Software Developer that builds frontend and fullstack software and web applications mainly with React, Tailwind, NodeJS & more!
           </p>
           <a
             href="#"
@@ -35,31 +34,43 @@ export default function HeroSection() {
           </a>
         </div>
 
-        <div className="invisible absolute  right-2 top-28 z-0 mx-auto flex h-[calc(100vh-300px)] max-w-[400px] flex-col justify-center wrap opacity-75 md:max-w-[400px] md:opacity-70 lg:visible lg:max-w-[470px] lg:opacity-100 xl:bottom-32 xl:right-0 xl:max-w-[540px] 2xl:top-20 2xl:max-w-[580px] 2.5xl:max-w-[700px] 3xl:top-0  3xl:max-w-[850px]">
+        <div className="wrap invisible right-2 top-28 z-10 mx-auto flex max-w-[400px] flex-col justify-center opacity-75 md:max-w-[400px] md:opacity-70 lg:visible lg:max-w-[470px] lg:opacity-100 xl:bottom-32 xl:right-0 xl:max-w-[540px] 2xl:top-20 2xl:max-w-[580px] 2.5xl:max-w-[700px] 3xl:top-0  3xl:max-w-[750px]">
           {/* <img src={galaxy_small_planets} alt="galaxy" className="w-42 h-48" /> */}
           <img src={blue_planet_cropped_flipped} alt="blue_planet" className="" />
         </div>
       </div>
 
-      <div className="mt-3.5 flex justify-between rounded-2xl border border-[#d8d9da] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef]">
-        <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">A little about me</h1>
-        <p className="text-md max-w-lg text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-xl">
-          I grew up in Northern Greece, a small town near the sea.
-        </p>
-
-        <div className="z-10 col-span-1 flex flex-row flex-wrap justify-end">
-          <div className="mr-2 mt-2 rounded-sm bg-[#e2e8f0] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">React</div>
-          <div className="mr-2 mt-2 rounded-sm bg-[#e5e7eb] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">Tailwind</div>
-          <div className="mr-2 mt-2 rounded-sm bg-[#e5e7eb] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">JavaScript</div>
-          <div className="mr-2 mt-2 rounded-sm bg-[#e5e7eb] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">NodeJS</div>
-          <div className="mr-2 mt-2 rounded-sm bg-[#e5e7eb] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">Java</div>
-          <div className="mr-2 mt-2 rounded-sm bg-[#EEEEEE] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">Spring Boot</div>
-        </div>
+      <div className="align-center flex flex-col items-center  justify-center rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef]">
+        <h1 className="text-center  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">About me</h1>
+        <p className="text-md max-w-lg text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-xl"></p>
       </div>
 
-          
+      <div className="grid grid-cols-4 grid-rows-1 gap-3.5">
+        <div className="align-center col-span-1 row-span-1 mt-3.5 flex flex-col items-center justify-center rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef]">
+          <h1 className="mb-1 text-center  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">Tech Stack</h1>
+        </div>
+
+        <div className="align-center col-span-2 mt-3.5 flex flex-col items-center  justify-center rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef]">
+          <h1 className="mb-1 text-center  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+            Currently Learning
+          </h1>
+          <p className="text-md max-w-lg text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-xl"></p>
+          <div className="z-10 col-span-1 flex flex-row flex-wrap justify-end">
+            <div className="mr-2 mt-2 rounded-sm bg-[#e2e8f0] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">React</div>
+            <div className="mr-2 mt-2 rounded-sm bg-[#e5e7eb] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">Tailwind</div>
+            <div className="mr-2 mt-2 rounded-sm bg-[#e5e7eb] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">JavaScript</div>
+            <div className="mr-2 mt-2 rounded-sm bg-[#e5e7eb] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">NodeJS</div>
+            <div className="mr-2 mt-2 rounded-sm bg-[#e5e7eb] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">Java</div>
+            <div className="mr-2 mt-2 rounded-sm bg-[#EEEEEE] px-4 py-1 font-inter font-semibold text-gray-700 hover:bg-[#f7f7f9]">Spring Boot</div>
+          </div>
+        </div>
+
+        <div className="card align-center col-span-1 row-span-1  mt-3.5 flex flex-col items-center  justify-center rounded-2xl border-2 border-[#e3e4e4] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018]">
+          <div className="w-full flex-1 flex-wrap  overflow-hidden rounded-xl card2">
+            <img src={purple_rock_kb} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
-
-
