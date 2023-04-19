@@ -66,7 +66,7 @@ export default function AboutMe() {
               type="email"
               id="email"
               class="block w-full rounded-lg border border-gray-300 bg-[#f2f1f1] shadow-md p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-400 dark:bg-[#f0f2f4] dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-              placeholder="name@gmail.com"
+              placeholder="vaskodzhakov@gmail.com"
               required
               disabled
             />

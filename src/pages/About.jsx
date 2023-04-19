@@ -1,5 +1,7 @@
 import React from 'react'
 import Hills from '../assets/ai/land-hills.webp'
+import floatnig_land from '../assets/ai/floatnig-land.jpeg'
+
 export default function About() {
   return (
     <div className="grid grid-cols-3 grid-cols-4 gap-4">
@@ -57,7 +59,7 @@ export default function About() {
 
         <div className="col-span-1">
           <div className="w-full flex-1 flex-wrap overflow-hidden rounded-xl">
-            <img src={Hills} alt="asd" className="h-full w-full overflow-hidden" />
+            <img src={floatnig_land} alt="asd" className="h-full w-full overflow-hidden" />
           </div>
         </div>
       </div>
