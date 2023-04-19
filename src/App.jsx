@@ -10,7 +10,7 @@ import Experience from './pages/Experience'
 import GetInTouch from './pages/GetInTouch'
 import Profile from './pages/Profile'
 import Footer from './pages/Footer'
-
+import 'animate.css';
 //ecf0f4
 function App() {
   // APP BG 202124 / 1E1E20 / 252529 f2f2f2 CREAM GRAY AND WHITE CARDS

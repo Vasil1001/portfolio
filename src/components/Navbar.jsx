@@ -2,36 +2,56 @@ import React from 'react'
 import { BsGithub, BsLightbulb, BsLinkedin, BsLightbulbOffFill, BsFillFileEarmarkTextFill, BsFillMoonStarsFill } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 import CVButton from './CVButton'
+import NavHamburger from './NavHamburger'
 
 export default function Navbar({ handleThemeSwitch, theme }) {
   return (
     <div className="align-center mx-auto mb-3.5 flex items-center justify-between p-5 px-2 pt-5 text-center sm:p-7 xl:mx-auto xl:w-9/12 xl:p-0 xl:pt-5 2xl:w-8/12">
-      <p className=" font-inter font-medium dark:text-[#f6eee8]">Vasil Dzhakov</p>
-      <div className="fixed z-50 left-1/2 top-3 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 shadow-sm hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-md dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] lg:block ">
+      <div className="flex items-center">
+        <p className=" font-inter font-medium dark:text-[#f6eee8]">Vasil Dzhakov</p>
+        <div className="dropdown">
+          <label tabIndex={0} className="btn-ghost btn-circle btn">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
+            </svg>
+          </label>
+          <ul tabIndex={0} className="dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-base-100 p-2 shadow">
+            <li>
+              <a>Homepage</a>
+            </li>
+            <li>
+              <a>Portfolio</a>
+            </li>
+            <li>
+              <a>About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="fixed left-1/2 top-3 z-50 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 shadow-sm hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-md dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] lg:block ">
         <Link to="/">
-          <button className="mr-1.5 rounded-xl text-sm border border-[#d1cfcf] bg-[#d6e0e9] p-3 px-2.5 py-1 font-noto text-gray-800 hover:bg-[#e5eaf1]">
+          <button className="mr-1.5 rounded-xl border border-[#d1cfcf] bg-[#d6e0e9] p-3 px-2.5 py-1 font-noto text-sm text-gray-800 hover:bg-[#e5eaf1]">
             Home
           </button>
         </Link>
         <Link to="/projects">
-          <button className="mr-1.5 rounded-xl text-sm  px-2.5 py-1 font-noto text-gray-500 hover:bg-[#e5eaf1]">Projects</button>
+          <button className="mr-1.5 rounded-xl px-2.5  py-1 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1]">Projects</button>
         </Link>
         <Link to="/experience">
-          <button className=" rounded-xl text-sm px-2.5 py-1 font-noto text-gray-500 hover:bg-[#e5eaf1]">Experience</button>
+          <button className=" rounded-xl px-2.5 py-1 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1]">Experience</button>
         </Link>
         <Link to="/about">
-          <button className="rounded-xl text-sm px-2.5 py-1 font-noto text-gray-500  hover:bg-[#e5eaf1]">About</button>
+          <button className="rounded-xl px-2.5 py-1 font-noto text-sm text-gray-500  hover:bg-[#e5eaf1]">About</button>
         </Link>
-        
       </div>
 
       <div className="flex gap-2 dark:text-[#e0eaf2]">
         <a className="tooltip tooltip-bottom" data-tip="linkedin.com/in/vasil1001" target="_blank" href="https://www.linkedin.com/in/vasil1001/">
-        <BsLinkedin
-          className="tooltip text-[1.8rem]  cursor-pointer rounded-md hover:fill-[#0069b9] dark:fill-[#f9f3ee]  dark:hover:fill-[#00adb5]"
-          fill="black"
-
-        />
+          <BsLinkedin
+            className="tooltip cursor-pointer  rounded-md text-[1.8rem] hover:fill-[#0069b9] dark:fill-[#f9f3ee]  dark:hover:fill-[#00adb5]"
+            fill="black"
+          />
         </a>
         <a className="tooltip tooltip-bottom" data-tip="github.com/Vasil1001" target="_blank" href="https://github.com/Vasil1001">
           <BsGithub
@@ -48,7 +68,7 @@ export default function Navbar({ handleThemeSwitch, theme }) {
         /> */}
 
         <CVButton />
-        
+
         <label class="switch">
           <input onClick={handleThemeSwitch} type="checkbox" />
           <span class="slider"></span>

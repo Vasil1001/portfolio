@@ -1,178 +1,183 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans&family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap');
 
 * {
- //font-family: 'Inter', sans-serif;
- font-family: 'Noto Sans', sans-serif;
- //font-family: 'Open Sans', sans-serif;
- //font-family: 'Roboto', sans-serif;
+  //font-family: 'Inter', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  //font-family: 'Open Sans', sans-serif;
+  //font-family: 'Roboto', sans-serif;
 }
 
 /* DARK MODE SWITCH thanks to: https://uiverse.io/Praashoo7/angry-starfish-78 */
 /* The switch - the box around the slider */
 .switch {
-    font-size: 16px;
-    position: relative;
-    display: inline-block;
-    width: 3.5em;
-    height: 1.9rem;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
-    transition: .4s;
-    border-radius: 5px;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 1.4em;
-    width: 0.1em;
-    border-radius: 0px;
-    left: 0.3em;
-    bottom: 0.4em;
-    background-color: white;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: #251717;
-    box-shadow: inset 2px 5px 10px rgb(0, 0, 0);
-  }
-  
-  input:checked + .slider:before {
-    transform: translateX(2.8em) rotate(180deg);
-  }
- 
-  /*  DOWNLOAD CV BUTTON https://uiverse.io/satyamchaudharydev/afraid-yak-30 */
-  .button {
-    --width: 1.9rem;
-    --height: 1.9rem;
-    --tooltip-height: 25px;
-    --tooltip-width: 110px;
-    --gap-between-tooltip-to-button: 0px;
-    --button-color: #;
-    --tooltip-color: #00adb5;
-    width: var(--width);
-    height: var(--height);
-    background: var(--button-color);
-    position: relative;
-    text-align: center;
-    border-radius: 0.45em;
-    font-family: "Arial";
-    transition: background 0.3s;
-  }
-  
-  .button::before {
-    position: absolute;
-    content: attr(data-tooltip);
-    width: var(--tooltip-width);
-    height: var(--tooltip-height);
-    background-color: var(--tooltip-color);
-    font-size: 0.9rem;
-    color: #ffffff;
-    border-radius: .25em;
-    line-height: var(--tooltip-height);
-    top: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);
-    left: calc(50% - var(--tooltip-width) / 2);
-  }
-  
-  .button::after {
-    position: absolute;
-    content: '';
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    left: calc(50% - 10px);
-    bottom: calc(100% + var(--gap-between-tooltip-to-button) - 10px);
-  }
-  
-  .button::after,.button::before {
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.5s;
-  }
-  
-  .text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .button-wrapper,.text,.icon {
-    overflow: hidden;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    color: #ffffff;
-    cursor: pointer;
-    border-radius: 0.45em;
-  }
-  
-  .text {
-    top: 0;
-  }
-  
-  .text,.icon {
-    transition: top 0.5s;
-  }
-  
-  .icon {
-    color: #252529;
-    top: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 3px;
-    background: #00adb5;
-  }
-  
-  .icon svg {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .button:hover {
-    background: #;
-  }
-  
-  .button:hover .text {
-    top: -100%;
-  }
-  
-  .button:hover .icon {
-    top: 0;
-  }
-  
-  .button:hover:before,.button:hover:after {
-    opacity: 1;
-    visibility: visible;
-  }
-  
-  .button:hover:after {
-    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 20px);
-  }
-  
-  .button:hover:before {
-    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
-  }
-  .fade-in {
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 1.8rem;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 1.1em;
+  width: 0.11em;
+  border-radius: 10px;
+  left: 0.3em;
+  bottom: 0.4em;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #331717;
+  box-shadow: inset 2px 5px 10px rgb(0, 0, 0);
+}
+
+input:checked + .slider:before {
+  transform: translateX(2.8em) rotate(180deg);
+}
+
+/*  DOWNLOAD CV BUTTON https://uiverse.io/satyamchaudharydev/afraid-yak-30 */
+.button {
+  --width: 1.8rem;
+  --height: 1.8rem;
+  --tooltip-height: 25px;
+  --tooltip-width: 110px;
+  --gap-between-tooltip-to-button: 0px;
+  --button-color: #;
+  --tooltip-color: #00adb5;
+  width: var(--width);
+  height: var(--height);
+  background: var(--button-color);
+  position: relative;
+  text-align: center;
+  border-radius: 0.45em;
+  font-family: 'Arial';
+  transition: background 0.3s;
+}
+
+.button::before {
+  position: absolute;
+  content: attr(data-tooltip);
+  width: var(--tooltip-width);
+  height: var(--tooltip-height);
+  background-color: var(--tooltip-color);
+  font-size: 0.9rem;
+  color: #ffffff;
+  border-radius: 0.25em;
+  line-height: var(--tooltip-height);
+  top: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);
+  left: calc(50% - var(--tooltip-width) / 2);
+}
+
+.button::after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  left: calc(50% - 10px);
+  bottom: calc(100% + var(--gap-between-tooltip-to-button) - 10px);
+}
+
+.button::after,
+.button::before {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-wrapper,
+.text,
+.icon {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 0.45em;
+}
+
+.text {
+  top: 0;
+}
+
+.text,
+.icon {
+  transition: top 0.5s;
+}
+
+.icon {
+  color: #252529;
+  top: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  background: #00adb5;
+}
+
+.icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.button:hover {
+  background: #;
+}
+
+.button:hover .text {
+  top: -100%;
+}
+
+.button:hover .icon {
+  top: 0;
+}
+
+.button:hover:before,
+.button:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.button:hover:after {
+  bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 20px);
+}
+
+.button:hover:before {
+  bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
+}
+.fade-in {
   transition: opacity 1.5s ease;
 }
 
@@ -183,33 +188,33 @@
 
 /* For Webkit-based browsers (Chrome, Safari and Opera) */
 .scrollbar-hide::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 /* For IE, Edge and Firefox */
 .scrollbar-hide {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .card2:hover {
- transform: scale(0.97);
+  transform: scale(0.97);
 }
 
 .card:hover {
- box-shadow: 0px 5px 40px 2px rgba(155, 40, 117, 0.35);
- background-image: linear-gradient(146deg,rgba(155, 40, 117, 0.35) 0%, #3700ff 100%);
- transition: all .3s;
+  box-shadow: 0px 5px 40px 2px rgba(155, 40, 117, 0.35);
+  background-image: linear-gradient(146deg, rgba(155, 40, 117, 0.35) 0%, #3700ff 100%);
+  transition: all 0.3s;
 }
 .cardgreen:hover {
- box-shadow: 0px 5px 40px 2px rgba(155, 190, 117, 0.35);
- background-image: linear-gradient(146deg,#5500ff 0%, rgba(25, 250, 110, 0.45) 100%);
- transition: all .3s;
+  box-shadow: 0px 5px 40px 2px rgba(155, 190, 117, 0.35);
+  background-image: linear-gradient(146deg, #5500ff 0%, rgba(25, 250, 110, 0.45) 100%);
+  transition: all 0.3s;
 }
 
 .card {
- transition: all .3s;
+  transition: all 0.3s;
 }
 .card2 {
- transition: all .3s;
+  transition: all 0.3s;
 }
