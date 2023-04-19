@@ -40,7 +40,7 @@ export default function HeroSection() {
           <img src={blue_planet_cropped_flipped} alt="blue_planet" className="" />
         </div>
       </div>
-
+{/* 
       <div className="animate__animated animate__flipInX animate__slower align-center flex flex-col items-center  justify-center rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef]">
         <h1 className="text-center  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">About me</h1>
         <p className="text-md max-w-lg text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-xl"></p>
@@ -71,7 +71,7 @@ export default function HeroSection() {
             <img src={purple_rock_kb} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

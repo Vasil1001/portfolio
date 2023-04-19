@@ -122,7 +122,7 @@ export default function Projects() {
       
 
       <div className="grid grid-cols-4 gap-x-3.5">
-        <div className="col-span-2 row-span-6 rounded-2xl border border-[#d8d9da] bg-[#edeeef] p-7 text-center dark:border-[#434345] dark:bg-[#f1f1f5] md:col-span-2">
+        <div className="col-span-2 row-span-6 rounded-2xl border border-[#d8d9da] bg-[#f1f0ee] p-7 text-center dark:border-[#434345] dark:bg-[#f1f1f5] md:col-span-2">
           <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#222831]  md:mb-3 md:text-4xl">AI Image generator</h1>
           <p className="text-md md:text-md max-w-md text-left font-roboto text-gray-500 dark:text-gray-600 md:text-lg">
             NextJS, Prisma, TailwindCSS, Typescript, Dall-E API, Stable-diffusion XL API, Payment/credit system
@@ -142,12 +142,12 @@ export default function Projects() {
           </a>
         </div>
 
-        <div className="col-span-2  rounded-2xl border border-[#d8d9da] bg-[#edeeef] p-7 text-center lg:col-span-2">
+        <div className="col-span-2  rounded-2xl border border-[#d8d9da] bg-[#f1f0ee] p-7 text-center lg:col-span-2">
           <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#222831] md:mb-3 md:text-4xl">Pokedex Layout Clone</h1>
           <p className="text-md max-w-md text-left font-inter text-gray-500 md:text-xl">Image of project</p>
         </div>
 
-        <div className="col-span-2 mt-3.5 rounded-2xl border border-[#d8d9da] bg-[#edeeef] p-7 text-center lg:col-span-1">
+        <div className="col-span-2 mt-3.5 rounded-2xl border border-[#d8d9da] bg-[#f1f0ee] p-7 text-center lg:col-span-1">
           <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#222831] md:mb-3 md:text-4xl">SwiftUI</h1>
           <p className="text-md max-w-md text-left font-inter text-gray-500 md:text-xl">
             I am a Computer Science graduate working with React, Tailwind, NodeJS and more on personal projects!
@@ -160,7 +160,7 @@ export default function Projects() {
           </a>
         </div>
 
-        <div className="col-span-2 mt-3.5 rounded-2xl border border-[#d8d9da] bg-[#edeeef] p-7 text-center lg:col-span-1">
+        <div className="col-span-2 mt-3.5 rounded-2xl border border-[#d8d9da] bg-[#f1f0ee] p-7 text-center lg:col-span-1">
           <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#222831] md:mb-3 md:text-4xl">UIKit</h1>
           <p className="text-md max-w-md text-left font-inter text-gray-500 md:text-xl">NodeJS and more on personal projects!</p>
           <a
