@@ -64,7 +64,7 @@ input:checked + .slider:before {
   --width: 1.8rem;
   --height: 1.8rem;
   --tooltip-height: 25px;
-  --tooltip-width: 110px;
+  --tooltip-width: 140px;
   --gap-between-tooltip-to-button: 0px;
   --button-color: #;
   --tooltip-color: #00adb5;

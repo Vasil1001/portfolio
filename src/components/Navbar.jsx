@@ -69,9 +69,9 @@ export default function Navbar({ handleThemeSwitch, theme }) {
 
         <CVButton />
 
-        <label class="switch">
+        <label className="switch tooltip tooltip-bottom " data-tip="Toggle Dark Mode">
           <input onClick={handleThemeSwitch} type="checkbox" />
-          <span class="slider"></span>
+          <span className="slider"></span>
         </label>
         {/* <span class="w-[2.7px]  bg-[#c4c3c2] dark:bg-[#f9f3ee]/90 "></span>
         <button type="button" onClick={handleThemeSwitch} className="cursor-pointer rounded-md bg-[#c4c3c2]  px-[4px] dark:bg-[#484b51]">
