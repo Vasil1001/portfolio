@@ -3,17 +3,22 @@ import purple_rock_kb from '../assets/ai/purple-rock-kb.webp'
 import house_stars from '../assets/ai/house-stars.webp'
 import me from '../assets/ai/me1.jpg'
 import SendEmailButton from './SendEmailButton'
+import { HiOutlineExternalLink } from 'react-icons/hi'
 
 export default function AboutMe() {
   return (
     <div className=" ">
-      <div className="flex grid grid-cols-4 flex-wrap gap-3.5">
+      <div className="flex grid grid-cols-4 flex-wrap gap-3.5 px-3.5">
         <div className="col-span-4 row-span-2  rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef] lg:col-span-2">
           <div className="">
-            <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
-              Personal Note
-              <hr className="mt-3" />
-            </h1>
+            <div className="flex justify-between">
+              <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+                Personal Note
+              </h1>
+
+              <HiOutlineExternalLink size={'1.4rem'} />
+            </div>
+            <hr className="my-3" />
             <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
               I am an developer with a passion for designing and developing useful and visually appealing software.
               <br /> <br />
@@ -49,13 +54,8 @@ export default function AboutMe() {
 
           {/* <img src={galaxy} alt="galaxy" className="w-40" /> */}
         </div>
-        <div className="cardgreen align-center 2lg:col-span-1 col-span-2 row-span-1 flex flex-col items-center justify-center  rounded-2xl border-2 border-[#e3e4e4] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018] 2xl:col-span-2 3xl:col-span-1 3xl:col-span-1">
-          <div className="card2 w-full flex-1  flex-wrap overflow-hidden rounded-xl">
-            <img src={house_stars} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
-          </div>
-        </div>
 
-        <div className="col-span-2  row-span-1 flex flex-col justify-between rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef] 3xl:col-span-1">
+        <div className="col-span-full row-span-1 flex flex-col justify-between rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef] sm:col-span-2 lg:col-span-2 3xl:col-span-1">
           <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">Contact</h1>
           <div class="mb-6">
             <label for="email" class="mb-2 block text-left text-sm font-medium text-gray-500 dark:text-gray-600">
@@ -84,6 +84,12 @@ export default function AboutMe() {
           </div>
           <div className="flex flex-col items-end">
             <SendEmailButton />
+          </div>
+        </div>
+
+        <div className="cardgreen align-center col-span-full row-span-1 flex flex-col items-center justify-center rounded-2xl border-2 border-[#e3e4e4]  bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018] sm:col-span-2 lg:col-span-2 2xl:col-span-2 3xl:col-span-1 3xl:col-span-1 3xl:col-span-1">
+          <div className="card2 w-full flex-1  flex-wrap overflow-hidden rounded-xl">
+            <img src={house_stars} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
           </div>
         </div>
       </div>
