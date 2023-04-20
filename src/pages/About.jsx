@@ -4,11 +4,14 @@ import floatnig_land from '../assets/ai/floatnig-land.jpeg'
 
 export default function About() {
   return (
-    <div className="grid grid-cols-3 grid-cols-4 gap-4">
+    <div className="mb-5 grid  grid-cols-4 gap-4">
       <div className="col-span-2 mb-3.5 rounded-2xl border border-[#e3e4e4] bg-[#f1f1f5] p-7 text-center dark:bg-[#edeeef]">
         <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">A little about me</h1>
         <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-xl">
-          I grew up in Northern Greece, a small town near the sea. I am a highly motivated and curious software engineer living in London, UK.
+          I was born in Bulgaria, but I grew up in Northern Greece, in a small town near the sea. I played football for my local team for 5 years, and
+          enjoy music and TV Series a ton.
+          <br /> <br />
+          I moved to London in 2017 and started working part time jobs right away along with my studies.
           <br /> <br />
           I am passionate about technology and I am always looking for new ways to improve my skills.
           <br /> <br />
@@ -16,7 +19,7 @@ export default function About() {
           <br /> <br />
           In the last year, I learnt React to improve the look of my backend projects, and ended up really enjoying it and explored many technologies
           around it that I had a blast learning and using such as Tailwind, NodeJS & Express. New and interesting technologies sparked an interest in
-          me and made me want to explore even more, such as Supabase, Redux, (Zustand), MongoDB.
+          me and made me want to explore even more, such as Supabase, Redux, Zustand, MongoDB.
           <br /> <br />
           I am currently looking for a full-time position as a software engineer, where I can continue to learn and grow as a developer.
           <br /> <br />
@@ -24,7 +27,6 @@ export default function About() {
           Express.js, MongoDB, Firebase. I am looking forward to learning more.
           <br /> <br />
         </p>
-        {/* <img src={galaxy} alt="galaxy" className="w-40" /> */}
       </div>
 
       <div className="col-span-1 flex flex-col gap-3.5">
@@ -52,9 +54,7 @@ export default function About() {
       <div className="col-span-1 flex flex-col gap-3.5">
         <div className="rounded-2xl border border-[#e3e4e4] bg-[#f1f1f5] p-7 text-center dark:bg-[#edeeef]">
           <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Explore</h1>
-          <div className="">
-            
-          </div>
+          <div className=""></div>
         </div>
 
         <div className="col-span-1">

@@ -20,16 +20,15 @@ export default function AboutMe() {
             </div>
             <hr className="my-3" />
             <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
-              I am an developer with a passion for designing and developing useful and visually appealing software.
+              I am a Software Developer with a passion for building useful and visually appealing software.
               <br /> <br />
-              Software Development is my passion, and I am always looking for new ways to improve my skills, make my designs cleaner and learn new
-              technologies.
+              I am always looking for new ways to improve my skills and make my designs cleaner 
               <br /> <br />
-              Developing Web Applications and finding new ways to make my designs cleaner, more interesting and responsive keeps me motivated to work
-              on my side proejcts every day.
+              Learning interesting new technologies has kept me motivated and allowed me to plan and work on projects that I enjoy building, which helps me
+              learn quicker and more efficiently. 
               <br /> <br />
-              Learning React and staying up to date with web technologies has been highly enjoyable for me, made me want to explore even more and
-              motivated me keep learning after graduating from university.
+              Learning React and staying up to date with web technologies has been highly enjoyable also, it made me want to explore even more and
+              motivated me to keep learning after graduating from university by building new projects.
             </p>
           </div>
         </div>
@@ -64,24 +63,21 @@ export default function AboutMe() {
             <input
               type="email"
               id="email"
-              class="block w-full rounded-lg border border-gray-300 bg-[#f2f1f1] p-2.5 text-sm text-gray-900 shadow-md focus:border-blue-500 focus:ring-blue-500 dark:border-gray-400 dark:bg-[#f0f2f4] dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+              className="block w-full rounded-lg border border-gray-300 bg-[#f2f1f1] p-2.5 text-sm text-gray-900 shadow-md focus:border-blue-500 focus:ring-blue-500 dark:border-gray-400 dark:bg-[#f0f2f4] dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
               placeholder="vaskodzhakov@gmail.com"
               required
-              disabled
             />
-          </div>
-          <div class="mb-6">
-            <label for="email" class="mb-2 block text-left text-sm font-medium text-gray-500 dark:text-gray-600 ">
-              Your email
-            </label>
-            <input
+             <textarea 
               type="email"
               id="email"
-              class="block w-full rounded-lg border border-gray-300 bg-[#ffffff] p-2.5 text-sm text-gray-900 shadow-md focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-[#f0f2f4] dark:text-gray-600 dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-              placeholder="name@gmail.com"
+              className="block w-full mt-3.5 rounded-lg border border-gray-300 bg-[#f2f1f1] p-2.5 text-sm text-gray-900 shadow-md focus:border-blue-500 focus:ring-blue-500 dark:border-gray-400 dark:bg-[#f0f2f4] dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+              placeholder="Type a message"
               required
+              rows="4" cols="50"
+              
             />
           </div>
+         
           <div className="flex flex-col items-end">
             <SendEmailButton />
           </div>

@@ -23,8 +23,8 @@ export default function HeroSection() {
             Hi, I'm
             <b className="bg-[#202124] from-[#16c4cd] to-blue-500  bg-clip-text p-3 text-transparent underline dark:bg-gradient-to-r">Vasilis</b>
           </h1>
-          <p className="mt-4 max-w-lg animate__animated animate__flipInX text-left font-inter text-lg text-[#515357] dark:text-[#cec7c2] md:mt-0">
-            I am a Software Developer that builds frontend and fullstack software and web applications mainly with React, Tailwind, NodeJS & more!
+          <p className="mt-4 max-w-xl animate__animated animate__flipInX text-left font-inter text-lg text-[#515357] dark:text-[#cec7c2] md:mt-0">
+            I am a Software Developer focusing on building frontend and fullstack applications with React, Tailwind, NodeJS & more!
           </p>
           {/* <a
             href="#"

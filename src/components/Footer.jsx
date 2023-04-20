@@ -7,7 +7,7 @@ import CVButton from './CVButton'
 
 export default function Footer() {
   return (
-    <div className="mt-3.5 flex justify-between rounded-t-lg bg-[#f1f0ee] p-5 px-5 text-left text-gray-600">
+    <div className="mt-3.5 flex justify-between rounded-t-lg bg-[#f1f0ee] dark:bg-[#edeeef] p-5 px-5 text-left text-gray-600">
       <div>
         <p className="text-xs text-gray-500">© Made by Vasil Dzhakov in 2023</p>
 

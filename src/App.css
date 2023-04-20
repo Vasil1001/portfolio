@@ -219,14 +219,16 @@ input:checked + .slider:before {
   transition: all 0.3s;
 }
 
-.cont {
-  
-}
+/* Blur the rest on card hover
+  .cont {
+    
+  }
 
-.car {
-  transition: all 0.3s;
-}
+  .car {
+    transition: all 0.3s;
+  }
 
-.cont:hover > .car:not(:hover) {
-  filter: blur(4px);
-}
+  .cont:hover > .car:not(:hover) {
+    filter: blur(4px);
+  }
+*/
