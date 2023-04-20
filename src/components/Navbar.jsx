@@ -2,14 +2,12 @@ import React from 'react'
 import { BsGithub, BsLightbulb, BsLinkedin, BsLightbulbOffFill, BsFillFileEarmarkTextFill, BsFillMoonStarsFill } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 import CVButton from './CVButton'
-import NavHamburger from './NavHamburger'
 
 export default function Navbar({ handleThemeSwitch, theme }) {
   return (
     <div className="align-center mx-auto mb-3.5 flex items-center justify-between p-5 px-2 pt-5 text-center sm:p-7 xl:mx-auto xl:w-9/12 xl:p-0 xl:pt-5 2xl:w-8/12">
       <div className="flex items-center">
-        <p className=" font-inter font-medium dark:text-[#f6eee8]">Vasil Dzhakov</p>
-        <div className="dropdown">
+        <div className="dropdown block lg:hidden">
           <label tabIndex={0} className="btn-ghost btn-circle btn">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
@@ -17,16 +15,28 @@ export default function Navbar({ handleThemeSwitch, theme }) {
           </label>
           <ul tabIndex={0} className="dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-base-100 p-2 shadow">
             <li>
-              <a>Homepage</a>
+              <Link to="/">
+                <a>Home</a>
+              </Link>
             </li>
             <li>
-              <a>Portfolio</a>
+              <Link to="/projects">
+                <a>Projects</a>
+              </Link>
             </li>
             <li>
-              <a>About</a>
+              <Link to="/experience">
+                <a>Experience</a>
+              </Link>
+            </li>
+            <li>
+              <Link to="/about">
+                <a>About</a>
+              </Link>
             </li>
           </ul>
         </div>
+        <p className=" font-inter font-medium dark:text-[#f6eee8]">Vasil Dzhakov</p>
       </div>
 
       <div className="fixed left-1/2 top-3 z-50 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 shadow-sm hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-md dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] lg:block ">

@@ -218,3 +218,15 @@ input:checked + .slider:before {
 .card2 {
   transition: all 0.3s;
 }
+
+.cont {
+  
+}
+
+.car {
+  transition: all 0.3s;
+}
+
+.cont:hover > .car:not(:hover) {
+  filter: blur(4px);
+}

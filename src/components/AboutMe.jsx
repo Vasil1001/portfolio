@@ -8,15 +8,15 @@ import { HiOutlineExternalLink } from 'react-icons/hi'
 export default function AboutMe() {
   return (
     <div className=" ">
-      <div className="flex grid grid-cols-4 flex-wrap gap-3.5 px-3.5">
-        <div className="col-span-4 row-span-2  rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef] lg:col-span-2">
+      <div className="cont flex grid grid-cols-4 flex-wrap gap-3.5 px-3.5 sm:px-0">
+        <div className="car col-span-4 row-span-2  rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef] lg:col-span-2">
           <div className="">
             <div className="flex justify-between">
               <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                 Personal Note
               </h1>
 
-              <HiOutlineExternalLink size={'1.4rem'} />
+              <HiOutlineExternalLink className="car" size={'1.4rem'} />
             </div>
             <hr className="my-3" />
             <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
@@ -33,13 +33,13 @@ export default function AboutMe() {
             </p>
           </div>
         </div>
-        <div className="align-center col-span-2  flex flex-col items-center justify-center  rounded-2xl border-2 border-[#e3e4e4] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#edeeef] 2xl:col-span-2 3xl:col-span-1">
+        <div className="car align-center col-span-2  flex flex-col items-center justify-center  rounded-2xl border-2 border-[#e3e4e4] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717]  dark:hover:bg-[#edeeef] 2xl:col-span-2 3xl:col-span-1">
           <div className=" flex-wrap overflow-hidden rounded-xl">
             <img src={me} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
           </div>
         </div>
 
-        <div className="col-span-2 rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef] lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
+        <div className="car col-span-2 rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef] lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
           <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">Skills</h1>
           <div className="col-span-1">
             <div className="z-10 col-span-1 flex flex-1 flex-row flex-wrap justify-end">
