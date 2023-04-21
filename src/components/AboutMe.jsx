@@ -11,7 +11,7 @@ export default function AboutMe() {
   return (
     <div className=" ">
       <div className="cont flex grid grid-cols-4 flex-wrap gap-3.5 px-3.5 sm:px-0">
-        <div className="car col-span-4 row-span-2  rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef] lg:col-span-2">
+        <div className="car col-span-4 row-span-2 rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef] lg:col-span-2">
           <div className="">
             <div className="flex justify-between">
               <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
@@ -57,19 +57,18 @@ export default function AboutMe() {
         </div>
 
         <div className="col-span-full row-span-1 flex flex-col rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef] sm:col-span-2 lg:col-span-2 3xl:col-span-1">
-          <div className="flex justify-between ">
+          <div className="flex items-start justify-between ">
             <div className="flex flex-col">
               <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Contact</h1>
               <p className="mt-1 text-left text-sm text-gray-500 dark:text-gray-600">vaskodzhakov@gmail.com</p>
             </div>
-            <a className="tooltip tooltip-bottom" data-tip="linkedin.com/in/vasil1001" target="_blank" href="https://www.linkedin.com/in/vasil1001/">
-              <BsLinkedin
-                className="tooltip cursor-pointer  rounded-md text-[2rem] hover:fill-[#0069b9] dark:fill-[#f9f3ee]  dark:hover:fill-[#00adb5]"
-                fill="black"
-              />
+            <a className="tooltip tooltip-bottom " data-tip="linkedin.com/in/vasil1001" target="_blank" href="https://www.linkedin.com/in/vasil1001/">
+              <BsLinkedin className="tooltip cursor-pointer rounded-md text-[2.2rem] hover:fill-[#0069b9]" fill="black" />
             </a>
           </div>
           <hr className="my-2" />
+
+          {/* https://formsubmit.co/ */}
           <form className="flex flex-col justify-between" action="https://formsubmit.co/e95295e4949eef97bea0a442688ff00c" method="POST">
             <input
               type="email"
