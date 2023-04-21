@@ -3,8 +3,7 @@ import './SendEmailButton.css'
 //https://uiverse.io/adamgiebl/smart-moth-68
 export default function SendEmailButton() {
   return (
-    <div>
-      <button1 className="cursor-pointer">
+      <button1 className="cursor-pointer" >
         <div class="button1 svg-wrapper-1">
           <div class="button1 svg-wrapper">
             <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -18,6 +17,5 @@ export default function SendEmailButton() {
         </div>
         <span>Send</span>
       </button1>
-    </div>
   )
 }

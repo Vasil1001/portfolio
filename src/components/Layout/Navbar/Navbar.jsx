@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsGithub, BsLightbulb, BsLinkedin, BsLightbulbOffFill, BsFillFileEarmarkTextFill, BsFillMoonStarsFill } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
-import CVButton from './CVButton'
+import CVButton from '../../CVButton'
 
 export default function Navbar({ handleThemeSwitch, theme }) {
   return (
