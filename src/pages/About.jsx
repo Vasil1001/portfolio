@@ -2,7 +2,7 @@ import React from 'react'
 
 import Hills from '../assets/ai/land-hills.webp'
 import Dome from '../assets/ai/dome.webp'
-import Castle from '../assets/ai/Castle.webp'
+import Castle from '../assets/ai/castle.webp'
 import Land_rocks from '../assets/ai/land-rocks.webp'
 import Forest_house from '../assets/ai/forest-gr-house.webp'
 import Lake from '../assets/ai/lake.webp'
