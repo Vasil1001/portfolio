@@ -54,9 +54,6 @@ export default function Navbar({ handleThemeSwitch, theme }) {
         <Link to="/about">
           <button className="rounded-xl px-2.5 py-1 font-noto text-sm text-gray-500  hover:bg-[#e5eaf1]">About</button>
         </Link>
-        <Link to="/GetInTouch">
-          <button className="rounded-xl px-2.5 py-1 font-noto text-sm text-gray-500  hover:bg-[#e5eaf1]">About</button>
-        </Link>
       </div>
 
       <div className="flex gap-2 dark:text-[#e0eaf2]">
