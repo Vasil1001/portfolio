@@ -5,12 +5,12 @@ export default function Projects() {
     <div className="mt-3.5">
       <div className=" ">
         <div className=" ">
-          <div className="align-center my-3.5 flex flex-col items-center  justify-center rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef]">
+          <div className="align-center my-3.5 flex flex-col items-center  justify-center rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef]">
             <h1 className="text-center  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Projects</h1>
             <p className="text-md max-w-lg text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-xl"></p>
           </div>
-          <div className="mb-3.5 flex grid grid-cols-4 flex-wrap gap-3.5">
-            <div className="col-span-2 row-span-3 rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef]">
+          <div className="mb-3.5 grid grid-cols-4 flex-wrap gap-3.5">
+            <div className="col-span-2 row-span-3 rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef]">
               <div className="">
                 <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                   Nutrition Tracker
@@ -26,7 +26,7 @@ export default function Projects() {
                 </p>
               </div>
             </div>
-            <div className="align-center col-span-1 row-span-3 flex flex-col items-center justify-center  rounded-2xl border-2 border-[#e3e4e4] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#edeeef] lg:col-span-1">
+            <div className="align-center col-span-1 row-span-3 flex flex-col items-center justify-center  rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#edeeef] lg:col-span-1">
               <div className=" flex-wrap overflow-hidden rounded-xl">
                 SwiftUI Weather App
                 <br />
@@ -36,7 +36,7 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="align-center col-span-1 row-span-3 flex flex-col items-center justify-center  rounded-2xl border-2 border-[#e3e4e4] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#edeeef] lg:col-span-1">
+            <div className="align-center col-span-1 row-span-3 flex flex-col items-center justify-center  rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#edeeef] lg:col-span-1">
               <div className=" flex-wrap overflow-hidden rounded-xl">
                 SwiftUI Programming Quiz App
                 <br />
@@ -47,8 +47,8 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="mb-3.5 flex grid grid-cols-4 flex-wrap gap-3.5">
-          <div className="col-span-2 row-span-3 rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef]">
+        <div className="mb-3.5 grid grid-cols-4 flex-wrap gap-3.5">
+          <div className="col-span-2 row-span-3 mainCard text-center dark:bg-[#edeeef]">
             <div className="">
               <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                 Github Finder
@@ -65,7 +65,7 @@ export default function Projects() {
               </p>
             </div>
           </div>
-          <div className="col-span-2 row-span-3 rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef]">
+          <div className="col-span-2 row-span-3 rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef]">
             <div className="">
               <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                 MERN Ticket tracker
@@ -85,7 +85,7 @@ export default function Projects() {
         </div>
 
         <div className="mb-3.5 flex grid grid-cols-4 flex-wrap gap-3.5">
-          <div className="align-center col-span-1 row-span-3 flex flex-col items-center justify-center  rounded-2xl border-2 border-[#e3e4e4] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#edeeef] lg:col-span-1">
+          <div className="align-center col-span-1 row-span-3 flex flex-col items-center justify-center  rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#edeeef] lg:col-span-1">
             <div className=" flex-wrap overflow-hidden rounded-xl">
               Spring Boot Java <br /> <br />
               Image
@@ -93,14 +93,14 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="align-center col-span-1 row-span-3 flex flex-col items-center justify-center  rounded-2xl border-2 border-[#e3e4e4] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#edeeef] lg:col-span-1">
+          <div className="align-center col-span-1 row-span-3 flex flex-col items-center justify-center  rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#edeeef] lg:col-span-1">
             <div className=" flex-wrap overflow-hidden rounded-xl">
               Portfolio <br /> <br />
               Image
               {/* <img src={me} alt="asd" className="h-full w-full overflow-hidden rounded-xl" /> */}
             </div>
           </div>
-          <div className="col-span-2 row-span-3 rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef]">
+          <div className="col-span-2 row-span-3 rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef]">
             <div className="">
               <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                 Rently marketplace
@@ -122,7 +122,7 @@ export default function Projects() {
       {/* END OF ABOUT ME */}
 
       <div className="grid grid-cols-4 grid-rows-3 gap-x-3.5">
-        <div className="col-span-2 row-span-6 rounded-2xl border border-[#d8d9da] bg-[#f1f0ee] p-7 text-center dark:border-[#434345] dark:bg-[#edeeef] md:col-span-2">
+        <div className="col-span-2 row-span-6 rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-7 text-center dark:border-[#434345] dark:bg-[#edeeef] md:col-span-2">
           <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#222831]  md:mb-3 md:text-4xl">
             Planned project: <br /> Prompt Image generator
           </h1>
@@ -133,7 +133,7 @@ export default function Projects() {
           </p>
         </div>
 
-        <div className="col-span-2 row-span-3 rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef]">
+        <div className="col-span-2 row-span-3 rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef]">
           <div className="">
             <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
               Pokedex Layout Clone

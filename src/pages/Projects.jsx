@@ -7,33 +7,30 @@ import { BsGithub, BsLightbulb, BsLinkedin, BsLightbulbOffFill, BsFillFileEarmar
 export default function Projects() {
   return (
     <div className=" ">
-      <div className="cont flex grid grid-cols-4 flex-wrap gap-3.5 px-3.5 sm:px-0">
-        <div className="col-span-full row-span-1 flex flex-col rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef] sm:col-span-2 lg:col-span-2 3xl:col-span-2">
+      <div className="cont grid grid-cols-4 flex-wrap gap-3.5 px-3.5 sm:px-0">
+        <div className="rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef] col-span-full row-span-1 flex flex-col  sm:col-span-2 lg:col-span-2 3xl:col-span-2">
           <div className="flex items-start justify-between ">
             <div className="flex flex-col">
               <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Projects</h1>
             </div>
           </div>
           <hr className="my-2" />
-          <p className="text-md text-left text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
+          <p className="text-md text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
             These are my personal projects I have worked on during university and after graduating.
             <br /> <br />
-            I build applications that I would use myself, that would keep me motivated to work on  and
-            learn every day.
+            I build applications that I would use myself, that would keep me motivated to work on and learn every day.
             <br /> <br />
-            My interests lie more within Frontend, but I also enjoy working with Full-Stack applications. 
+            My interests lie more within Frontend, but I also enjoy working with Full-Stack applications.
           </p>
         </div>
-        <div className="car col-span-4 row-span-2 rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef] lg:col-span-2">
+        <div className="car mainCard col-span-4 row-span-2 lg:col-span-2">
           <div className="">
             <div className="flex justify-between">
               <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                 Personal Note
               </h1>
-
-              <HiOutlineExternalLink className="car" size={'1.4rem'} />
             </div>
-            <hr className="my-3" />
+            <hr className="my-2" />
             <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
               I am a Software Developer who grew up in Greece, with a passion for building useful and visually appealing applications.
               <br /> <br />
@@ -47,13 +44,13 @@ export default function Projects() {
             </p>
           </div>
         </div>
-        <div className="car align-center col-span-2  flex flex-col items-center justify-center  rounded-2xl border-2 border-[#e3e4e4] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717]  dark:hover:bg-[#edeeef] 2xl:col-span-2 3xl:col-span-1">
+        <div className="car align-center col-span-2 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717]  dark:hover:bg-[#edeeef] 2xl:col-span-2 3xl:col-span-1">
           <div className=" flex-wrap overflow-hidden rounded-xl">
             <img src={me} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
           </div>
         </div>
 
-        <div className="car col-span-2 rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef] lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
+        <div className="car col-span-2 mainCard lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
           <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">Skills</h1>
           <div className="col-span-1">
             <div className="z-10 col-span-1 flex flex-1 flex-row flex-wrap justify-end">
@@ -69,7 +66,7 @@ export default function Projects() {
           {/* <img src={galaxy} alt="galaxy" className="w-40" /> */}
         </div>
 
-        <div className="col-span-full row-span-1 flex flex-col rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef] sm:col-span-2 lg:col-span-2 3xl:col-span-1">
+        <div className="mainCard col-span-full row-span-1 flex flex-col sm:col-span-2 lg:col-span-2 3xl:col-span-1">
           <div className="flex items-start justify-between ">
             <div className="flex flex-col">
               <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Contact</h1>
@@ -104,7 +101,7 @@ export default function Projects() {
           </form>
         </div>
 
-        <div className="cardgreen align-center col-span-full row-span-1 flex flex-col items-center justify-center rounded-2xl border-2 border-[#e3e4e4]  bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018] sm:col-span-2 lg:col-span-2 2xl:col-span-2 3xl:col-span-1 3xl:col-span-1 3xl:col-span-1">
+        <div className="cardgreen align-center col-span-full row-span-1 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb]  bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018] sm:col-span-2 lg:col-span-2 2xl:col-span-2 3xl:col-span-1 3xl:col-span-1 3xl:col-span-1">
           <div className="card2 w-full flex-1  flex-wrap overflow-hidden rounded-xl">
             <img src={house_stars} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
           </div>

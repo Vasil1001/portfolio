@@ -7,7 +7,11 @@
   //font-family: 'Roboto', sans-serif;
 }
 
-/* DARK MODE SWITCH thanks to: https://uiverse.io/Praashoo7/angry-starfish-78 */
+
+.mainCard {
+  @apply rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef] 
+}
+/* e3e4e4 DARK MODE SWITCH thanks to: https://uiverse.io/Praashoo7/angry-starfish-78 */
 /* The switch - the box around the slider */
 .switch {
   font-size: 16px;
@@ -197,8 +201,10 @@ input:checked + .slider:before {
   scrollbar-width: none; /* Firefox */
 }
 
+
+/* images border */
 .card2:hover {
-  transform: scale(0.97);
+  transform: scale(0.98);
 }
 
 .card:hover {
