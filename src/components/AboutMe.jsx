@@ -24,12 +24,12 @@ export default function AboutMe() {
             <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
               I am a Software Developer who grew up in Greece, with a passion for building useful and visually appealing applications.
               <br /> <br />
-              I am always looking for new ways to improve my skills and make my designs cleaner
+              I am always looking for new ways to improve my skills and make my designs cleaner.
               <br /> <br />
-              Learning interesting new technologies has kept me motivated and allowed me to plan and work on projects that I enjoy building, which
-              helps me learn quicker and more efficiently.
+              Learning interesting new technologies has kept me motivated and allowed me to plan and work on projects that I enjoy building, which also
+              helped me learn quicker and more efficiently.
               <br /> <br />
-              Learning React and staying up to date with web technologies has been highly enjoyable also, it made me want to explore even more and
+              In particular, staying up to date with web technologies and developing with React.js has been highly enjoyable and it made me want to explore even more and
               motivated me to keep learning after graduating from university by building new projects.
             </p>
           </div>

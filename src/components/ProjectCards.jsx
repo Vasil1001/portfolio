@@ -12,7 +12,7 @@ export default function Projects() {
           <div className="mb-3.5 grid grid-cols-4 flex-wrap gap-3.5">
             <div className="col-span-2 row-span-3 rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef]">
               <div className="">
-                <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+                <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                   Nutrition Tracker
                   <hr className="mt-3" />
                 </h1>
@@ -50,7 +50,7 @@ export default function Projects() {
         <div className="mb-3.5 grid grid-cols-4 flex-wrap gap-3.5">
           <div className="col-span-2 row-span-3 mainCard text-center dark:bg-[#edeeef]">
             <div className="">
-              <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+              <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                 Github Finder
                 <hr className="mt-3" />
               </h1>
@@ -67,7 +67,7 @@ export default function Projects() {
           </div>
           <div className="col-span-2 row-span-3 rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef]">
             <div className="">
-              <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+              <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                 MERN Ticket tracker
                 <hr className="mt-3" />
               </h1>
@@ -102,7 +102,7 @@ export default function Projects() {
           </div>
           <div className="col-span-2 row-span-3 rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef]">
             <div className="">
-              <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+              <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                 Rently marketplace
                 <hr className="mt-3" />
               </h1>
@@ -123,8 +123,9 @@ export default function Projects() {
 
       <div className="grid grid-cols-4 grid-rows-3 gap-x-3.5">
         <div className="col-span-2 row-span-6 rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-7 text-center dark:border-[#434345] dark:bg-[#edeeef] md:col-span-2">
+          <p className="mb-1 text-left">Planned project: <br /> </p>
           <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#222831]  md:mb-3 md:text-4xl">
-            Planned project: <br /> Prompt Image generator
+            Prompt Image generator
           </h1>
           <p className="text-md md:text-md max-w-md text-left font-roboto text-gray-500 dark:text-gray-600 md:text-lg">
             A project that allows users to type a prompt, select a style and generate an image using the DALL-E API.
@@ -135,7 +136,7 @@ export default function Projects() {
 
         <div className="col-span-2 row-span-3 rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef]">
           <div className="">
-            <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+            <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
               Pokedex Layout Clone
               <hr className="mt-3" />
             </h1>

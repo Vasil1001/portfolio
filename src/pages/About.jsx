@@ -31,7 +31,7 @@ export default function About() {
     <div>
       <div className="mb-5 ">
         <div className="cont flex grid grid-cols-4 flex-wrap  gap-3.5 px-3.5 sm:px-0">
-          <div className="col-span-full row-span-1 flex flex-col rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef] sm:col-span-2 lg:col-span-2 3xl:col-span-2">
+          <div className="col-span-full row-span-1 flex flex-col rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef] sm:col-span-4 lg:col-span-2 3xl:col-span-2">
             <div className="flex items-start justify-between ">
               <div className="flex flex-col">
                 <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Tech Interests</h1>
@@ -42,12 +42,12 @@ export default function About() {
               I am passionate about technology and I am always looking for new ways to improve my skills, design cleaner and more visually appealing
               applications.
               <br /> <br />
-              New and interesting technologies sparked an interest and made me want to explore even more, and improved my React projects by exploring
+              New and interesting technologies sparked an interest and made me want to explore even more, and improved my React projects by learning
               Tailwind, Firebase, NodeJS & Express and many more.
               <br /> <br />
               I build projects that help me grow as a developer and because I genuinely enjoy it.
               <br /> <br />
-              Currently I am excited to build projects with NextJS, TypeScript, Tailwind, Prisma & Supabase.
+              Currently I am building projects with NextJS, TypeScript, Tailwind, Prisma & Supabase.
             </p>
           </div>
           <div className="car col-span-4 row-span-2 mainCard lg:col-span-2">
