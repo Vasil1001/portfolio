@@ -1,7 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 const colors = require('tailwindcss/colors')
 export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/tw-elements/dist/js/**/*.js"
+],
   darkMode: 'class',
   theme: {
     colors: {
@@ -73,5 +77,5 @@ export default {
     },
   },
   variants: {},
-  plugins: [require('tailwindcss-gradients'), require('daisyui')],
+  plugins: [require('tailwindcss-gradients'), require('daisyui'), require("tw-elements/dist/plugin.cjs")],
 }

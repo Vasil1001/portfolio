@@ -39,7 +39,7 @@ export default function Navbar({ handleThemeSwitch, theme }) {
         <p className=" font-inter font-medium  text-[#202124] dark:text-[#f6eee8]">Vasil Dzhakov</p>
       </div>
 
-      <div className="fixed left-1/2 top-3 z-50 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 shadow-sm hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-md dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] lg:block ">
+      <div className="fixed left-1/2 top-3 z-50 shadow-none transition-shadow duration-400 ease-in-out hover:shadow-lg hover:shadow-black/30 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 shadow-sm hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-md dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] lg:block ">
         <Link to="/">
           <button className="mr-1.5 rounded-xl border border-[#d1cfcf] bg-[#d6e0e9] p-3 px-2.5 py-1 font-noto text-sm text-gray-800 hover:bg-[#e5eaf1]">
             Home
