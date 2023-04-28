@@ -11,6 +11,9 @@
 .mainCard {
   @apply rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef] 
 }
+.cardHoverShadow {
+  @apply shadow-sm transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30
+  }
 /* e3e4e4 DARK MODE SWITCH thanks to: https://uiverse.io/Praashoo7/angry-starfish-78 */
 /* The switch - the box around the slider */
 .switch {

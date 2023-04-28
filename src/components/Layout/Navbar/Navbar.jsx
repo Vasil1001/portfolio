@@ -2,8 +2,16 @@ import React from 'react'
 import { BsGithub, BsLightbulb, BsLinkedin, BsLightbulbOffFill, BsFillFileEarmarkTextFill, BsFillMoonStarsFill } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 import CVButton from '../../CVButton'
+import { useNavigate, useLocation } from 'react-router-dom'
 
 export default function Navbar({ handleThemeSwitch, theme }) {
+  const navigate = useNavigate()
+  const location = useLocation()
+
+  const pathMatchRoute = (route) => {
+    if (route === location.pathname) return true
+  }
+
   return (
     <div className="align-center mx-auto mb-3.5 flex items-center justify-between p-5 px-2 pt-5 text-center sm:p-7 xl:mx-auto xl:w-9/12 xl:p-0 xl:pt-5 2xl:w-8/12">
       <div className="flex items-center">
@@ -15,45 +23,76 @@ export default function Navbar({ handleThemeSwitch, theme }) {
           </label>
           <ul tabIndex={0} className="dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-base-100 p-2 shadow">
             <li>
-              <Link to="/">
-                <a>Home</a>
-              </Link>
+              <a
+                className={pathMatchRoute('/') ? 'mb-1 bg-[#2e5590] hover:bg-[#1b4584]' : ' mb-1 bg-base-300 hover:bg-[#3b414a] active:bg-[#2d4b73]'}
+                onClick={() => navigate('/')}
+              >
+                Home
+              </a>
             </li>
             <li>
-              <Link to="/projects">
-                <a>Projects</a>
-              </Link>
+              <a
+                className={
+                  pathMatchRoute('/offers') ? 'my-1 bg-[#2e5590] hover:bg-[#1b4584]' : ' my-1 bg-base-300 hover:bg-[#3b414a] active:bg-[#2d4b73]'
+                }
+                onClick={() => navigate('/projects')}
+              >
+                Project
+              </a>
             </li>
             <li>
-              <Link to="/experience">
-                <a>Experience</a>
-              </Link>
+              <Link to="/experience">Experience</Link>
             </li>
             <li>
-              <Link to="/about">
-                <a>About</a>
-              </Link>
+              <Link to="/about">About</Link>
             </li>
           </ul>
         </div>
         <p className=" font-inter font-medium  text-[#202124] dark:text-[#f6eee8]">Vasil Dzhakov</p>
       </div>
 
-      <div className="fixed left-1/2 top-3 z-50 shadow-none transition-shadow duration-400 ease-in-out hover:shadow-lg hover:shadow-black/30 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 shadow-sm hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-md dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] lg:block ">
-        <Link to="/">
-          <button className="mr-1.5 rounded-xl border border-[#d1cfcf] bg-[#d6e0e9] p-3 px-2.5 py-1 font-noto text-sm text-gray-800 hover:bg-[#e5eaf1]">
-            Home
-          </button>
-        </Link>
-        <Link to="/projects">
-          <button className="mr-1.5 rounded-xl px-2.5  py-1 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1]">Projects</button>
-        </Link>
-        <Link to="/experience">
-          <button className=" rounded-xl px-2.5 py-1 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1]">Experience</button>
-        </Link>
-        <Link to="/about">
-          <button className="rounded-xl px-2.5 py-1 font-noto text-sm text-gray-500  hover:bg-[#e5eaf1]">About</button>
-        </Link>
+      <div className="duration-400 fixed left-1/2 top-3 z-50 py-2 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 shadow-none shadow-sm transition-shadow ease-in-out hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-lg hover:shadow-md hover:shadow-black/30 dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] lg:block ">
+        <a
+          className={
+            pathMatchRoute('/')
+              ? 'mr-1.5 rounded-xl  bg-[#dce1e9] px-2.5  py-1 font-noto text-sm text-gray-800 hover:bg-[#d7dce4]'
+              : 'mr-1.5 rounded-xl px-2.5  py-1 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
+          }
+          onClick={() => navigate('/')}
+        >
+          Home
+        </a>
+        <a
+          className={
+            pathMatchRoute('/projects')
+              ? 'mr-1.5 rounded-xl  bg-[#dce1e9] px-2.5  py-1 font-noto text-sm text-gray-800 hover:bg-[#d7dce4]'
+              : 'mr-1.5 rounded-xl px-2.5  py-1 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
+          }
+          onClick={() => navigate('/projects')}
+        >
+          Project
+        </a>
+        {/* <button className="mr-1.5 rounded-xl px-2.5  py-1 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1]">Projects</button> */}
+        <a
+          className={
+            pathMatchRoute('/experience')
+              ? 'mr-1.5 rounded-xl  bg-[#dce1e9] px-2.5  py-1 font-noto text-sm text-gray-800 hover:bg-[#d7dce4]'
+              : 'mr-1.5 rounded-xl px-2.5  py-1 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
+          }
+          onClick={() => navigate('/experience')}
+        >
+          Experience
+        </a>
+        <a
+          className={
+            pathMatchRoute('/about')
+              ? 'rounded-xl  bg-[#dce1e9] px-2.5  py-1 font-noto text-sm text-gray-800 hover:bg-[#d7dce4]'
+              : 'rounded-xl px-2.5  py-1 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
+          }
+          onClick={() => navigate('/about')}
+        >
+          About
+        </a>
       </div>
 
       <div className="flex gap-2 dark:text-[#e0eaf2]">

@@ -4,17 +4,20 @@ import house_stars from '../assets/ai/house-stars.webp'
 import me from '../assets/ai/me1.jpg'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 import { BsGithub, BsLightbulb, BsLinkedin, BsLightbulbOffFill, BsFillFileEarmarkTextFill, BsFillMoonStarsFill } from 'react-icons/bs'
+
 export default function Projects() {
   return (
     <div className=" ">
-      <div className="cont grid grid-cols-4 flex-wrap gap-3.5 px-3.5 sm:px-0">
-        <div className="rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef] col-span-full row-span-1 flex flex-col  sm:col-span-2 lg:col-span-2 3xl:col-span-2">
+      <div className="cont mb-5 grid grid-cols-4 flex-wrap gap-3.5 px-3.5 sm:px-0">
+        {/* <div className="col-span-full row-span-1 flex flex-col rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef]">
           <div className="flex items-start justify-between ">
             <div className="flex flex-col">
-              <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Projects</h1>
+              <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Note</h1>
             </div>
           </div>
+
           <hr className="my-2" />
+
           <p className="text-md text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
             These are my personal projects I have worked on during university and after graduating.
             <br /> <br />
@@ -22,35 +25,75 @@ export default function Projects() {
             <br /> <br />
             My interests lie more within Frontend, but I also enjoy working with Full-Stack applications.
           </p>
-        </div>
-        <div className="car mainCard col-span-4 row-span-2 lg:col-span-2">
+        </div> */}
+
+        <div className="car mainCard col-span-4 row-span-2 lg:col-span-4">
           <div className="">
             <div className="flex justify-between">
-              <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
-                Personal Note
-              </h1>
+              <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">Projects</h1>
             </div>
-            <hr className="my-2" />
-            <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
-              I am a Software Developer who grew up in Greece, with a passion for building useful and visually appealing applications.
-              <br /> <br />
-              I am always looking for new ways to improve my skills and make my designs cleaner
-              <br /> <br />
-              Learning interesting new technologies has kept me motivated and allowed me to plan and work on projects that I enjoy building, which
-              helps me learn quicker and more efficiently.
-              <br /> <br />
-              Learning React and staying up to date with web technologies has been highly enjoyable also, it made me want to explore even more and
-              motivated me to keep learning after graduating from university by building new projects.
-            </p>
+            <hr className="mb-3.5" />
+            <div className="wrap flex grid grid-cols-4 grid-rows-3 flex-wrap gap-5 xl:grid-cols-3 ">
+              <div className="col-span-full  h-80 flex-wrap overflow-hidden rounded-xl bg-[#ffffff] shadow-md md:col-span-2 xl:col-span-1">
+                <p>Image</p>
+              </div>
+
+              <div className="col-span-full h-80 flex-wrap overflow-hidden rounded-xl bg-[#ffffff] shadow-md md:col-span-2 xl:col-span-1">
+                <p>Image</p>
+              </div>
+
+              <div className=" col-span-full h-80 flex-wrap overflow-hidden rounded-xl bg-[#ffffff] shadow-md md:col-span-2 xl:col-span-1">
+                <p>Image</p>
+              </div>
+
+              <div className=" col-span-full h-80 flex-wrap overflow-hidden rounded-xl bg-[#ffffff] shadow-md md:col-span-2 xl:col-span-1">
+                <p>Image</p>
+              </div>
+
+              <div className="col-span-full h-80  flex-wrap overflow-hidden rounded-xl bg-[#ffffff] shadow-md md:col-span-2 xl:col-span-1">
+                <p>Image</p>
+              </div>
+
+              <div className="col-span-full h-80 flex-wrap overflow-hidden rounded-xl bg-[#ffffff] shadow-md md:col-span-2 xl:col-span-1">
+                <p>Image</p>
+              </div>
+
+              <div className=" col-span-full h-80 flex-wrap overflow-hidden rounded-xl bg-[#ffffff] shadow-md md:col-span-2 xl:col-span-1">
+                <p>Image</p>
+              </div>
+
+              <div className="col-span-full h-80 flex-wrap overflow-hidden rounded-xl bg-[#ffffff] shadow-md md:col-span-2  xl:col-span-1">
+                <p>Image</p>
+              </div>
+            </div>
           </div>
         </div>
+
+        <div className="col-span-4 grid grid-cols-3 gap-3.5 2xl:grid-cols-4">
+          <div className="col-span-3 h-80  flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md lg:col-span-1 2xl:col-span-1">
+            <p>test</p>
+          </div>
+
+          <div className="col-span-3 flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md lg:col-span-1 2xl:col-span-1">
+            <p>test</p>
+          </div>
+
+          <div className="col-span-3 flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md lg:col-span-1 2xl:col-span-1">
+            <p>test</p>
+          </div>
+
+          <div className="col-span-3 flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md lg:col-span-1 2xl:col-span-1">
+            <p>test</p>
+          </div>
+        </div>
+
         <div className="car align-center col-span-2 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717]  dark:hover:bg-[#edeeef] 2xl:col-span-2 3xl:col-span-1">
           <div className=" flex-wrap overflow-hidden rounded-xl">
             <img src={me} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
           </div>
         </div>
 
-        <div className="car col-span-2 mainCard lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
+        <div className="car mainCard col-span-2 lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
           <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">Skills</h1>
           <div className="col-span-1">
             <div className="z-10 col-span-1 flex flex-1 flex-row flex-wrap justify-end">
