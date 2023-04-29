@@ -11,7 +11,7 @@ export default function Timeline() {
               <div className="relative col-span-12 space-y-6 px-4 sm:col-span-12">
                 <div className="relative col-span-12 space-y-12 px-4 before:bg-gray-500 before:dark:bg-gray-400 sm:col-span-12 sm:space-y-8 sm:before:absolute sm:before:-left-3 sm:before:bottom-0 sm:before:top-2 sm:before:w-0.5">
                  
-                 <div className="cardHoverShadow flex max-w-full flex-col rounded-lg bg-[#ffffff] p-5 px-8 py-4 text-gray-700 before:bg-[#0069b9] sm:relative sm:before:absolute sm:before:left-[-35px] sm:before:top-2 sm:before:z-[1] sm:before:h-4 sm:before:w-4 sm:before:rounded-full">
+                 <div className="cardHoverShadow flex max-w-full flex-col rounded-lg bg-[#ffffff] p-5 px-8 py-4 text-gray-700 before:bg-[#0069b9] sm:relative sm:before:absolute sm:before:left-[-43px] sm:before:top-2 sm:before:z-[1] sm:before:h-4 sm:before:w-4 sm:before:rounded-full">
                     <h3 className="font-inter text-xl font-bold tracking-wide">Web Developer Internship @ Voyager Seville</h3>
                     <time className="mb-2 text-xs uppercase tracking-wide dark:text-gray-400">Dec 2020</time>
                     <p className="max-w-lg text-justify text-sm leading-snug text-opacity-100 md:text-base">
