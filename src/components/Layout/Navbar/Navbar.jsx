@@ -21,23 +21,29 @@ export default function Navbar({ handleThemeSwitch, theme }) {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
             </svg>
           </label>
-          <ul tabIndex={0} className="dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-base-100 p-2 shadow">
+          <ul tabIndex={0} className="dropdown-content menu rounded-box menu-compact mt-3 w-52 border border-[#d1d0cf] bg-[#ebeae9] p-2 shadow-md">
             <li>
               <a
-                className={pathMatchRoute('/') ? 'mb-1 bg-[#2e5590] hover:bg-[#1b4584]' : ' mb-1 bg-base-300 hover:bg-[#3b414a] active:bg-[#2d4b73]'}
+                className={
+                  pathMatchRoute('/')
+                    ? 'mb-1 rounded-xl  bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
+                    : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
+                }
                 onClick={() => navigate('/')}
               >
                 Home
               </a>
             </li>
             <li>
-              <a
+            <a
                 className={
-                  pathMatchRoute('/offers') ? 'my-1 bg-[#2e5590] hover:bg-[#1b4584]' : ' my-1 bg-base-300 hover:bg-[#3b414a] active:bg-[#2d4b73]'
+                  pathMatchRoute('/projects')
+                    ? ' my-1 rounded-xl  bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
+                    : ' my-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
                 }
                 onClick={() => navigate('/projects')}
               >
-                Project
+                Projects
               </a>
             </li>
             <li>
@@ -51,7 +57,7 @@ export default function Navbar({ handleThemeSwitch, theme }) {
         <p className=" font-inter font-medium  text-[#202124] dark:text-[#f6eee8]">Vasil Dzhakov</p>
       </div>
 
-      <div className="duration-400 fixed left-1/2 top-3 z-50 py-2 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 shadow-none shadow-sm transition-shadow ease-in-out hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-lg hover:shadow-md hover:shadow-black/30 dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] lg:block ">
+      <div className="duration-400 fixed left-1/2 top-3 z-50 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 py-2 shadow-none shadow-sm transition-shadow ease-in-out hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-lg hover:shadow-md hover:shadow-black/30 dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] lg:block ">
         <a
           className={
             pathMatchRoute('/')

@@ -16,7 +16,7 @@ import me from '../assets/ai/me1.jpg'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 import { BsGithub, BsLightbulb, BsLinkedin, BsLightbulbOffFill, BsFillFileEarmarkTextFill, BsFillMoonStarsFill } from 'react-icons/bs'
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper'
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 
@@ -50,7 +50,7 @@ export default function About() {
               Currently I am building projects with NextJS, TypeScript, Tailwind, Prisma & Supabase.
             </p>
           </div>
-          <div className="car col-span-4 row-span-2 mainCard lg:col-span-2">
+          <div className="car mainCard col-span-4 row-span-2 lg:col-span-2">
             <div className="">
               <div className="flex items-start justify-between ">
                 <div className="flex flex-col">
@@ -78,20 +78,25 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="car align-center col-span-2  flex flex-col items-center justify-center  rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717]  dark:hover:bg-[#edeeef] 2xl:col-span-2 3xl:col-span-1">
+          <div className="car align-center col-span-4 flex flex-col items-center justify-center  rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717]  dark:hover:bg-[#edeeef] sm:col-span-2 3xl:col-span-1">
             <div className=" flex-wrap overflow-hidden rounded-xl">
               <img src={me} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
             </div>
           </div>
 
-          <div className=" align-center col-span-full row-span-1 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb]  bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018] sm:col-span-2 lg:col-span-2 2xl:col-span-2 3xl:col-span-1 3xl:col-span-1 3xl:col-span-1">
+          <div className=" align-center col-span-full row-span-1 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb]  bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018] sm:col-span-2 3xl:col-span-1">
             <div className=" w-full flex-1  flex-wrap overflow-hidden rounded-xl">
               <Swiper
                 // install Swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                 spaceBetween={50}
                 slidesPerView={1}
                 navigation
+                autoplay={{
+                  delay: 4000,
+                  disableOnInteraction: false,
+                  pauseOnMouseEnter: true,
+                }}
                 pagination={{ clickable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
@@ -118,13 +123,13 @@ export default function About() {
               </Swiper>
             </div>
           </div>
-          <div className="car col-span-2 mainCard lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
+          <div className="car mainCard col-span-4 sm:col-span-2 3xl:col-span-1">
             <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">Playlist</h1>
             <div className="col-span-1">Music</div>
 
             {/* <img src={galaxy} alt="galaxy" className="w-40" /> */}
           </div>
-          <div className="col-span-full row-span-1 flex flex-col mainCard sm:col-span-2 lg:col-span-2 3xl:col-span-2">
+          <div className="mainCard col-span-full row-span-1 flex flex-col sm:col-span-2 lg:col-span-2 3xl:col-span-2">
             <div className="flex items-start justify-between ">
               <div className="flex flex-col">
                 <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Current tech interest</h1>
@@ -139,7 +144,7 @@ export default function About() {
               DALL-E api for image generation.
             </p>
           </div>
-          <div className="col-span-full row-span-1 flex flex-col mainCard sm:col-span-2 lg:col-span-2 3xl:col-span-1">
+          <div className="mainCard col-span-full row-span-1 flex flex-col sm:col-span-2 lg:col-span-2 3xl:col-span-1">
             <div className="flex items-start justify-between ">
               <div className="flex flex-col">
                 <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Contact</h1>
@@ -186,6 +191,11 @@ export default function About() {
                 spaceBetween={50}
                 slidesPerView={1}
                 navigation
+                autoplay={{
+                  delay: 3000,
+                  disableOnInteraction: false,
+                  pauseOnMouseEnter: true,
+                }}
                 pagination={{ clickable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}

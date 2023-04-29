@@ -26,11 +26,11 @@ export default function AboutMe() {
               <br /> <br />
               I am always looking for new ways to improve my skills and make my designs cleaner.
               <br /> <br />
-              Learning interesting new technologies has kept me motivated and allowed me to plan and work on projects that I enjoy building, which also
-              helped me learn quicker and more efficiently.
+              Learning interesting new technologies has kept me motivated and allowed me to plan and work on projects that I enjoy building, which
+              also helped me learn quicker and more efficiently.
               <br /> <br />
-              In particular, staying up to date with web technologies and developing with React.js has been highly enjoyable and it made me want to explore even more and
-              motivated me to keep learning after graduating from university by building new projects.
+              In particular, staying up to date with web technologies and developing with React.js has been highly enjoyable and it made me want to
+              explore even more and motivated me to keep learning after graduating from university by building new projects.
             </p>
           </div>
         </div>
@@ -40,16 +40,49 @@ export default function AboutMe() {
           </div>
         </div>
 
-        <div className="mainCard car col-span-2 lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
-          <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">Skills</h1>
-          <div className="col-span-1">
-            <div className="z-10 col-span-1 flex flex-1 flex-row flex-wrap justify-end">
-              <div className="mr-2 mt-2 rounded-sm bg-[#393e46] px-4 py-1 font-inter font-semibold text-gray-200 hover:bg-[#224871]">React</div>
-              <div className="mr-2 mt-2 rounded-sm bg-[#393e46] px-4 py-1 font-inter font-semibold text-gray-200 hover:bg-[#224871]">Tailwind</div>
-              <div className="mr-2 mt-2 rounded-sm bg-[#393e46] px-4 py-1 font-inter font-semibold text-gray-200 hover:bg-[#224871]">JavaScript</div>
-              <div className="mr-2 mt-2 rounded-sm bg-[#393e46] px-4 py-1 font-inter font-semibold text-gray-200 hover:bg-[#224871]">NodeJS</div>
-              <div className="mr-2 mt-2 rounded-sm bg-[#393e46] px-4 py-1 font-inter font-semibold text-gray-200 hover:bg-[#224871]">Java</div>
-              <div className="mr-2 mt-2 rounded-sm bg-[#393e46] px-4 py-1 font-inter font-semibold text-gray-200 hover:bg-[#224871]">Spring Boot</div>
+        <div className="mainCard car col-span-2 grid items-center lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
+          <div className="place-center z-10  flex flex-grow grow flex-wrap gap-2 overflow-hidden ">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+              React
+            </div>
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+              Tailwind
+            </div>
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+              JavaScript
+            </div>
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+              HTML
+            </div>
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+              CSS
+            </div>
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+              Node.js
+            </div>
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+              Express.js
+            </div>
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+              MySQL
+            </div>
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+              MongoDB
+            </div>
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+              Firebase
+            </div>
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+              Java
+            </div>
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+              Spring Boot
+            </div>
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+              Git
+            </div>
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+              Postman
             </div>
           </div>
 

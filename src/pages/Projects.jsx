@@ -69,20 +69,20 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="col-span-4 grid grid-cols-3 gap-3.5 2xl:grid-cols-4">
-          <div className="col-span-3 h-80  flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md lg:col-span-1 2xl:col-span-1">
+        <div className="col-span-4 grid grid-cols-3 gap-3.5 md:grid-cols-4 3xl:grid-cols-4">
+          <div className="col-span-3 h-80  flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md md:col-span-2 lg:col-span-1 2xl:col-span-1 ">
+            <p>tewst</p>
+          </div>
+
+          <div className="col-span-3 h-80 flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md md:col-span-2 lg:col-span-1 2xl:col-span-1 ">
             <p>test</p>
           </div>
 
-          <div className="col-span-3 flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md lg:col-span-1 2xl:col-span-1">
+          <div className="col-span-3 h-80 flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md md:col-span-2 lg:col-span-1 2xl:col-span-1 ">
             <p>test</p>
           </div>
 
-          <div className="col-span-3 flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md lg:col-span-1 2xl:col-span-1">
-            <p>test</p>
-          </div>
-
-          <div className="col-span-3 flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md lg:col-span-1 2xl:col-span-1">
+          <div className="col-span-3 h-80 flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md md:col-span-2 lg:col-span-1 2xl:col-span-1">
             <p>test</p>
           </div>
         </div>
