@@ -24,7 +24,7 @@ export default function Timeline() {
                     </p>
                   </div>
 
-                  <div className="cardHoverShadow flex flex-col rounded-lg bg-[#ffffff] p-5 px-8 py-4 before:bg-[#0069b9] sm:relative sm:before:absolute sm:before:left-[-35px] sm:before:top-2 sm:before:z-[1] sm:before:h-4 sm:before:w-4 sm:before:rounded-full">
+                  <div className="cardHoverShadow flex flex-col rounded-lg bg-[#ffffff] p-5 px-4 py-4 before:bg-[#0069b9] sm:relative sm:before:absolute sm:before:left-[-43px] sm:before:top-2 sm:before:z-[1] sm:before:h-4 sm:before:w-4 sm:before:rounded-full">
                     <h3 className="font-inter  text-xl font-bold tracking-wide">Construction</h3>
                     <time className="text-xs uppercase tracking-wide dark:text-gray-400">Dec 2020</time>
                     <p className="max-w-lg text-justify text-sm leading-snug text-opacity-100 md:text-base">
@@ -35,7 +35,7 @@ export default function Timeline() {
                     </p>
                   </div>
 
-                  <div className="cardHoverShadow flex flex-col rounded-lg bg-[#ffffff] p-5 px-8 py-4 before:bg-[#0069b9] sm:relative sm:before:absolute sm:before:left-[-35px] sm:before:top-2 sm:before:z-[1] sm:before:h-4 sm:before:w-4 sm:before:rounded-full">
+                  <div className="cardHoverShadow flex flex-col rounded-lg bg-[#ffffff] p-5 px-8 py-4 before:bg-[#0069b9] sm:relative sm:before:absolute sm:before:left-[-43px] sm:before:top-2 sm:before:z-[1] sm:before:h-4 sm:before:w-4 sm:before:rounded-full">
                     <h3 className="font-inter text-xl font-bold tracking-wide">Waiter at ASAP Catering</h3>
                     <time className="text-xs uppercase tracking-wide dark:text-gray-400">Dec 2020</time>
                     <p className="max-w-lg text-justify text-sm leading-snug text-opacity-100 md:text-base">

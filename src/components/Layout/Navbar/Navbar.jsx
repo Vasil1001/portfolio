@@ -27,7 +27,7 @@ export default function Navbar({ handleThemeSwitch, theme }) {
                 className={
                   pathMatchRoute('/')
                     ? 'mb-1 rounded-xl  bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
-                    : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
+                    : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500 active:bg-[#dbdee3]'
                 }
                 onClick={() => navigate('/')}
               >
@@ -35,11 +35,11 @@ export default function Navbar({ handleThemeSwitch, theme }) {
               </a>
             </li>
             <li>
-            <a
+              <a
                 className={
                   pathMatchRoute('/projects')
-                    ? ' my-1 rounded-xl  bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
-                    : ' my-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
+                    ? 'mb-1 rounded-xl  bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
+                    : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500 active:bg-[#dbdee3]'
                 }
                 onClick={() => navigate('/projects')}
               >
@@ -47,10 +47,28 @@ export default function Navbar({ handleThemeSwitch, theme }) {
               </a>
             </li>
             <li>
-              <Link to="/experience">Experience</Link>
+            <a
+                className={
+                  pathMatchRoute('/experience')
+                    ? 'mb-1 rounded-xl  bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
+                    : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500  active:bg-[#dbdee3]'
+                }
+                onClick={() => navigate('/experience')}
+              >
+                Experience
+              </a>
             </li>
             <li>
-              <Link to="/about">About</Link>
+            <a
+                className={
+                  pathMatchRoute('/about')
+                    ? 'mb-1 rounded-xl  bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
+                    : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500  active:bg-[#dbdee3]'
+                }
+                onClick={() => navigate('/about')}
+              >
+                About
+              </a>
             </li>
           </ul>
         </div>
