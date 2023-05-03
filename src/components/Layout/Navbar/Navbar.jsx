@@ -47,7 +47,7 @@ export default function Navbar({ handleThemeSwitch, theme }) {
               </a>
             </li>
             <li>
-            <a
+              <a
                 className={
                   pathMatchRoute('/experience')
                     ? 'mb-1 rounded-xl  bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
@@ -59,7 +59,7 @@ export default function Navbar({ handleThemeSwitch, theme }) {
               </a>
             </li>
             <li>
-            <a
+              <a
                 className={
                   pathMatchRoute('/about')
                     ? 'mb-1 rounded-xl  bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
@@ -75,12 +75,12 @@ export default function Navbar({ handleThemeSwitch, theme }) {
         <p className=" font-inter font-medium  text-[#202124] dark:text-[#f6eee8]">Vasil Dzhakov</p>
       </div>
 
-      <div className="duration-400 fixed left-1/2 top-3 z-50 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 py-2 shadow-none shadow-sm transition-shadow ease-in-out hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-lg hover:shadow-md hover:shadow-black/30 dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] lg:block ">
+      <div className="duration-400 fixed left-1/2 top-3 z-50 py-3 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 py-2 shadow-none shadow-sm transition-shadow ease-in-out hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-lg hover:shadow-md hover:shadow-black/30 dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] lg:block ">
         <a
           className={
             pathMatchRoute('/')
-              ? 'mr-1.5 rounded-xl  bg-[#dce1e9] px-2.5  py-1 font-noto text-sm text-gray-800 hover:bg-[#d7dce4]'
-              : 'mr-1.5 rounded-xl px-2.5  py-1 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
+              ? 'mr-1.5 cursor-pointer rounded-xl bg-[#dce1e9] px-2.5 py-2  font-noto text-sm font-semibold text-gray-800 hover:bg-[#d7dce4]'
+              : 'mr-1.5 cursor-pointer rounded-xl px-2.5  py-2 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
           }
           onClick={() => navigate('/')}
         >
@@ -89,19 +89,19 @@ export default function Navbar({ handleThemeSwitch, theme }) {
         <a
           className={
             pathMatchRoute('/projects')
-              ? 'mr-1.5 rounded-xl  bg-[#dce1e9] px-2.5  py-1 font-noto text-sm text-gray-800 hover:bg-[#d7dce4]'
-              : 'mr-1.5 rounded-xl px-2.5  py-1 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
+              ? 'mr-1.5 cursor-pointer rounded-xl bg-[#dce1e9] px-2.5 py-2  font-noto text-sm font-semibold text-gray-800 hover:bg-[#d7dce4]'
+              : 'mr-1.5 cursor-pointer rounded-xl px-2.5  py-2 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
           }
           onClick={() => navigate('/projects')}
         >
-          Project
+          Projects
         </a>
-        {/* <button className="mr-1.5 rounded-xl px-2.5  py-1 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1]">Projects</button> */}
+        {/* <button className="mr-1.5 rounded-xl px-2.5  py-2 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1]">Projects</button> */}
         <a
           className={
             pathMatchRoute('/experience')
-              ? 'mr-1.5 rounded-xl  bg-[#dce1e9] px-2.5  py-1 font-noto text-sm text-gray-800 hover:bg-[#d7dce4]'
-              : 'mr-1.5 rounded-xl px-2.5  py-1 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
+              ? 'mr-1.5 cursor-pointer rounded-xl bg-[#dce1e9] px-2.5 py-2  font-noto text-sm font-semibold text-gray-800 hover:bg-[#d7dce4]'
+              : 'mr-1.5 cursor-pointer rounded-xl px-2.5  py-2 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
           }
           onClick={() => navigate('/experience')}
         >
@@ -110,8 +110,8 @@ export default function Navbar({ handleThemeSwitch, theme }) {
         <a
           className={
             pathMatchRoute('/about')
-              ? 'rounded-xl  bg-[#dce1e9] px-2.5  py-1 font-noto text-sm text-gray-800 hover:bg-[#d7dce4]'
-              : 'rounded-xl px-2.5  py-1 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
+              ? 'cursor-pointer rounded-xl bg-[#dce1e9] px-2.5 py-2  font-noto text-sm font-semibold text-gray-800 hover:bg-[#d7dce4]'
+              : 'cursor-pointer rounded-xl px-2.5  py-2 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
           }
           onClick={() => navigate('/about')}
         >

@@ -30,7 +30,7 @@ export default function Projects() {
         <div className="car mainCard col-span-4 row-span-2 lg:col-span-4">
           <div className="">
             <div className="flex justify-between">
-              <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">Projects</h1>
+              <h1 className="mb-1 text-left font-noto text-3xl  text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">Projects</h1>
             </div>
             <hr className="mb-3.5" />
             <div className="wrap flex grid grid-cols-4 grid-rows-3 flex-wrap gap-5 xl:grid-cols-3 ">
