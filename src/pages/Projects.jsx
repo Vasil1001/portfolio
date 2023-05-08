@@ -4,36 +4,24 @@ import house_stars from '../assets/ai/house-stars.webp'
 import me from '../assets/ai/me1.jpg'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 import { BsGithub, BsLightbulb, BsLinkedin, BsLightbulbOffFill, BsFillFileEarmarkTextFill, BsFillMoonStarsFill } from 'react-icons/bs'
+import projectsList from '../components/ProjectCardsPage/Projects'
 
 export default function Projects() {
   return (
-    <div className=" ">
-      <div className="cont mb-5 grid grid-cols-4 flex-wrap gap-3.5 px-3.5 sm:px-0">
-        {/* <div className="col-span-full row-span-1 flex flex-col rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef]">
-          <div className="flex items-start justify-between ">
-            <div className="flex flex-col">
-              <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Note</h1>
-            </div>
-          </div>
-
-          <hr className="my-2" />
-
-          <p className="text-md text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
-            These are my personal projects I have worked on during university and after graduating.
-            <br /> <br />
-            I build applications that I would use myself, that would keep me motivated to work on and learn every day.
-            <br /> <br />
-            My interests lie more within Frontend, but I also enjoy working with Full-Stack applications.
-          </p>
-        </div> */}
-
+      <div className="cont mt-2 mb-5 grid grid-cols-4 flex-wrap gap-3.5 px-3.5 sm:px-0">
         <div className="car mainCard col-span-4 row-span-2 lg:col-span-4">
           <div className="">
             <div className="flex justify-between">
               <h1 className="mb-1 text-left font-noto text-3xl  text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">Projects</h1>
             </div>
+
             <hr className="mb-3.5" />
-            <div className="wrap flex grid grid-cols-4 grid-rows-3 flex-wrap gap-5 xl:grid-cols-3 ">
+            
+            <div className="wrap grid grid-cols-4 grid-rows-3 flex-wrap gap-5 xl:grid-cols-3 ">
+              {projectsList.map((project) => (
+                <div key={project.id}>{project.name}</div>
+              ))}
+
               <div className="col-span-full  h-80 flex-wrap overflow-hidden rounded-xl bg-[#ffffff] shadow-md md:col-span-2 xl:col-span-1">
                 <p>Image</p>
               </div>
@@ -69,20 +57,20 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="col-span-4 grid grid-cols-3 gap-3.5 md:grid-cols-4 3xl:grid-cols-4">
-          <div className="col-span-3 h-80  flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md md:col-span-2 lg:col-span-1 2xl:col-span-1 ">
+        <div className="col-span-4 grid grid-cols-3 gap-3.5  grid-cols-4 lg:grid-cols-3 3xl:grid-cols-4">
+          <div className="col-span-4 h-80  flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md md:col-span-2 lg:col-span-1 2xl:col-span-1 ">
             <p>tewst</p>
           </div>
 
-          <div className="col-span-3 h-80 flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md md:col-span-2 lg:col-span-1 2xl:col-span-1 ">
+          <div className="col-span-4 h-80 flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md md:col-span-2 lg:col-span-1 2xl:col-span-1 ">
             <p>test</p>
           </div>
 
-          <div className="col-span-3 h-80 flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md md:col-span-2 lg:col-span-1 2xl:col-span-1 ">
+          <div className="col-span-4 h-80 flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md md:col-span-2 lg:col-span-1 2xl:col-span-1 ">
             <p>test</p>
           </div>
 
-          <div className="col-span-3 h-80 flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md md:col-span-2 lg:col-span-1 2xl:col-span-1">
+          <div className="col-span-4 h-80 flex-wrap overflow-hidden rounded-xl bg-[#f1f0ee] shadow-md md:col-span-2 lg:col-span-1 2xl:col-span-1">
             <p>test</p>
           </div>
         </div>
@@ -149,7 +137,6 @@ export default function Projects() {
             <img src={house_stars} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
           </div>
         </div>
-      </div>
     </div>
   )
 }

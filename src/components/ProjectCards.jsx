@@ -29,18 +29,18 @@ export default function Projects() {
                   <br /> <br />
                   Stack used: React, Vanilla CSS */}
               </p>
-              <img src={nutrition} className="rounded-xl" alt="home" />
+              <img src={nutrition} className="card2 rounded-xl" alt="home" />
             </div>
 
-            <div className="flex flex-col items-center justify-center  rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-1 text-center lg:col-span-1">
-              <div className=" flex-wrap overflow-hidden rounded-xl">
-                <img src={ios} className="rounded-2xl " alt="weather" />
+            <div className="cardQuiz flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] text-center lg:col-span-1">
+              <div className="card2 flex flex-wrap min-h-full min-w-full p-2  justify-center xl:p-3 2xl:py-4 overflow-hidden rounded-xl">
+                <img src={ios} className=" min-h-full max-w-full cursor-pointer rounded-2xl " alt="quiz" />
               </div>
             </div>
 
-            <div className="flex flex-col items-center justify-center  rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-1 text-center lg:col-span-1">
-              <div className=" flex-wrap overflow-hidden rounded-xl">
-                <img src={iOS_quiz} className="rounded-2xl" alt="quiz" />
+            <div className="cardQuiz flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] text-center lg:col-span-1">
+              <div className="card2 flex flex-wrap min-h-full min-w-full p-2   justify-center xl:p-3 2xl:py-4 overflow-hidden rounded-xl">
+                <img src={iOS_quiz} className=" min-h-full max-w-full  rounded-lg cursor-pointer " alt="quiz" />
               </div>
             </div>
           </div>

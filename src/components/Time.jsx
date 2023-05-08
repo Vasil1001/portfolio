@@ -4,11 +4,10 @@ export default function Time() {
   //https://tailwindcomponents.com/component/vertical-timeline-1
   return (
     <section className="rounded-xl px-0 text-left text-gray-700 dark:text-gray-100 ">
-      <div className=" mx-auto max-w-full py-12 ">
-        <div className="grid sm:grid-cols-12">
-          <div className="col-span-12 sm:col-span-12"></div>
-          <div className="relative col-span-12 space-y-6 px-0 sm:col-span-12 sm:px-6 md:px-24 xl:mx-auto xl:max-w-[90%]">
-            <div className="relative col-span-12 space-y-12 px-4 before:bg-gray-500 before:dark:bg-gray-400 sm:col-span-12 sm:space-y-8 sm:before:absolute sm:before:-left-3 sm:before:bottom-0 sm:before:top-2 sm:before:w-0.5">
+      <div className=" mx-auto max-w-full py-6 ">
+        <div className="grid">
+          <div className="relative col-span-12 space-y-6 px-3  md:px-3 xl:mx-auto xl:max-w-[90%] 3xl:max-w-[80%]">
+            <div className="relative col-span-12 space-y-12 px-4 before:bg-gray-500 before:dark:bg-gray-600 sm:col-span-12 sm:space-y-8 sm:before:absolute sm:before:-left-3 sm:before:bottom-0 sm:before:top-2 sm:before:w-0.5">
               <div className="cardHoverShadow flex max-w-full flex-col rounded-lg bg-[#ffffff] px-5 py-4 text-gray-700 before:bg-[#0069b9] sm:relative sm:before:absolute sm:before:left-[-35px] sm:before:top-2 sm:before:z-[1] sm:before:h-4 sm:before:w-4 sm:before:rounded-full md:px-8">
                 <h3 className="font-inter text-xl font-bold tracking-wide">Web Developer Internship @ Voyager Seville</h3>
                 <time className="mb-2 text-xs uppercase tracking-wide dark:text-gray-400">June 2019 - July 2019</time>

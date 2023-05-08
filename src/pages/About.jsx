@@ -28,9 +28,8 @@ import 'swiper/css/scrollbar'
 
 export default function About() {
   return (
-    <div>
-      <div className="mb-5 ">
-        <div className="cont flex grid grid-cols-4 flex-wrap  gap-3.5 px-3.5 sm:px-0">
+      <div className="mb-5 mt-2">
+        <div className="cont flex grid grid-cols-4 flex-wrap gap-3.5 px-3.5 sm:px-0">
           <div className="col-span-full row-span-1 flex flex-col rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef] sm:col-span-4 lg:col-span-2 3xl:col-span-2">
             <div className="flex items-start justify-between ">
               <div className="flex flex-col">
@@ -211,6 +210,5 @@ export default function About() {
           </div>
         </div>
       </div>
-    </div>
   )
 }
