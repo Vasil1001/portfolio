@@ -34,13 +34,13 @@ export default function AboutMe() {
             </p>
           </div>
         </div>
-        <div className="car align-center col-span-2  flex flex-col items-center justify-center  rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717]  dark:hover:bg-[#edeeef] 2xl:col-span-2 3xl:col-span-1">
+        <div className="car align-center col-span-4 flex  flex-col items-center justify-center rounded-2xl  border-2 border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#edeeef]  lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
           <div className=" flex-wrap overflow-hidden rounded-xl">
             <img src={me} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
           </div>
         </div>
 
-        <div className="mainCard car col-span-2 grid items-center lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
+        <div className="mainCard car col-span-4 grid items-center lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
           <div className="place-center z-10  flex flex-grow grow flex-wrap gap-2 overflow-hidden ">
             <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
               React
@@ -89,7 +89,7 @@ export default function AboutMe() {
           {/* <img src={galaxy} alt="galaxy" className="w-40" /> */}
         </div>
 
-        <div className="mainCard col-span-full row-span-1 flex flex-col p-6 text-center sm:col-span-2 lg:col-span-2 3xl:col-span-1">
+        <div className="mainCard col-span-4 row-span-1 flex flex-col p-6 text-center md:col-span-2 3xl:col-span-1">
           <div className="flex items-start justify-between ">
             <div className="flex flex-col">
               <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Contact</h1>
@@ -126,7 +126,7 @@ export default function AboutMe() {
           </form>
         </div>
 
-        <div className="cardgreen align-center col-span-full row-span-1 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb]  bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018] sm:col-span-2 lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
+        <div className="cardgreen align-center col-span-4 row-span-1 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee]  p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018] md:col-span-2 2xl:col-span-2 3xl:col-span-1">
           <div className="card2 w-full flex-1  flex-wrap overflow-hidden rounded-xl">
             <img src={house_stars} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
           </div>

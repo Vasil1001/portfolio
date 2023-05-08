@@ -8,6 +8,7 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import Experience from './pages/Experience'
 import 'animate.css'
+import Footer from './components/Footer'
 
 //ecf0f4
 function App() {
@@ -43,8 +44,12 @@ function App() {
             <Route path="/Experience" element={<Experience />} />
             <Route path="/about" element={<About />} />
           </Routes>
+          <Footer />
+
         </div>
+
       </div>
+
     </Router>
   )
 }
