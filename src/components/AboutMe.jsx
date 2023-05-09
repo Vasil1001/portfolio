@@ -24,6 +24,8 @@ export default function AboutMe() {
             <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
               I am a Software Developer who grew up in Greece, with a passion for building useful and visually appealing applications.
               <br /> <br />
+              I enjoy working with frontend and full-stack technologies, namely I have lately been building projects that interest me using React, Tailwind and NodeJS. 
+              <br /> <br />
               I am always looking for new ways to improve my skills and make my designs cleaner.
               <br /> <br />
               Learning interesting new technologies has kept me motivated and allowed me to plan and work on projects that I enjoy building, which
@@ -41,47 +43,47 @@ export default function AboutMe() {
         </div>
 
         <div className="mainCard car col-span-4 grid items-center lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
-          <div className="place-center z-10  flex flex-grow grow flex-wrap gap-2 overflow-hidden ">
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+          <div className="place-center z-10 flex flex-grow flex-wrap gap-2 overflow-hidden ">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               React
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Tailwind
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               JavaScript
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               HTML
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               CSS
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Node.js
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Express.js
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               MySQL
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               MongoDB
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Firebase
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Java
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Spring Boot
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Git
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3.5 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Postman
             </div>
           </div>
@@ -116,8 +118,8 @@ export default function AboutMe() {
               className="mt-3.5 block w-full rounded-lg border border-gray-300 bg-[#fefefe] p-2.5 text-sm text-gray-900 shadow-md focus:border-blue-500 focus:ring-blue-500 dark:border-gray-400 dark:bg-[#f0f2f4] dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
               placeholder="Write your message"
               required
-              rows="4"
-              cols="50"
+              rows="2"
+              cols="30"
             />
             {/* <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"></input> */}
             <button className="mt-5 flex flex-col items-end">

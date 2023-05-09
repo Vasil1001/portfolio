@@ -37,7 +37,7 @@ function App() {
     <Router>
       <div className="dark:bg-bg-gradient-to-b bg-gradient-to-b overflow-hidden from-[#f8f5f5] via-white to-[#f8fbff] dark:from-[#252529] dark:to-[#252529]">
         <Navbar theme={theme} handleThemeSwitch={handleThemeSwitch} />
-        <div className="z-20 mx-auto flex max-w-screen  min-h-screen flex-col  justify-center  text-center sm:p-7 xl:mx-auto xl:w-10/12 xl:p-0 xl:pt-5 2xl:w-8/12 2.5xl:w-9/12">
+        <div className="z-20 mx-auto flex max-w-screen  min-h-screen flex-col  justify-center  text-center sm:p-7 xl:mx-auto xl:w-10/12 xl:p-0 xl:pt-5 2xl:w-8/12 3xl:w-7/12">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />

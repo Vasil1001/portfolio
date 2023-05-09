@@ -1,5 +1,5 @@
 import React from 'react'
-import nutrition from '../assets/project_screenshots/nutrition/nutrition.png'
+import nutrition from '../assets/project_screenshots/nutrition/nutrition1.png'
 import ios from '../assets/project_screenshots/ios.png'
 import iOS_quiz from '../assets/project_screenshots/iOS_quiz.png'
 import { HiOutlineExternalLink } from 'react-icons/hi'
@@ -31,7 +31,7 @@ export default function Projects() {
               <img src={nutrition} className="card2 rounded-xl" alt="home" />
             </div>
 
-            <div className="cardQuiz col-span-2 flex  flex-col items-center justify-center rounded-2xl  bg-[#000] text-center dark:hover:border-[#000] md:col-span-1 lg:col-span-1">
+            <div className="cardQuiz col-span-2 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] text-center dark:hover:border-[#000] md:col-span-1 lg:col-span-1">
               <div className="card2 flex min-h-full min-w-full flex-wrap justify-center  overflow-hidden rounded-xl p-1">
                 <img src={ios} className=" min-h-full max-w-full cursor-pointer rounded-xl " alt="quiz" />
               </div>
@@ -57,6 +57,8 @@ export default function Projects() {
                 <br /> <br />
                 Image
               </p> */}
+                            <img src={nutrition} className="card2 rounded-xl" alt="home" />
+
             </div>
 
             <div className="mainCard col-span-full text-center dark:bg-[#edeeef] lg:col-span-2">
@@ -64,11 +66,15 @@ export default function Projects() {
                 rently
                 <hr className="mt-3" />
               </h1>
+              <img src={nutrition} className="card2 rounded-xl" alt="home" />
+
             </div>
             <div className="mainCard col-span-full flex-1 text-center dark:bg-[#edeeef] lg:col-span-2">
               <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                 MERN
                 <hr className="mt-3" />
+                <img src={nutrition} className="card2 rounded-xl" alt="home" />
+
               </h1>
             </div>
 
@@ -76,6 +82,8 @@ export default function Projects() {
               <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                 Portfolio
                 <hr className="mt-3" />
+                <img src={nutrition} className="card2 rounded-xl" alt="home" />
+
               </h1>
             </div>
 
@@ -89,6 +97,8 @@ export default function Projects() {
               <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                 Spring Boot <hr className="mt-3" />
               </h1>
+              <img src={nutrition} className="card2 rounded-xl" alt="home" />
+
               {/* <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
                 React app to search for GitHub profiles and display available information about user, description and latest projects.
                 <br /> <br />
@@ -105,6 +115,8 @@ export default function Projects() {
                 Prompt Image Generator
                 <hr className="mt-3" />
               </h1>
+              <img src={nutrition} className="card2 rounded-xl" alt="home" />
+
             </div>
 
             <div className="mainCard col-span-full flex-1 text-center dark:bg-[#edeeef] lg:col-span-2">
@@ -112,6 +124,8 @@ export default function Projects() {
                 Pokedex API Layout Clone
                 <hr className="mt-3" />
               </h1>
+              <img src={nutrition} className="card2 rounded-xl" alt="home" />
+
             </div>
           </div>
         </div>
