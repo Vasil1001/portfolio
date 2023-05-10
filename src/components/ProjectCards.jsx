@@ -5,9 +5,15 @@ import iOS_quiz from '../assets/project_screenshots/iOS_quiz.png'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 import githubFinder from '../assets/project_screenshots/github_finder/githubFinder.png'
 import homeRently from '../assets/project_screenshots/rently/homeRently.png'
-import rentlyProperty from '../assets/project_screenshots/rently/rentlyProperty.jpg'
 import nutritionHome from '../assets/project_screenshots/nutrition/nutritionHome.png'
-
+import finder from '../assets/project_screenshots/github_finder/home.png'
+import ticketDesk from '../assets/project_screenshots/ticket_mern/ticketDesk.png'
+import portfolio from '../assets/project_screenshots/portfolio/portfolio.png'
+import portfoliod from '../assets/project_screenshots/portfolio/pdark.png'
+import pokeHome from '../assets/project_screenshots/pokedex/pokeHome.png'
+import pokeView from '../assets/project_screenshots/pokedex/pokeView.png'
+import ai_concept from '../assets/project_screenshots/ai_gen/concept.png'
+import dashboardSpring from '../assets/project_screenshots/springBoot/dashboardSpring.png'
 export default function Projects() {
   return (
     <div className="mt-3.5">
@@ -24,7 +30,10 @@ export default function Projects() {
                 <hr className="mt-3" />
               </h1>
               <p className="text-md px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
-                A React project that allows users to calculate their daily nutrient intake and hit desired goals.
+                A personal React project built to help me calculate my daily nutrient intake. 
+                It's main purpose is to assist me in my gym journey and help me eat more, while learning about proper nutrition,
+                protein, eating healhty, tracking my progress and documenting my research.
+                
               </p>
               <img src={nutrition} className="card2 rounded-xl" alt="home" />
             </div>
@@ -64,18 +73,18 @@ export default function Projects() {
 
             <div className="projMainPageCard col-span-full text-center dark:bg-[#edeeef] lg:col-span-2">
               <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
-                rently
+                Ticket Desk MERN
                 <hr className="mt-3" />
               </h1>
-              <img src={githubFinder} className="card2 rounded-xl" alt="home" />
+              <img src={ticketDesk} className="card2 rounded-xl" alt="home" />
             </div>
 
             <div className="projMainPageCard col-span-full text-center dark:bg-[#edeeef] lg:col-span-2">
               <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
-                rently
+                Portfolio
                 <hr className="mt-3" />
               </h1>
-              <img src={nutrition} className="card2 rounded-xl" alt="home" />
+              <img src={portfoliod} className="card2 rounded-xl" alt="home" />
             </div>
 
             <div className="transition-all hover:transition-all hover:rounded-tl-[27px] col-span-full flex max-h-[500px] gap-3.5 overflow-hidden">
@@ -87,9 +96,14 @@ export default function Projects() {
 
               <div className="projOverflowCard  grow w-2/3 text-center dark:bg-[#edeeef] ">
                 <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
-                  Spring Boot <hr className="mt-3" />
+                  Bug Tracker Spring Boot <hr className="mt-3" />
                 </h1>
-                <img src={nutrition} className="card2 overflow-hidden rounded-xl  object-contain" alt="home" />
+                <p className="text-md px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
+                A Fullstack Spring Boot application that allows users to create tickets, assign them to projects and members, and projects to companies.
+                It was created after university to expand on what I had learned in Java from my classes. The frontend part was thymeleaf,
+                and it is what made me explore frontend frameworks and ended up with React!
+              </p>
+                <img src={dashboardSpring} className="card2 overflow-hidden rounded-xl  object-contain" alt="home" />
 
                 {/* <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
                 React app to search for GitHub profiles and display available information about user, description and latest projects.
@@ -104,20 +118,27 @@ export default function Projects() {
             </div>
 
             <div className=" col-span-full flex gap-3.5">
-              <div className="mainCard grow-1 float-left w-full flex-wrap text-center dark:bg-[#edeeef] md:w-1/2">
+              <div className="projMainPageCard grow-1 float-left w-full flex-wrap text-center dark:bg-[#edeeef] md:w-1/2">
                 <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                   Prompt Image Generator
                   <hr className="mt-3" />
                 </h1>
-                <img src={nutrition} className="card2 rounded-xl" alt="home" />
+                <p className="text-md px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
+                A NextJS fullstack project that allows users to generate an image from typing a prompt and describing the image they want.
+                The project is in progress, the image below is a concept of what it should look like.
+              </p>
+                <img src={ai_concept} className="card2 rounded-xl" alt="home" />
               </div>
 
-              <div className="mainCard grow-1 float-right w-full flex-wrap text-center dark:bg-[#edeeef] md:w-1/2">
+              <div className="projMainPageCard grow-1 float-right w-full flex-wrap text-center dark:bg-[#edeeef] md:w-1/2">
                 <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                   Pokedex API Layout Clone
                   <hr className="mt-3" />
                 </h1>
-                <img src={nutrition} className="card2 rounded-xl" alt="home" />
+                <p className="text-md px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
+                A simple React application created to practice with Tailwind layouts using the Pokedex API.
+              </p>
+                <img src={pokeView} className="card2 rounded-xl" alt="home" />
               </div>
             </div>
           </div>
