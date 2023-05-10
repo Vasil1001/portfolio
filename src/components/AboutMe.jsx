@@ -22,17 +22,14 @@ export default function AboutMe() {
             </div>
             <hr className="my-3" />
             <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
-              I am a Software Developer who grew up in Greece, with a passion for building useful and visually appealing applications.
+              I am a Software Developer who grew up in Greece, with a passion for building clean and visually appealing applications.
               <br /> <br />
-              I enjoy working with frontend and full-stack technologies, namely I have lately been building projects that interest me using React, Tailwind and NodeJS. 
+              I enjoy working with frontend and full-stack technologies. The most notable being React, Tailwind and Node.js with Express.js. 
               <br /> <br />
-              I am always looking for new ways to improve my skills and make my designs cleaner.
+              Learning interesting new technologies has motivated me to plan and work on projects that I have fun building, resulting in better learning outcomes.
               <br /> <br />
-              Learning interesting new technologies has kept me motivated and allowed me to plan and work on projects that I enjoy building, which
-              also helped me learn quicker and more efficiently.
-              <br /> <br />
-              In particular, staying up to date with web technologies and developing with React.js has been highly enjoyable and it made me want to
-              explore even more and motivated me to keep learning after graduating from university by building new projects.
+              Staying up to date with web technologies in particular and working with React has been highly enjoyable and I have
+               multiple planned projects and desire to build interesting software.
             </p>
           </div>
         </div>
@@ -115,11 +112,11 @@ export default function AboutMe() {
             <textarea
               type="text"
               name="message"
-              className="mt-3.5 block w-full rounded-lg border border-gray-300 bg-[#fefefe] p-2.5 text-sm text-gray-900 shadow-md focus:border-blue-500 focus:ring-blue-500 dark:border-gray-400 dark:bg-[#f0f2f4] dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+              className="mt-3.5  block w-full rounded-lg border border-gray-300 bg-[#fefefe] p-2.5 text-sm text-gray-900 shadow-md focus:border-blue-500 focus:ring-blue-500 dark:border-gray-400 dark:bg-[#f0f2f4] dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
               placeholder="Write your message"
               required
-              rows="2"
-              cols="30"
+              rows="5"
+              cols="10"
             />
             {/* <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"></input> */}
             <button className="mt-5 flex flex-col items-end">

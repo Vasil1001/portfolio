@@ -25,16 +25,17 @@ export default function Projects() {
           </div>
           <div className="mb-3.5 grid grid-cols-4 flex-wrap  gap-3.5 md:grid-cols-3 lg:grid-cols-4">
             <div className="projMainPageCard col-span-full text-center dark:bg-[#edeeef] md:col-span-2">
-            <div className="flex justify-between">
+              <div className="flex justify-between">
                 <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                   Nutrition Tracker
                   <hr className="mt-2 " />
                 </h1>
                 <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
               </div>
-              <p className="text-md px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
-                A personal React project built to help me calculate my daily nutrient intake. It's main purpose is to assist me in my gym journey and
-                help me eat more, while learning about proper nutrition, protein, eating healhty, tracking my progress and documenting my research.
+              <p className="homeProjectDescription">
+                {/* A personal React project built to help me calculate my daily nutrient intake. It's main purpose is to assist me in my gym journey and
+                help me eat more, while learning about proper nutrition, protein, eating healhty, tracking my progress and documenting my research. */}
+                A website that accompanies my gym journey by helping calculate my daily nutrient needs motivates me to hit my set targets.
               </p>
               <img src={nutrition} className="card2 rounded-xl" alt="home" />
             </div>
@@ -59,28 +60,28 @@ export default function Projects() {
                 <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
               </div>
 
-              <p className="text-md px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
+              <p className="homeProjectDescription">
                 A project that uses GitHub API to search for profiles and display information about them like latest repositories.
               </p>
               <img src={githubFinder} className="card2 rounded-xl" alt="home" />
             </div>
 
-            <div className="projMainPageCard col-span-4 text-center dark:bg-[#edeeef] md:col-span-2">
-            <div className="flex justify-between">
+            <div className="projMainPageCard col-span-full text-center dark:bg-[#edeeef] lg:col-span-2">
+              <div className="flex justify-between">
                 <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                   Rently
                   <hr className="mt-2 " />
                 </h1>
                 <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
               </div>
-              <p className="text-md px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
+              <p className="homeProjectDescription">
                 A property rental project that allows users to rent their property or get in contact with a landlord and find the right home.
               </p>
               <img src={homeRently} className=" card2 overflow-hidden rounded-xl" alt="home" />
             </div>
 
             <div className="projMainPageCard col-span-full text-center dark:bg-[#edeeef] lg:col-span-2">
-            <div className="flex justify-between">
+              <div className="flex justify-between">
                 <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                   Ticket Desk MERN
                   <hr className="mt-2 " />
@@ -91,7 +92,7 @@ export default function Projects() {
             </div>
 
             <div className="projMainPageCard col-span-full text-center dark:bg-[#edeeef] lg:col-span-2">
-            <div className="flex justify-between">
+              <div className="flex justify-between">
                 <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                   Portfolio
                   <hr className="mt-2 " />
@@ -109,17 +110,19 @@ export default function Projects() {
               </div>
 
               <div className="projOverflowCard  w-2/3 grow text-center dark:bg-[#edeeef] ">
-              <div className="flex justify-between">
-                <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
-                  Bug Tracker Spring Boot
-                  <hr className="mt-2 " />
-                </h1>
-                <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
-              </div>
-                <p className="text-md px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
-                  A Fullstack Spring Boot application that allows users to create tickets, assign them to projects and members, and projects to
+                <div className="flex justify-between">
+                  <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+                    Bug Tracker Spring Boot
+                    <hr className="mt-2 " />
+                  </h1>
+                  <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
+                </div>
+                <p className="homeProjectDescription">
+                  {/* A Fullstack Spring Boot application that allows users to create tickets, assign them to projects and members, and projects to
                   companies. It was created after university to expand on what I had learned in Java from my classes. The frontend part was thymeleaf,
-                  and it is what made me explore frontend frameworks and ended up with React!
+                  and it is what made me explore frontend frameworks and ended up with React! */}
+                  Fullstack project built after university to expand on Java from my classes. Frontend was written in thymeleaf, and it is what made
+                  me explore frontend frameworks and learning React!
                 </p>
                 <img src={dashboardSpring} className="card2 overflow-hidden rounded-xl  object-contain" alt="home" />
 
@@ -137,13 +140,13 @@ export default function Projects() {
 
             <div className=" col-span-full flex gap-3.5">
               <div className="projMainPageCard grow-1 float-left w-full flex-wrap text-center dark:bg-[#edeeef] md:w-1/2">
-              <div className="flex justify-between">
-                <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
-                  Prompt Image Generator
-                  <hr className="mt-2 " />
-                </h1>
-                <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
-              </div>
+                <div className="flex justify-between">
+                  <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+                    Prompt Image Generator
+                    <hr className="mt-2 " />
+                  </h1>
+                  <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
+                </div>
                 <p className="text-md px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
                   A NextJS fullstack project that allows users to generate an image from typing a prompt and describing the image they want. The
                   project is in progress, the image below is a concept of what it should look like.
@@ -152,13 +155,13 @@ export default function Projects() {
               </div>
 
               <div className="projMainPageCard grow-1 float-right w-full flex-wrap text-center dark:bg-[#edeeef] md:w-1/2">
-              <div className="flex justify-between">
-                <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
-                  Pokedex API Layout  
-                  <hr className="mt-2 " />
-                </h1>
-                <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
-              </div>
+                <div className="flex justify-between">
+                  <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+                    Pokedex API Layout
+                    <hr className="mt-2 " />
+                  </h1>
+                  <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
+                </div>
                 <p className="text-md px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
                   A simple React application created to practice with Tailwind layouts using the Pokedex API.
                 </p>

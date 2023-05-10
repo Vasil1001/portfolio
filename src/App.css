@@ -21,6 +21,10 @@
 .cardHoverShadow {
   @apply shadow-sm transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30;
 }
+
+.homeProjectDescription {
+  @apply text-sm px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] 
+  }
 /* e3e4e4 DARK MODE SWITCH thanks to: https://uiverse.io/Praashoo7/angry-starfish-78 */
 /* The switch - the box around the slider */
 .switch {
