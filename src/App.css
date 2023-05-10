@@ -10,6 +10,14 @@
 .mainCard {
   @apply rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-7 text-center dark:bg-[#edeeef];
 }
+
+.projOverflowCard {
+  @apply justify-between rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center dark:bg-[#edeeef];
+}
+
+.projMainPageCard {
+  @apply flex flex-col justify-between rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center dark:bg-[#edeeef];
+}
 .cardHoverShadow {
   @apply shadow-sm transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30;
 }
@@ -206,6 +214,7 @@ input:checked + .slider:before {
 /* images border */
 .card2:hover {
   transform: scale(0.98);
+  
 }
 
 .card:hover {
@@ -223,12 +232,25 @@ input:checked + .slider:before {
   box-shadow: 0px 5px 40px 2px rgba(31, 63, 88, 0.55);
   background-image: linear-gradient(146deg, #000 0%, #000 100%);
   transition: all 0.3s;
+  border-radius: 27px;
 }
 .card {
   transition: all 0.3s;
 }
 .card2 {
   transition: all 0.3s;
+  
+}
+
+.cardiOS:hover {
+  box-shadow: 0px 5px 40px 2px rgba(31, 63, 88, 0.55);
+  background-image: linear-gradient(146deg, #000 0%, #000 100%);
+  transition: all 0.3s;
+  border-top-left-radius: 27px;
+  border-top-right-radius: 27px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+
 }
 
 /* Blur the rest on card hover

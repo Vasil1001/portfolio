@@ -3,6 +3,10 @@ import nutrition from '../assets/project_screenshots/nutrition/nutrition1.png'
 import ios from '../assets/project_screenshots/ios.png'
 import iOS_quiz from '../assets/project_screenshots/iOS_quiz.png'
 import { HiOutlineExternalLink } from 'react-icons/hi'
+import githubFinder from '../assets/project_screenshots/github_finder/githubFinder.png'
+import homeRently from '../assets/project_screenshots/rently/homeRently.png'
+import rentlyProperty from '../assets/project_screenshots/rently/rentlyProperty.jpg'
+import nutritionHome from '../assets/project_screenshots/nutrition/nutritionHome.png'
 
 export default function Projects() {
   return (
@@ -13,93 +17,81 @@ export default function Projects() {
             <h1 className="text-center  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Projects</h1>
             <p className="text-md max-w-lg text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-xl"></p>
           </div>
-          <div className="mb-3.5 grid grid-cols-4 flex-wrap  gap-3.5  md:grid-cols-3 lg:grid-cols-4">
-            <div className="items-left col-span-4 flex flex-col justify-between rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-2 text-center dark:bg-[#edeeef] md:col-span-2 lg:col-span-2 xl:p-3 2xl:py-4">
-              <h1 className="mt-1 flex justify-between pl-2 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+          <div className="mb-3.5 grid grid-cols-4 flex-wrap  gap-3.5 md:grid-cols-3 lg:grid-cols-4">
+            <div className="projMainPageCard col-span-full text-center dark:bg-[#edeeef] md:col-span-2">
+              <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                 Nutrition Tracker
-                <HiOutlineExternalLink className="cursor-pointer text-[#202124]" size={'1.4rem'} />
+                <hr className="mt-3" />
               </h1>
-              <hr className="" />
-              <p className="text-md p-2 text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
-                {/* A Nutrition Tracker project with React and Vanilla CSS that allows users to calculate their daily nutrient intake and hit desired
-                goals. */}
-                {/* <br /> <br />
-                  A personal project to accompany my gym nutrition and stick to my goals.
-                  <br /> <br />
-                  Stack used: React, Vanilla CSS */}
+              <p className="text-md px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
+                A React project that allows users to calculate their daily nutrient intake and hit desired goals.
               </p>
               <img src={nutrition} className="card2 rounded-xl" alt="home" />
             </div>
-
             <div className="cardQuiz col-span-2 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] text-center dark:hover:border-[#000] md:col-span-1 lg:col-span-1">
               <div className="card2 flex min-h-full min-w-full flex-wrap justify-center  overflow-hidden rounded-xl p-1">
-                <img src={ios} className=" min-h-full max-w-full cursor-pointer rounded-xl " alt="quiz" />
+                <img src={ios} className="min-h-full max-w-full cursor-pointer rounded-xl hover:rounded-[21px] " alt="quiz" />
               </div>
             </div>
 
-            <div className="cardQuiz col-span-2  flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] text-center dark:hover:border-[#000] md:col-span-1 lg:col-span-1">
+            <div className="cardQuiz col-span-2 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] text-center dark:hover:border-[#000] md:col-span-1 lg:col-span-1">
               <div className="card2 flex min-h-full min-w-full flex-wrap justify-center   overflow-hidden rounded-xl p-1">
-                <img src={iOS_quiz} className=" min-h-full max-w-full  cursor-pointer rounded-xl " alt="quiz" />
+                <img src={iOS_quiz} className="min-h-full max-w-full cursor-pointer  rounded-xl hover:rounded-[21px] " alt="quiz" />
               </div>
             </div>
 
-            <div className="mainCard col-span-4 text-center dark:bg-[#edeeef] md:col-span-2">
-              <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+            <div className="projMainPageCard col-span-4 text-center dark:bg-[#edeeef] md:col-span-2">
+              <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                 Github Finder
+                <hr className="mt-2 " />
+              </h1>
+              <p className="text-md px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
+                A project that uses GitHub API to search for profiles and display information about them like latest repositories.
+              </p>
+              <img src={githubFinder} className="card2 rounded-xl" alt="home" />
+            </div>
+
+            <div className="projMainPageCard col-span-4 text-center dark:bg-[#edeeef] md:col-span-2">
+              <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+                Rently
+                <hr className="mt-2 " />
+              </h1>
+              <p className="text-md px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
+                A property rental project that allows users to rent their property or get in contact with a landlord and find the right home.
+              </p>
+              <img src={homeRently} className=" overflow-hidden card2 rounded-xl" alt="home" />
+            </div>
+
+            <div className="projMainPageCard col-span-full text-center dark:bg-[#edeeef] lg:col-span-2">
+              <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+                rently
                 <hr className="mt-3" />
               </h1>
-              {/* <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
-                React app to search for GitHub profiles and display available information about user, description and latest projects.
-                <br /> <br />
-                This app uses the Context API with the useContext and useReducer hooks for state management.
-                <br /> <br />
-                Stack used: React, TailwindCSS, Context API, DaisyUI
-                <br /> <br />
-                Image
-              </p> */}
-                            <img src={nutrition} className="card2 rounded-xl" alt="home" />
-
+              <img src={githubFinder} className="card2 rounded-xl" alt="home" />
             </div>
 
-            <div className="mainCard col-span-full text-center dark:bg-[#edeeef] lg:col-span-2">
-              <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+            <div className="projMainPageCard col-span-full text-center dark:bg-[#edeeef] lg:col-span-2">
+              <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                 rently
                 <hr className="mt-3" />
               </h1>
               <img src={nutrition} className="card2 rounded-xl" alt="home" />
-
-            </div>
-            <div className="mainCard col-span-full flex-1 text-center dark:bg-[#edeeef] lg:col-span-2">
-              <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
-                MERN
-                <hr className="mt-3" />
-                <img src={nutrition} className="card2 rounded-xl" alt="home" />
-
-              </h1>
             </div>
 
-            <div className="mainCard col-span-full flex-1 text-center dark:bg-[#edeeef] lg:col-span-2">
-              <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
-                Portfolio
-                <hr className="mt-3" />
-                <img src={nutrition} className="card2 rounded-xl" alt="home" />
-
-              </h1>
-            </div>
-
-            <div className="cardQuiz col-span-2  flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] text-center dark:hover:border-[#000] md:col-span-1 lg:col-span-1">
+            <div className="transition-all hover:transition-all hover:rounded-tl-[27px] col-span-full flex max-h-[500px] gap-3.5 overflow-hidden">
+              <div className="cardiOS  col-span-2 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] text-center dark:hover:border-[#000] md:col-span-1 lg:col-span-1">
               <div className="card2 flex min-h-full min-w-full flex-wrap justify-center   overflow-hidden rounded-xl p-1">
-                <img src={iOS_quiz} className=" min-h-full max-w-full  cursor-pointer rounded-xl " alt="quiz" />
+                <img src={iOS_quiz} className="min-h-full max-w-full cursor-pointer  rounded-xl hover:rounded-[21px] " alt="quiz" />
               </div>
             </div>
 
-            <div className="mainCard col-span-4 text-center dark:bg-[#edeeef] md:col-span-2 md:col-span-2 lg:col-span-3">
-              <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
-                Spring Boot <hr className="mt-3" />
-              </h1>
-              <img src={nutrition} className="card2 rounded-xl" alt="home" />
+              <div className="projOverflowCard  grow w-2/3 text-center dark:bg-[#edeeef] ">
+                <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+                  Spring Boot <hr className="mt-3" />
+                </h1>
+                <img src={nutrition} className="card2 overflow-hidden rounded-xl  object-contain" alt="home" />
 
-              {/* <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
+                {/* <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
                 React app to search for GitHub profiles and display available information about user, description and latest projects.
                 <br /> <br />
                 This app uses the Context API with the useContext and useReducer hooks for state management.
@@ -108,28 +100,28 @@ export default function Projects() {
                 <br /> <br />
                 Image
               </p> */}
+              </div>
             </div>
 
-            <div className="mainCard col-span-full flex-1 text-center dark:bg-[#edeeef] lg:col-span-2">
-              <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
-                Prompt Image Generator
-                <hr className="mt-3" />
-              </h1>
-              <img src={nutrition} className="card2 rounded-xl" alt="home" />
+            <div className=" col-span-full flex gap-3.5">
+              <div className="mainCard grow-1 float-left w-full flex-wrap text-center dark:bg-[#edeeef] md:w-1/2">
+                <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+                  Prompt Image Generator
+                  <hr className="mt-3" />
+                </h1>
+                <img src={nutrition} className="card2 rounded-xl" alt="home" />
+              </div>
 
-            </div>
-
-            <div className="mainCard col-span-full flex-1 text-center dark:bg-[#edeeef] lg:col-span-2">
-              <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
-                Pokedex API Layout Clone
-                <hr className="mt-3" />
-              </h1>
-              <img src={nutrition} className="card2 rounded-xl" alt="home" />
-
+              <div className="mainCard grow-1 float-right w-full flex-wrap text-center dark:bg-[#edeeef] md:w-1/2">
+                <h1 className="mb-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+                  Pokedex API Layout Clone
+                  <hr className="mt-3" />
+                </h1>
+                <img src={nutrition} className="card2 rounded-xl" alt="home" />
+              </div>
             </div>
           </div>
         </div>
-
         {/* <div className="mb-3.5 grid grid-cols-4 flex-wrap gap-3.5">
           <div className="mainCard col-span-2 row-span-3 text-center dark:bg-[#edeeef]">
             <div className="">
