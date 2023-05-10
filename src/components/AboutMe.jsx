@@ -10,7 +10,7 @@ import { BsGithub, BsLightbulb, BsLinkedin, BsLightbulbOffFill, BsFillFileEarmar
 export default function AboutMe() {
   return (
     <div className=" ">
-      <div className="cont flex grid grid-cols-4 flex-wrap gap-3.5 px-3.5 sm:px-0">
+      <div className="cont grid grid-cols-4 flex-wrap gap-3.5 px-3.5 sm:px-0">
         <div className="car mainCard col-span-4 row-span-2 lg:col-span-2">
           <div className="">
             <div className="flex justify-between">
@@ -18,7 +18,7 @@ export default function AboutMe() {
                 Personal Note
               </h1>
 
-              <HiOutlineExternalLink className="car" size={'1.4rem'} />
+              <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
             </div>
             <hr className="my-3" />
             <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
