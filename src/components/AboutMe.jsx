@@ -115,7 +115,7 @@ export default function AboutMe() {
               className="mt-3.5  block w-full rounded-lg border border-gray-300 bg-[#fefefe] p-2.5 text-sm text-gray-900 shadow-md focus:border-blue-500 focus:ring-blue-500 dark:border-gray-400 dark:bg-[#f0f2f4] dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
               placeholder="Write your message"
               required
-              rows="5"
+              rows="3"
               cols="10"
             />
             {/* <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"></input> */}
