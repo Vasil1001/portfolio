@@ -60,7 +60,7 @@ export default function Projects() {
                 <img src={ios} className="min-h-full max-w-full cursor-pointer rounded-xl hover:rounded-[21px] " alt="quiz" />
               </div>
             </div>
-
+                
             <div className="cardQuiz col-span-2 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] text-center dark:hover:border-[#000] md:col-span-1 lg:col-span-1">
               <div className="card2 flex min-h-full min-w-full flex-wrap justify-center   overflow-hidden rounded-xl p-1">
                 <img src={iOS_quiz} className="min-h-full max-w-full cursor-pointer  rounded-xl hover:rounded-[21px] " alt="quiz" />
