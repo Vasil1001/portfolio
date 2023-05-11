@@ -119,7 +119,7 @@ export default function AboutMe() {
               cols="10"
             />
             {/* <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"></input> */}
-            <button className="mt-5 flex flex-col items-end">
+            <button className="mt-3.5 flex flex-col items-end">
               <SendEmailButton />
             </button>
           </form>
