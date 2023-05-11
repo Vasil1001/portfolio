@@ -23,8 +23,8 @@
 }
 
 .homeProjectDescription {
-  @apply text-sm px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] 
-  }
+  @apply px-1 text-justify font-roboto text-sm text-gray-600 dark:text-[#383b41];
+}
 /* e3e4e4 DARK MODE SWITCH thanks to: https://uiverse.io/Praashoo7/angry-starfish-78 */
 /* The switch - the box around the slider */
 .switch {
@@ -218,7 +218,12 @@ input:checked + .slider:before {
 /* images border */
 .card2:hover {
   transform: scale(0.98);
-  
+}
+.projCardScaleUpHover {
+  transition: all 0.3s;
+}
+.projCardScaleUpHover:hover {
+  transform: scale(0.99);
 }
 
 .card:hover {
@@ -243,7 +248,6 @@ input:checked + .slider:before {
 }
 .card2 {
   transition: all 0.3s;
-  
 }
 
 .cardiOS:hover {
@@ -254,7 +258,6 @@ input:checked + .slider:before {
   border-top-right-radius: 27px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-
 }
 
 /* Blur the rest on card hover
