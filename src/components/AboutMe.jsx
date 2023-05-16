@@ -14,14 +14,14 @@ export default function AboutMe() {
         <div className="car mainCard col-span-4 row-span-2 lg:col-span-2">
           <div className="">
             <div className="flex justify-between">
-              <h1 className="mb-1 text-left font-inter text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+              <h1 className="mb-1 text-left text-3xl font-supreme text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                 Personal Note
               </h1>
 
               <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
             </div>
             <hr className="my-3" />
-            <p className="text-md text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
+            <p className="text-lg text-left font-supreme text-gray-600 dark:text-[#383b41] md:text-xl">
               I am a Software Developer who grew up in Greece, with a passion for building clean and visually appealing applications.
               <br /> <br />
               I enjoy working with frontend and full-stack technologies. The most notable being React, Tailwind and Node.js with Express.js. 
@@ -40,47 +40,47 @@ export default function AboutMe() {
         </div>
 
         <div className="mainCard car col-span-4 grid items-center lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
-          <div className="place-center z-10 flex flex-grow flex-wrap gap-2 overflow-hidden ">
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
+          <div className="place-center  z-10 flex flex-grow flex-wrap gap-2 overflow-hidden ">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-jetbrainsmono text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               React
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-jetbrainsmono text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Tailwind
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-jetbrainsmono text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               JavaScript
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-jetbrainsmono text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               HTML
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-jetbrainsmono text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               CSS
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-jetbrainsmono text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Node.js
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-jetbrainsmono text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Express.js
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-jetbrainsmono text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               MySQL
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-jetbrainsmono text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               MongoDB
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-jetbrainsmono text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Firebase
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-jetbrainsmono text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Java
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-jetbrainsmono text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Spring Boot
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-jetbrainsmono text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Git
             </div>
-            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-inter text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
+            <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-jetbrainsmono text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               Postman
             </div>
           </div>

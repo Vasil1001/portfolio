@@ -18,13 +18,13 @@ export default function HeroSection() {
   return (
     <div className="z-0 mb-3.5 w-full items-center justify-center ">
       <div className="flex h-[calc(100vh-200px)]  rounded-xl">
-        <div className="align-center z-20 flex flex-col justify-center px-6 text-center md:relative  xl:left-0">
-          <h1 className="mb-1 animate__animated animate__lightSpeedInLeft max-w-full text-left font-noto text-6xl font-semibold text-[#202124] dark:text-[#16c4cd] md:mb-3 md:text-8xl">
+        <div className="align-center z-20 flex flex-col justify-center px-6  text-center md:relative  xl:left-0">
+          <h1 className="animate__animated animate__lightSpeedInLeft mb-1  max-w-full text-left font-outfit text-6xl font-medium text-[#202124] dark:text-[#16c4cd] md:mb-3 md:text-8xl">
             Hi, I'm
-            <b className="bg-[#202124] from-[#16c4cd] to-blue-500  bg-clip-text p-3 text-transparent underline dark:bg-gradient-to-r">Vasilis</b>
+            <b className="bg-[#202124] from-[#16c4cd] to-blue-500  font-outfit font-medium  bg-clip-text pl-3 text-transparent underline dark:bg-gradient-to-r">Vasilis</b>
           </h1>
-          <p className="mt-4 max-w-xl animate__animated animate__flipInX text-left font-inter text-lg text-[#515357] dark:text-[#cec7c2] md:mt-0">
-            I am a Software Developer focusing on building frontend and fullstack applications with React, Tailwind, NodeJS & more!
+          <p className="animate__animated animate__flipInX mt-4 max-w-xl pl-2 text-left text-xl font-supreme font-light text-[#515357] dark:text-[#ddd7d2] md:mt-0">
+            I am a Software Developer building frontend and fullstack applications with React, Tailwind, Node.js & more!
           </p>
           {/* <a
             href="#"
@@ -34,13 +34,13 @@ export default function HeroSection() {
           </a> */}
         </div>
 
-        <div className="wrap animate__animated animate__fadeInTopRight  invisible right-2 top-28 z-10 mx-auto flex max-w-[400px] flex-col justify-center opacity-75 md:max-w-[400px] md:opacity-70 lg:visible lg:max-w-[470px] lg:opacity-100 xl:bottom-32 xl:right-0 xl:max-w-[540px] 2xl:top-20 2xl:max-w-[580px] 2.5xl:max-w-[700px] 3xl:top-0  3xl:max-w-[750px]">
+        <div className="wrap animate__animated animate__fadeInTopRight invisible right-2 top-28 z-10 mx-auto flex max-w-[400px] flex-col justify-center opacity-75 md:max-w-[400px] md:opacity-70 lg:visible lg:max-w-[470px] lg:opacity-100 xl:bottom-32 xl:right-0 xl:max-w-[540px] 2xl:top-20 2xl:max-w-[580px] 2.5xl:max-w-[700px] 3xl:top-0  3xl:max-w-[750px]">
           {/* <img src={galaxy_small_planets} alt="galaxy" className="w-42 h-48" /> */}
-          
+
           <img src={blue_planet_cropped_flipped} alt="blue_planet" className="" />
         </div>
       </div>
-{/* 
+      {/* 
       <div className="animate__animated animate__flipInX animate__slower align-center flex flex-col items-center  justify-center rounded-2xl border border-[#e3e4e4] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef]">
         <h1 className="text-center  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">About me</h1>
         <p className="text-md max-w-lg text-left font-roboto text-gray-600 dark:text-[#383b41] md:text-xl"></p>

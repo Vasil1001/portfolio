@@ -2,16 +2,14 @@
 const colors = require('tailwindcss/colors')
 export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/tw-elements/dist/js/**/*.js",
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
+    './node_modules/tw-elements/dist/js/**/*.js',
     // you can either add all styles
     './node_modules/@rewind-ui/core/dist/theme/styles/*.js',
-],
+  ],
   darkMode: 'class',
   theme: {
-    
-
     // gradients: (theme) => ({
     //   // Array definition (defaults to linear gradients).
     //   creamwhite: ['to bottom', '#fcfbf8', '#f8fbff'],
@@ -110,6 +108,12 @@ export default {
         inter: ['Inter', 'sans-serif'],
         noto: ['Noto Sans', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
+        satoshi: ['Satoshi', 'sans-serif'],
+        general: ['General Sans', 'sans-serif'],
+        redhat: ['Red Hat Display', 'sans-serif'],
+        outfit: ['Outfit', 'sans-serif'],
+        supreme: ['Supreme', 'sans-serif'],
+        jetbrainsmono: ['JetBrains Mono', 'sans-serif'],
       },
       screens: {
         sm: '640px',
@@ -136,13 +140,13 @@ export default {
   },
   variants: {},
   plugins: [
-    require('tailwindcss-gradients'), 
-    require('daisyui'), 
-    require("tw-elements/dist/plugin.cjs"),
+    require('tailwindcss-gradients'),
+    require('daisyui'),
+    require('tw-elements/dist/plugin.cjs'),
     require('@tailwindcss/typography'),
     require('tailwind-scrollbar')({ nocompatible: true }),
     require('@tailwindcss/forms')({
-      strategy: 'class' // only generate classes
-    })
+      strategy: 'class', // only generate classes
+    }),
   ],
 }
