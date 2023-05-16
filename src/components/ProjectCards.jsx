@@ -34,10 +34,10 @@ export default function Projects() {
                 <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
               </div>
 
-              <p className="homeProjectDescription">
+              <p className="px-1 text-lg font-supreme  text-gray-700 text-justify dark:text-[#383b41] ">
                 {/* A personal React project built to help me calculate my daily nutrient intake. It's main purpose is to assist me in my gym journey and
                 help me eat more, while learning about proper nutrition, protein, eating healhty, tracking my progress and documenting my research. */}
-                A website that accompanies my gym journey by helping calculate my daily nutrient needs motivates me to hit my set targets.
+                A daily nutrient tracking website built to accompany my gym journey, helping me eat more and hit my food targets.
               </p>
               <div className="my-1 flex gap-1 px-1">
                 <img
@@ -115,7 +115,7 @@ export default function Projects() {
               </div>
 
               <p className="homeProjectDescription">
-                A property rental project that allows users to rent their property or get in contact with a landlord and find the right home.
+                A property rental portal for users to rent out their property or contact landlords to find the right home.
               </p>
               <div className="my-1 mb-1.5 flex flex-wrap gap-1 px-1">
                 <img
@@ -218,14 +218,14 @@ export default function Projects() {
               <img src={portfoliod} className="projCardScaleUpHover rounded-xl" alt="home" />
             </div>
 
-            <div className="col-span-full flex max-h-[500px] gap-3.5 overflow-hidden ">
-              <div className="cardiOS sm:cardiOS  col-span-2 flex flex-col transition-all hover:rounded-tl-[27px] hover:transition-all items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] text-center dark:hover:border-[#000] md:col-span-1 lg:col-span-1">
-                <div className="card2 flex min-h-full min-w-full flex-wrap justify-center   overflow-hidden rounded-xl p-1">
+            <div className="flex col-span-full flex max-h-[500px] gap-3.5 overflow-hidden ">
+              <div className="hidden md:block cardiOS sm:cardiOS  col-span-full flex flex-col transition-all hover:rounded-tl-[27px] hover:transition-all items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] text-center dark:hover:border-[#000] md:col-span-1 lg:col-span-1">
+                <div className="card2 flex flex-wrap min-h-full min-w-full flex-wrap justify-center   overflow-hidden rounded-xl p-1">
                   <img src={iOS_quiz} className="min-h-full max-w-full cursor-pointer  rounded-xl hover:rounded-[21px] " alt="quiz" />
                 </div>
               </div>
 
-              <div className="projOverflowCard  w-2/3 grow text-center dark:bg-[#edeeef] ">
+              <div className="projOverflowCard flex-wrap w-full md:w-2/3 grow text-center dark:bg-[#edeeef] ">
                 <div className="flex justify-between">
                   <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                     Bug Tracker Spring Boot
@@ -233,12 +233,12 @@ export default function Projects() {
                   </h1>
                   <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
                 </div>
-                <p className="homeProjectDescription">
+                <p className="homeProjectDescription hidden sm:block">
                   {/* A Fullstack Spring Boot application that allows users to create tickets, assign them to projects and members, and projects to
                   companies. It was created after university to expand on what I had learned in Java from my classes. The frontend part was thymeleaf,
                   and it is what made me explore frontend frameworks and ended up with React! */}
                   Fullstack project built after university to expand on Java from my classes. Frontend was written in thymeleaf, and it is what made
-                  me explore frontend frameworks and learning React!
+                  me explore frontend frameworks and learn React!
                 </p>
                 <div className="my-1 mb-1 flex flex-wrap gap-1 px-1">
                   <img
@@ -280,7 +280,7 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className=" col-span-full flex gap-3.5">
+            <div className=" col-span-full flex flex-wrap md:flex-nowrap gap-3.5">
               <div className="projMainPageCard grow-1 float-left w-full flex-wrap text-center dark:bg-[#edeeef] md:w-1/2">
                 <div className="flex justify-between">
                   <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">

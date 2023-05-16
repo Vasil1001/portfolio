@@ -21,10 +21,10 @@ export default function AboutMe() {
               <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
             </div>
             <hr className="my-3" />
-            <p className="text-lg text-left font-supreme text-gray-600 dark:text-[#383b41] md:text-xl">
+            <p className="text-lg font-supreme text-gray-600 text-justify dark:text-[#383b41] md:text-xl">
               I am a Software Developer who grew up in Greece, with a passion for building clean designs and visually appealing applications.
               <br /> <br />
-              I enjoy working with frontend and full-stack technologies. The technologies I am currently working with include: React, Tailwind and Node.js with Express.js. 
+              Frontend and full-stack technologies have been main focus for projects lately. Some that I'm currently developing with include: React, Tailwind, and Node.js with Express.js. 
               <br /> <br />
               Learning interesting new technologies has motivated me to plan and work on projects that I have fun building, resulting in better learning outcomes.
               <br /> <br />
@@ -40,7 +40,7 @@ export default function AboutMe() {
         </div>
 
         <div className="mainCard car col-span-4 grid items-center lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
-          <div className="place-center  z-10 flex flex-grow flex-wrap gap-2 overflow-hidden ">
+          <div className="place-center  z-10 flex flex-grow flex-wrap gap-2 overflow-hidden  ">
             <div className=" lg:text-md rounded-lg bg-[#393e46] px-2.5 py-1.5 font-jetbrainsmono text-sm font-semibold text-[#f1f0ee] hover:bg-[#224871] lg:px-3 lg:py-2.5">
               React
             </div>

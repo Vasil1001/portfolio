@@ -29,7 +29,7 @@ font-family: 'JetBrains Mono', sans-serif; */
 }
 
 .homeProjectDescription {
-  @apply px-1 text-justify font-roboto text-sm text-gray-600 dark:text-[#383b41];
+  @apply px-1 text-lg font-supreme  text-gray-700 text-justify dark:text-[#383b41] ;
 }
 /* e3e4e4 DARK MODE SWITCH thanks to: https://uiverse.io/Praashoo7/angry-starfish-78 */
 /* The switch - the box around the slider */
