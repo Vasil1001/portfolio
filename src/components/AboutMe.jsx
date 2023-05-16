@@ -22,9 +22,9 @@ export default function AboutMe() {
             </div>
             <hr className="my-3" />
             <p className="text-lg text-left font-supreme text-gray-600 dark:text-[#383b41] md:text-xl">
-              I am a Software Developer who grew up in Greece, with a passion for building clean and visually appealing applications.
+              I am a Software Developer who grew up in Greece, with a passion for building clean designs and visually appealing applications.
               <br /> <br />
-              I enjoy working with frontend and full-stack technologies. The most notable being React, Tailwind and Node.js with Express.js. 
+              I enjoy working with frontend and full-stack technologies. The technologies I am currently working with include: React, Tailwind and Node.js with Express.js. 
               <br /> <br />
               Learning interesting new technologies has motivated me to plan and work on projects that I have fun building, resulting in better learning outcomes.
               <br /> <br />

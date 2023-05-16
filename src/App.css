@@ -262,8 +262,18 @@ input:checked + .slider:before {
   transition: all 0.3s;
   border-top-left-radius: 27px;
   border-top-right-radius: 27px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  @apply sm:hover:rounded-tl-[27px] sm:hover:rounded-tr-[27px] sm:hover:rounded-bl-[0px] hover:rounded-bl-[27px] sm:hover:rounded-br-[0px] hover:rounded-br-[27px]
+}
+.singleCardiOS:hover {
+  /* box-shadow: 0px 5px 40px 2px rgba(31, 63, 88, 0.55); */
+  background-image: linear-gradient(146deg, #000 0%, #000 100%);
+  transition: all 0.3s;
+  border-top-left-radius: 27px;
+  border-top-right-radius: 27px;
+  border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;
 }
 
 /* Blur the rest on card hover
