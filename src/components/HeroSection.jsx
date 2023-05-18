@@ -25,7 +25,7 @@ export default function HeroSection() {
               Vasilis
             </b>
           </h1>
-          <p className="animate__animated animate__flipInX mt-4 max-w-md sm:max-w-md text-left text-justify font-supreme text-[20px] leading-relaxed text-[#45474e] dark:text-[#edeeef] md:mt-0">
+          <p className="animate__animated animate__flipInX mt-4 max-w-md sm:max-w-md text-justify font-supreme text-[20px] leading-relaxed text-[#45474e] dark:text-[#edeeef] md:mt-0 pl-1.5">
             A Junior Software Developer who specialises in building front-end and full-stack web applications with React, Tailwind CSS, Node.js and more!
             <br></br> <br></br> 
             Read on to learn more about me!

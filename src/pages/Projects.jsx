@@ -12,7 +12,7 @@ export default function Projects() {
       <div className="car mainCard col-span-4 row-span-2 lg:col-span-4">
         <div className="">
           <div className="flex justify-between">
-            <h1 className="px-2  text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Projects</h1>
+            <h1 className="px-2  text-left font-supreme text-3xl font-semibold text-[#2f3136] dark:text-[#383b41] md:text-4xl">Projects</h1>
           </div>
         </div>
       </div>
@@ -21,10 +21,14 @@ export default function Projects() {
         {projectsList.map((project) => (
           <div
             key={project.id}
-            className="col-span-4 h-80 flex-wrap overflow-hidden rounded-xl bg-[#f5f4f3] p-6 shadow-sm border border-[#e5e4e4] hover:shadow-md md:col-span-2 lg:col-span-1 2xl:col-span-1 "
+            className="flex flex-col  justify-between col-span-4 h-80  flex-wrap overflow-hidden rounded-xl bg-[#f5f4f3] p-6 shadow-sm border border-[#e5e4e4] hover:shadow-md md:col-span-2 lg:col-span-1 2xl:col-span-1 "
           >
             <p className="text-left text-xl font-satoshi font-bold text-gray-700 ">{project.name}</p>
-            <p className="text-left text-gray-500 ">{project.description}</p>
+            <p className="text-left text-gray-600 ">{project.shortDescription}</p>
+            <div className="flex grow items-end gap-3.5 text-gray-600">
+              <button className="p-1">Github</button>
+              <button className="p-1">Website</button>
+            </div>
             <img src="project.png" alt="" />
           </div>
         ))}
