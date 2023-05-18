@@ -2,7 +2,9 @@
 
 * {
   //font-family: 'Inter', sans-serif;
-  font-family: 'Noto Sans', sans-serif;
+  //font-family: 'Noto Sans', sans-serif;
+  font-family: 'Supreme', sans-serif;
+
   //font-family: 'Open Sans', sans-serif;
   //font-family: 'Roboto', sans-serif;
   /* font-family: 'Satoshi', sans-serif;
@@ -14,7 +16,7 @@ font-family: 'JetBrains Mono', sans-serif; */
 }
 
 .mainCard {
-  @apply rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-5 text-center dark:bg-[#edeeef];
+  @apply rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-5 text-center dark:bg-[#edeeef] shadow-sm;
 }
 
 .projOverflowCard {

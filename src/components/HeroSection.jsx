@@ -21,7 +21,7 @@ export default function HeroSection() {
         <div className="align-center z-20 flex max-w-full flex-col justify-center px-7 text-center  md:relative md:px-3.5  xl:left-0">
           <h1 className="animate__animated animate__lightSpeedInLeft  max-w-full text-left font-outfit text-7xl font-medium text-[#202124] dark:text-[#16c4cd] sm:text-8xl md:mb-3">
             Hi, I'm
-            <b className="bg-[#202124] from-[#16c4cd] to-blue-500  bg-clip-text pl-2  font-outfit font-medium text-transparent underline dark:bg-gradient-to-r">
+            <b className="bg-[#202124] from-[#16c4cd] to-blue-500  bg-clip-text pl-2 font-outfit font-medium text-transparent underline dark:bg-gradient-to-r">
               Vasilis
             </b>
           </h1>

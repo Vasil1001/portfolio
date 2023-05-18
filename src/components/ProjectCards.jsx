@@ -34,7 +34,7 @@ export default function Projects() {
                 <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
               </div>
 
-              <p className="px-1 text-lg font-supreme  text-gray-700 text-justify dark:text-[#383b41] ">
+              <p className="homeProjectDescription">
                 {/* A personal React project built to help me calculate my daily nutrient intake. It's main purpose is to assist me in my gym journey and
                 help me eat more, while learning about proper nutrition, protein, eating healhty, tracking my progress and documenting my research. */}
                 A daily nutrient tracking website built to accompany my gym journey, helping me eat more and hit my food targets.
@@ -60,7 +60,7 @@ export default function Projects() {
                 <img src={ios} className="min-h-full max-w-full cursor-pointer rounded-xl hover:rounded-[21px] " alt="quiz" />
               </div>
             </div>
-                
+
             <div className="cardQuiz col-span-2 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] text-center dark:hover:border-[#000] md:col-span-1 lg:col-span-1">
               <div className="card2 flex min-h-full min-w-full flex-wrap justify-center   overflow-hidden rounded-xl p-1">
                 <img src={iOS_quiz} className="min-h-full max-w-full cursor-pointer  rounded-xl hover:rounded-[21px] " alt="quiz" />
@@ -218,14 +218,14 @@ export default function Projects() {
               <img src={portfoliod} className="projCardScaleUpHover rounded-xl" alt="home" />
             </div>
 
-            <div className="flex col-span-full flex max-h-[500px] gap-3.5 overflow-hidden ">
-              <div className="hidden md:block cardiOS sm:cardiOS  col-span-full flex flex-col transition-all hover:rounded-tl-[27px] hover:transition-all items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] text-center dark:hover:border-[#000] md:col-span-1 lg:col-span-1">
-                <div className="card2 flex flex-wrap min-h-full min-w-full flex-wrap justify-center   overflow-hidden rounded-xl p-1">
+            <div className="col-span-full flex flex max-h-[500px] gap-3.5 overflow-hidden ">
+              <div className="cardiOS sm:cardiOS col-span-full flex hidden  flex-col items-center justify-center overflow-hidden rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] text-center transition-all hover:rounded-tl-[27px] hover:transition-all dark:hover:border-[#000] md:col-span-1 md:block lg:col-span-1">
+                <div className="card2 flex min-h-full min-w-full flex-wrap flex-wrap justify-center   overflow-hidden rounded-xl p-1">
                   <img src={iOS_quiz} className="min-h-full max-w-full cursor-pointer  rounded-xl hover:rounded-[21px] " alt="quiz" />
                 </div>
               </div>
 
-              <div className="projOverflowCard flex-wrap w-full md:w-2/3 grow text-center dark:bg-[#edeeef] ">
+              <div className="projOverflowCard w-full grow flex-wrap text-center dark:bg-[#edeeef] md:w-2/3 ">
                 <div className="flex justify-between">
                   <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
                     Bug Tracker Spring Boot
@@ -280,7 +280,7 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className=" col-span-full flex flex-wrap md:flex-nowrap gap-3.5">
+            <div className=" col-span-full flex flex-wrap gap-3.5 md:flex-nowrap">
               <div className="projMainPageCard grow-1 float-left w-full flex-wrap text-center dark:bg-[#edeeef] md:w-1/2">
                 <div className="flex justify-between">
                   <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">

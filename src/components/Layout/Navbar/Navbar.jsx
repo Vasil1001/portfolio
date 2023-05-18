@@ -13,7 +13,7 @@ export default function Navbar({ handleThemeSwitch, theme }) {
   }
 
   return (
-    <div className="align-center mx-auto mb-3.5 flex items-center justify-between p-5 px-2 pt-5 text-center sm:p-7 xl:mx-auto xl:w-9/12 xl:p-0 xl:pt-5 2xl:w-8/12">
+    <div className="align-center mx-auto mb-3.5 flex items-center justify-between p-5 px-2 pt-5 text-center sm:p-7 xl:mx-auto xl:w-10/12 xl:p-0 xl:pt-5 2xl:w-8/12 3xl:w-7/12">
       <div className="flex items-center">
         <div className="dropdown block lg:hidden">
           <label tabIndex={0} className="btn-ghost btn-circle btn">
@@ -26,7 +26,7 @@ export default function Navbar({ handleThemeSwitch, theme }) {
               <a
                 className={
                   pathMatchRoute('/')
-                    ? 'mb-1 rounded-xl  bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
+                    ? 'mb-1 rounded-xl bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
                     : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500 active:bg-[#dbdee3]'
                 }
                 onClick={() => navigate('/')}
@@ -38,7 +38,7 @@ export default function Navbar({ handleThemeSwitch, theme }) {
               <a
                 className={
                   pathMatchRoute('/projects')
-                    ? 'mb-1 rounded-xl  bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
+                    ? 'mb-1 rounded-xl bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
                     : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500 active:bg-[#dbdee3]'
                 }
                 onClick={() => navigate('/projects')}
@@ -50,7 +50,7 @@ export default function Navbar({ handleThemeSwitch, theme }) {
               <a
                 className={
                   pathMatchRoute('/experience')
-                    ? 'mb-1 rounded-xl  bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
+                    ? 'mb-1 rounded-xl bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
                     : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500  active:bg-[#dbdee3]'
                 }
                 onClick={() => navigate('/experience')}
@@ -62,7 +62,7 @@ export default function Navbar({ handleThemeSwitch, theme }) {
               <a
                 className={
                   pathMatchRoute('/about')
-                    ? 'mb-1 rounded-xl  bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
+                    ? 'mb-1 rounded-xl bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
                     : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500  active:bg-[#dbdee3]'
                 }
                 onClick={() => navigate('/about')}
@@ -72,10 +72,10 @@ export default function Navbar({ handleThemeSwitch, theme }) {
             </li>
           </ul>
         </div>
-        <p className=" font-inter font-medium  text-[#202124] dark:text-[#f6eee8]">Vasil Dzhakov</p>
+        <p className=" font-outfit ease-in-out delay-150 hover:scale-105 duration-300 hover:translate-x-1 hover:cursor-pointer hover:bg-[#36363b] hover:rounded-xl hover:px-3 hover:py-1 py-1 mt-3 tracking-wider transition-all text-xl text-[#202124] dark:text-[#f6eee8]">Vasilis Dzhakov</p>
       </div>
 
-      <div className="duration-400 fixed left-1/2 top-3 z-50 py-3 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 py-2 shadow-none shadow-sm transition-shadow ease-in-out hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-lg hover:shadow-md hover:shadow-black/30 dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] lg:block ">
+      <div className="duration-400 fixed left-1/2 top-3 z-50 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 py-2 py-3 shadow-none shadow-sm transition-shadow ease-in-out hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-lg hover:shadow-md hover:shadow-black/30 dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] lg:block ">
         <a
           className={
             pathMatchRoute('/')
@@ -119,7 +119,7 @@ export default function Navbar({ handleThemeSwitch, theme }) {
         </a>
       </div>
 
-      <div className="flex gap-2 dark:text-[#e0eaf2]">
+      <div className="flex gap-2 pt-3  dark:text-[#e0eaf2]">
         <a className="tooltip tooltip-bottom" data-tip="linkedin.com/in/vasil1001" target="_blank" href="https://www.linkedin.com/in/vasil1001/">
           <BsLinkedin
             className="tooltip cursor-pointer  rounded-md text-[1.8rem] hover:fill-[#0069b9] dark:fill-[#f9f3ee]  dark:hover:fill-[#00adb5]"
