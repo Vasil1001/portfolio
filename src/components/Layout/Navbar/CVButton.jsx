@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsFillFileEarmarkTextFill } from 'react-icons/bs'
 import Vasil_Dzhakov_Resume from './Vasil_Dzhakov_Resume_SWE.pdf'
-import './CVButton.css'
+import './CVButtonAnimate.css'
 
 export default function CVButton() {
   return (

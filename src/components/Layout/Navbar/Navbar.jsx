@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import CVButton from './CVButton'
 import { useNavigate, useLocation } from 'react-router-dom'
 import './darkModeSwitch.css'
+import './CVButtonAnimate.css'
 
 export default function Navbar({ handleThemeSwitch, theme }) {
   const navigate = useNavigate()
