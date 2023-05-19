@@ -15,16 +15,7 @@ export default function Footer() {
           vaskodzhakov@gmail.com
         </a>
       </div>
-      <div className="flex flex-col">
-        <div className="flex items-center justify-center text-center">
-          <a href="https://vitejs.dev" target="_blank">
-            <img src={viteLogo} className="logo" alt="Vite logo" />
-          </a>
-          <a href="https://reactjs.org" target="_blank">
-            <img src={reactLogo} className="logo react" alt="React logo" />
-          </a>
-        </div>
-      </div>
+      
 
       <div className="flex gap-2 text-right dark:text-[#e0eaf2]">
         <a className="tooltip tooltip-bottom" data-tip="linkedin.com/in/vasil1001" target="_blank" href="https://www.linkedin.com/in/vasil1001/">

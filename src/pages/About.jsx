@@ -33,7 +33,7 @@ export default function About() {
         <div className="col-span-full row-span-1 flex flex-col rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef] sm:col-span-4 lg:col-span-2 3xl:col-span-2">
           <div className="flex items-start justify-between ">
             <div className="flex flex-col">
-              <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Tech Interests</h1>
+              <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-3xl">Tech Interests</h1>
             </div>
           </div>
           <hr className="my-2" />
@@ -41,8 +41,8 @@ export default function About() {
             I am passionate about technology and I am always looking for new ways to improve my skills and design cleaner and more visually appealing
             applications.
             <br /> <br />
-            New and interesting technologies sparked an interest and made me want to explore even more. Learning
-            Tailwind, Firebase, NodeJS & Express and many more only improved my React projects and skills.
+            New and interesting technologies sparked an interest and made me want to explore even more. Learning Tailwind, Firebase, NodeJS & Express
+            and many more only improved my React projects and skills.
             <br /> <br />
             I build projects that help me grow as a developer and because I genuinely enjoy it.
             <br /> <br />
@@ -53,27 +53,34 @@ export default function About() {
           <div className="">
             <div className="flex items-start justify-between ">
               <div className="flex flex-col">
-                <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Personal Note</h1>
+                <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-3xl">Personal Note</h1>
               </div>
             </div>
-            <hr className="my-2" />
+            <hr className="my-2 border-0" />
             <p className="text-md text-justify text-gray-600 dark:text-[#383b41]  ">
+              <span className="text-sm text-slate-500">Where I come from</span>
+              <hr className="mb-1 border-2" />
               I was born in Bulgaria, but I grew up in Northern Greece, in a small town near the sea. I played football for my local team for 5 years,
               and enjoy music and TV Series a ton.
               <br /> <br />
-              I love getting to travel back and be a tourist where I grew up and explore places and sandy beaches I have never been to before.
+              I love getting to travel back and be a tourist where I grew up and explore places and sandy beaches I had never been to before.
               <br /> <br />
               In 2017 I moved to London and I started working part time jobs along with my studies.
               <br /> <br />
-              My first job was as a waiter at 17, at a catering company that organized big official events at various venues in London.
+              <span className="text-sm text-slate-500">Work Experience</span>
+              <hr className="mb-1 border-2" />
+              My first job was as a waiter at 17, at a catering company that organized events at various venues in London.
               <br /> <br />
-              Then, I worked at a construction company during university and after with a friendly team that helped me learn and adapt to the environment.
+              During and after university I worked at a construction company with a friendly team in Central London.
               <br /> <br />
-              I learned a lot through these jobs, met many good people and balanced working and going to school at the same time.
+              I learned a lot and met many good people through these jobs.
               <br /> <br />
-              Learning new technologies during and after my studies was highly enjoyable, especially exploring technologies by myself and wanting to
-              learn them, such as React, that improved the look of my backend projects from university. <br /> <br /> I really enjoyed building all
-              sorts of applications during my studies, and integrating Tailwind, Node.js & Express.js among many other technologies in my projects has been a blast.
+              <span className='text-sm text-slate-500'>Tech</span>
+              <hr className="mb-1 bg-gray-800 border-2" />
+              Learning new technologies during and after my studies was highly enjoyable, especially stacks such as React, that improved the look of my backend projects from university.
+               <br /> <br /> 
+              Integrating new tech such as Tailwind, Node.js & Express.js among many other technologies in my projects has
+              also been a blast.
             </p>
           </div>
         </div>
@@ -123,7 +130,7 @@ export default function About() {
           </div>
         </div>
         <div className="car mainCard col-span-4 sm:col-span-2 3xl:col-span-1">
-          <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">Playlist</h1>
+          <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-3xl">Playlist</h1>
           <div className="col-span-1">Music</div>
 
           {/* <img src={galaxy} alt="galaxy" className="w-40" /> */}
@@ -131,7 +138,7 @@ export default function About() {
         <div className="mainCard col-span-full row-span-1 flex flex-col sm:col-span-2 lg:col-span-2 3xl:col-span-2">
           <div className="flex items-start justify-between ">
             <div className="flex flex-col">
-              <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Current tech interest</h1>
+              <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-3xl">Current tech interest</h1>
             </div>
           </div>
           <hr className="my-2" />
@@ -146,7 +153,7 @@ export default function About() {
         <div className="mainCard col-span-full row-span-1 flex flex-col sm:col-span-2 lg:col-span-2 3xl:col-span-1">
           <div className="flex items-start justify-between ">
             <div className="flex flex-col">
-              <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-4xl">Contact</h1>
+              <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-3xl">Contact</h1>
               <p className="mt-1 text-left text-sm text-gray-500 dark:text-gray-600">vaskodzhakov@gmail.com</p>
             </div>
             <a className="tooltip tooltip-bottom " data-tip="linkedin.com/in/vasil1001" target="_blank" href="https://www.linkedin.com/in/vasil1001/">
