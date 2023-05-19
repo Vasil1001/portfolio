@@ -1,8 +1,9 @@
 import React from 'react'
-import { BsGithub, BsLightbulb, BsLinkedin, BsLightbulbOffFill, BsFillFileEarmarkTextFill, BsFillMoonStarsFill } from 'react-icons/bs'
+import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
-import CVButton from '../../CVButton'
+import CVButton from './CVButton'
 import { useNavigate, useLocation } from 'react-router-dom'
+import './darkModeSwitch.css'
 
 export default function Navbar({ handleThemeSwitch, theme }) {
   const navigate = useNavigate()
@@ -15,7 +16,7 @@ export default function Navbar({ handleThemeSwitch, theme }) {
   return (
     <div className="align-center mx-auto mb-3.5 flex items-center justify-between p-5 px-2 pt-5 text-center sm:p-7 xl:mx-auto xl:w-10/12 xl:p-0 xl:pt-5 2xl:w-8/12 3xl:w-7/12">
       <div className="flex items-center">
-        <div className="dropdown block lg:hidden">
+        <div className="dropdown mt-2 block lg:hidden">
           <label tabIndex={0} className="btn-ghost btn-circle btn">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
@@ -72,7 +73,11 @@ export default function Navbar({ handleThemeSwitch, theme }) {
             </li>
           </ul>
         </div>
-        <p className=" font-outfit ease-in-out delay-150 hover:scale-105 duration-300 hover:translate-x-1 hover:cursor-pointer hover:bg-[#e9e6e6] hover:dark:bg-[#36363b] hover:rounded-xl hover:px-3 hover:py-1 py-1 mt-2 tracking-wider transition-all text-xl text-[#202124] dark:text-[#f6eee8]">Vasilis Dzhakov</p>
+        <Link to="/">
+          <p className=" mt-2 py-1 font-outfit text-xl tracking-wider text-[#202124] transition-all delay-150 duration-300 ease-in-out hover:translate-x-1 hover:scale-105 hover:cursor-pointer hover:rounded-xl hover:bg-[#e9e6e6] hover:px-3 hover:py-1 dark:text-[#f6eee8] hover:dark:bg-[#36363b]">
+            Vasilis
+          </p>
+        </Link>
       </div>
 
       <div className="duration-400 fixed left-1/2 top-3 z-50 mx-auto flex hidden -translate-x-1/2 translate-y-2 flex-col items-center justify-center gap-5 rounded-2xl border border-gray-300 bg-gradient-to-r from-[#f0f8ff] to-[#fff9f4] p-1.5 py-2 py-3 shadow-none shadow-sm transition-shadow ease-in-out hover:border-gray-300 hover:from-[#f0f8ff] hover:to-[#fdf4ec] hover:shadow-lg hover:shadow-md hover:shadow-black/30 dark:hover:from-[#e8f4fd] dark:hover:to-[#faede3] lg:block ">

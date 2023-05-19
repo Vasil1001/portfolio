@@ -8,7 +8,9 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import Experience from './pages/Experience'
 import 'animate.css'
-import Footer from './components/Footer'
+import Footer from './components/Layout/Footer'
+import NotFound from './pages/NotFound'
+import SelectedProject from './pages/SelectedProject'
 
 //ecf0f4
 function App() {
@@ -41,8 +43,11 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/Experience" element={<Experience />} />
+            <Route path="/experience" element={<Experience />} />
             <Route path="/about" element={<About />} />
+            <Route path="/notfound" element={<NotFound />} />
+            <Route path="/*" element={<NotFound />} />
+            <Route path="/project/:id" element={<SelectedProject />} />
           </Routes>
           <Footer />
         </div>
