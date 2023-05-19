@@ -21,7 +21,7 @@ export default function AboutMe() {
               <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
             </div>
             <hr className="my-3" />
-            <p className="text-justify font-supreme text-lg text-gray-600 dark:text-[#383b41] md:text-xl">
+            <p className="text-justify font-supreme text-lg text-gray-600 dark:text-[#383b41] md:text-[22px]">
               I am a Software Developer who grew up in Greece, with a passion for building clean designs and visually appealing applications.
               <br /> <br />
               Frontend and full-stack technologies have been main focus for projects lately. Some that I'm currently developing with include: React,
@@ -66,11 +66,11 @@ export default function AboutMe() {
             <textarea
               type="text"
               name="message"
-              className="mt-3.5  block w-full rounded-lg border border-gray-300 bg-[#fefefe] p-2.5 text-sm text-gray-900 shadow-md focus:border-blue-500 focus:ring-blue-500 dark:border-gray-400 dark:bg-[#f0f2f4] dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+              className="mt-3.5 grow block xl:min-h-[70%] w-full rounded-lg border border-gray-300 bg-[#fefefe] p-2.5 text-sm text-gray-900 shadow-md focus:border-blue-500 focus:ring-blue-500 dark:border-gray-400 dark:bg-[#f0f2f4] dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
               placeholder="Write your message"
               required
-              rows="3"
-              cols="10"
+              rows="4"
+              cols="11"
             />
             {/* <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"></input> */}
             <button className="mt-3.5 flex flex-col items-end">

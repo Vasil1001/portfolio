@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <div className="z-0 mb-3.5 w-full items-center justify-center ">
       <div className="flex h-[calc(100vh-200px)]  rounded-xl">
-        <div className="align-center z-20 flex max-w-full flex-col justify-center px-7 text-center  md:relative md:px-3.5  xl:left-0">
+        <div className="align-center z-20 flex max-w-full flex-col justify-center text-center  md:relative  xl:left-0">
           <h1 className="animate__animated animate__lightSpeedInLeft  max-w-full text-left font-outfit text-7xl font-medium text-[#202124] dark:text-[#16c4cd] sm:text-8xl md:mb-3">
             Hi, I'm
             <b className="bg-[#202124] from-[#16c4cd] to-blue-500  bg-clip-text pl-2 font-outfit font-medium text-transparent underline dark:bg-gradient-to-r">

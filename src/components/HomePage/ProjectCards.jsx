@@ -34,7 +34,7 @@ export default function Projects() {
               <p className="homeProjectDescription">
                 {/* A personal React project built to help me calculate my daily nutrient intake. It's main purpose is to assist me in my gym journey and
                 help me eat more, while learning about proper nutrition, protein, eating healhty, tracking my progress and documenting my research. */}
-                A daily nutrient tracking website built to accompany my gym journey, helping me eat more and hit my food targets.
+                A nutrient tracking website built to accompany my gym journey, helping me hit my nutrient targets.
               </p>
               <div className="my-1 flex gap-1 px-1">
                 <img
@@ -280,15 +280,16 @@ export default function Projects() {
             <div className=" col-span-full flex flex-wrap gap-3.5 md:flex-nowrap">
               <div className="projMainPageCard grow-1 float-left w-full flex-wrap text-center dark:bg-[#edeeef] md:w-1/2">
                 <div className="flex justify-between">
-                  <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
+                  <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text2xl">
                     Prompt Image Generator
                     <hr className="mt-2 " />
                   </h1>
                   <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
                 </div>
                 <p className="homeProjectDescription">
-                  A NextJS fullstack project that allows users to generate an image from typing a prompt and describing the image they want. The
-                  project is in progress, the image below is a concept of what it should look like.
+                  {/* A NextJS fullstack project that allows users to generate an image from typing a prompt and describing the image they want. The
+                  project is in progress, the image below is a concept of what it should look like. */}
+                  A Next.js fullstack project that allows users to generate an image from typing a prompt and describing the image they want. 
                 </p>
                 <div className="my-1 mb-1.5 flex flex-wrap gap-1 px-1">
                   <img
@@ -333,7 +334,7 @@ export default function Projects() {
                   </h1>
                   <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
                 </div>
-                <p className="text-md px-2 pb-3 text-justify font-roboto text-gray-600 dark:text-[#383b41] md:text-lg">
+                <p className="homeProjectDescription">
                   A simple React application created to practice with Tailwind layouts using the Pokedex API.
                 </p>
                 <div className="my-1 mb-1.5 flex flex-wrap gap-1 px-1">
