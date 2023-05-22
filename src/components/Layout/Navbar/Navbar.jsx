@@ -28,8 +28,8 @@ export default function Navbar({ handleThemeSwitch, theme }) {
               <a
                 className={
                   pathMatchRoute('/')
-                    ? 'mb-1 rounded-xl bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
-                    : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500 active:bg-[#dbdee3]'
+                    ? 'mb-1 rounded-xl bg-[#cacfd7] px-2.5  py-2.5 font-noto text-[15px] text-gray-800 hover:bg-[#bfc4cb]'
+                    : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-[15px] text-gray-500 active:bg-[#dbdee3]'
                 }
                 onClick={() => navigate('/')}
               >
@@ -40,8 +40,8 @@ export default function Navbar({ handleThemeSwitch, theme }) {
               <a
                 className={
                   pathMatchRoute('/projects')
-                    ? 'mb-1 rounded-xl bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
-                    : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500 active:bg-[#dbdee3]'
+                    ? 'mb-1 rounded-xl bg-[#cacfd7] px-2.5  py-2.5 font-noto text-[15px] text-gray-800 hover:bg-[#bfc4cb]'
+                    : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-[15px] text-gray-500 active:bg-[#dbdee3]'
                 }
                 onClick={() => navigate('/projects')}
               >
@@ -52,8 +52,8 @@ export default function Navbar({ handleThemeSwitch, theme }) {
               <a
                 className={
                   pathMatchRoute('/experience')
-                    ? 'mb-1 rounded-xl bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
-                    : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500  active:bg-[#dbdee3]'
+                    ? 'mb-1 rounded-xl bg-[#cacfd7] px-2.5  py-2.5 font-noto text-[15px] text-gray-800 hover:bg-[#bfc4cb]'
+                    : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-[15px] text-gray-500  active:bg-[#dbdee3]'
                 }
                 onClick={() => navigate('/experience')}
               >
@@ -64,8 +64,8 @@ export default function Navbar({ handleThemeSwitch, theme }) {
               <a
                 className={
                   pathMatchRoute('/about')
-                    ? 'mb-1 rounded-xl bg-[#cacfd7] px-2.5  py-2.5 font-noto text-sm text-gray-800 hover:bg-[#bfc4cb]'
-                    : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-sm text-gray-500  active:bg-[#dbdee3]'
+                    ? 'mb-1 rounded-xl bg-[#cacfd7] px-2.5  py-2.5 font-noto text-[15px] text-gray-800 hover:bg-[#bfc4cb]'
+                    : 'mb-1 rounded-xl px-2.5  py-2.5 font-noto text-[15px] text-gray-500  active:bg-[#dbdee3]'
                 }
                 onClick={() => navigate('/about')}
               >
@@ -85,8 +85,8 @@ export default function Navbar({ handleThemeSwitch, theme }) {
         <a
           className={
             pathMatchRoute('/')
-              ? 'mr-1.5 cursor-pointer rounded-xl bg-[#dce1e9] px-2.5 py-2   text-sm font-semibold text-gray-800 hover:bg-[#d7dce4]'
-              : 'mr-1.5 cursor-pointer rounded-xl px-2.5  py-2 text-sm text-gray-600 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
+              ? 'mr-1.5 cursor-pointer rounded-xl bg-[#dce1e9] px-2.5 py-2   text-[15px] font-semibold text-gray-800 hover:bg-[#d7dce4]'
+              : 'mr-1.5 cursor-pointer rounded-xl px-2.5  py-2 text-[15px] text-gray-600 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
           }
           onClick={() => navigate('/')}
         >
@@ -95,19 +95,19 @@ export default function Navbar({ handleThemeSwitch, theme }) {
         <a
           className={
             pathMatchRoute('/projects')
-              ? 'mr-1.5 cursor-pointer rounded-xl bg-[#dce1e9] px-2.5 py-2  text-sm font-semibold text-gray-800 hover:bg-[#d7dce4]'
-              : 'mr-1.5 cursor-pointer rounded-xl px-2.5  py-2 text-sm text-gray-600 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
+              ? 'mr-1.5 cursor-pointer rounded-xl bg-[#dce1e9] px-2.5 py-2  text-[15px] font-semibold text-gray-800 hover:bg-[#d7dce4]'
+              : 'mr-1.5 cursor-pointer rounded-xl px-2.5  py-2 text-[15px] text-gray-600 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
           }
           onClick={() => navigate('/projects')}
         >
           Projects
         </a>
-        {/* <button className="mr-1.5 rounded-xl px-2.5  py-2 font-noto text-sm text-gray-500 hover:bg-[#e5eaf1]">Projects</button> */}
+        {/* <button className="mr-1.5 rounded-xl px-2.5  py-2 font-noto text-[15px] text-gray-500 hover:bg-[#e5eaf1]">Projects</button> */}
         <a
           className={
             pathMatchRoute('/experience')
-              ? 'mr-1.5 cursor-pointer rounded-xl bg-[#dce1e9] px-2.5 py-2  text-sm font-semibold text-gray-800 hover:bg-[#d7dce4]'
-              : 'mr-1.5 cursor-pointer rounded-xl px-2.5  py-2 text-sm text-gray-600 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
+              ? 'mr-1.5 cursor-pointer rounded-xl bg-[#dce1e9] px-2.5 py-2  text-[15px] font-semibold text-gray-800 hover:bg-[#d7dce4]'
+              : 'mr-1.5 cursor-pointer rounded-xl px-2.5  py-2 text-[15px] text-gray-600 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
           }
           onClick={() => navigate('/experience')}
         >
@@ -116,8 +116,8 @@ export default function Navbar({ handleThemeSwitch, theme }) {
         <a
           className={
             pathMatchRoute('/about')
-              ? 'cursor-pointer rounded-xl bg-[#dce1e9] px-2.5 py-2  text-sm font-semibold text-gray-800 hover:bg-[#d7dce4]'
-              : 'cursor-pointer rounded-xl px-2.5  py-2 text-sm text-gray-600 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
+              ? 'cursor-pointer rounded-xl bg-[#dce1e9] px-2.5 py-2  text-[15px] font-semibold text-gray-800 hover:bg-[#d7dce4]'
+              : 'cursor-pointer rounded-xl px-2.5  py-2 text-[15px] text-gray-600 hover:bg-[#e5eaf1] active:bg-[#dbdee3]'
           }
           onClick={() => navigate('/about')}
         >

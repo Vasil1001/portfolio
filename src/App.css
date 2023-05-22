@@ -40,7 +40,7 @@
 }
 
 .homeProjectDescription {
-  @apply px-1 text-justify font-supreme text-lg text-gray-600 dark:text-[#383b41];
+  @apply px-1 text-justify font-supreme text-[19.5px] text-gray-600 dark:text-[#383b41];
 }
 
 

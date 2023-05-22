@@ -21,17 +21,19 @@ export default function AboutMe() {
               <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
             </div>
             <hr className="my-3" />
-            <p className="text-justify font-supreme text-lg text-gray-600 dark:text-[#383b41] md:text-[22px]">
+            <p className="text-justify lg:leading-normal tracking-wide font-supreme text-lg text-gray-700 dark:text-[#383b41] md:text-[21px]">
               I am a Software Developer who grew up in Greece, with a passion for building clean designs and visually appealing applications.
               <br /> <br />
-              Frontend and full-stack technologies have been main focus for projects lately. Some that I'm currently developing with include: React,
+              Frontend and full-stack technologies have been main focus for projects lately. 
+              <br /> <br />
+              Some that I'm currently developing with include: React,
               Tailwind, and Node.js with Express.js.
               <br /> <br />
               Learning interesting new technologies has motivated me to plan and work on projects that I have fun building, resulting in better
               learning outcomes.
               <br /> <br />
-              Staying up to date with web technologies in particular and working with React has been highly enjoyable and I have multiple planned
-              projects and desire to build interesting software.
+              Staying up to date with web technologies in particular and working with React has been highly enjoyable and it motivated me to plan
+              and build interesting software.
             </p>
           </div>
         <div className="car align-center col-span-4 flex  flex-col items-center justify-center rounded-2xl  border-2 border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#edeeef]  lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
@@ -66,10 +68,10 @@ export default function AboutMe() {
             <textarea
               type="text"
               name="message"
-              className="mt-3.5 grow block xl:min-h-[70%] w-full rounded-lg border border-gray-300 bg-[#fefefe] p-2.5 text-sm text-gray-900 shadow-md focus:border-blue-500 focus:ring-blue-500 dark:border-gray-400 dark:bg-[#f0f2f4] dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+              className="mt-3.5 grow block  w-full rounded-lg border border-gray-300 bg-[#fefefe] p-2.5 text-sm text-gray-900 shadow-md focus:border-blue-500 focus:ring-blue-500 dark:border-gray-400 dark:bg-[#f0f2f4] dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
               placeholder="Write your message"
               required
-              rows="4"
+              rows="2"
               cols="11"
             />
             {/* <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"></input> */}
