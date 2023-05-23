@@ -6,7 +6,7 @@ export default function Experience() {
     <div className="mb-0 ">
       <div className="mb-3.5 flex flex-col items-center">
         <div className="grid w-full grid-cols-1 justify-center gap-3.5 px-3.5 sm:grid-cols-1 sm:px-0 md:grid-cols-2 lg:grid-cols-3">
-          <a className="relative flex h-[325px] flex-col justify-end rounded-2xl border-8 border-[#edeeef] bg-[#f1f0ee] text-[#242527] transition-all delay-150  duration-300 ease-in-out hover:font-bold hover:text-[#edeeef] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef]">
+          <a className="relative flex h-[325px] flex-col justify-end rounded-2xl border-8 border-[#f1f0ee] bg-[#f1f0ee] text-[#242527] transition-all delay-150  duration-300 ease-in-out hover:font-bold hover:text-[#ffffff] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef]">
             <div className="absolute inset-0 h-[14.5rem] w-full  overflow-hidden rounded-xl  bg-[#404045] transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:bg-[#252529] hover:transition-all hover:duration-300">
               <img
                 src="https://youteam.io/blog/wp-content/uploads/2021/07/web-developer-min-1.jpeg"
@@ -21,7 +21,7 @@ export default function Experience() {
               </div>
             </div>
           </a>
-          <a className="relative flex h-[325px] flex-col justify-end rounded-2xl border-8 border-[#edeeef] bg-[#f1f0ee] text-[#242527] transition-all delay-150  duration-300 ease-in-out hover:font-bold hover:text-[#edeeef] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef]">
+          <a className="relative flex h-[325px] flex-col justify-end rounded-2xl border-8 border-[#f1f0ee] bg-[#f1f0ee] text-[#242527] transition-all delay-150  duration-300 ease-in-out hover:font-bold hover:text-[#ffffff] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef]">
             <div className="absolute inset-0 h-[14.5rem] w-full  overflow-hidden rounded-xl  bg-[#404045] transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:bg-[#252529] hover:transition-all hover:duration-300">
               <img
                 src="https://possector.com/wordpress/wp-content/uploads/2013/07/waiter-good-service1.jpg"
@@ -36,7 +36,7 @@ export default function Experience() {
               </div>
             </div>
           </a>
-          <a className="relative flex h-[325px] flex-col justify-end rounded-2xl border-8 border-[#edeeef] bg-[#f1f0ee] text-[#242527] transition-all delay-150  duration-300 ease-in-out hover:font-bold hover:text-[#edeeef] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef]">
+          <a className="relative flex h-[325px] flex-col justify-end rounded-2xl border-8 border-[#f1f0ee] bg-[#f1f0ee] text-[#242527] transition-all delay-150  duration-300 ease-in-out hover:font-bold hover:text-[#ffffff] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef]">
             <div className="absolute inset-0 h-[14.5rem] w-full  overflow-hidden rounded-xl  bg-[#404045] transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:bg-[#252529] hover:transition-all hover:duration-300">
               <img
                 src="https://www.mhwilliams.com/wp-content/uploads/2020/01/11.jpeg"
@@ -48,6 +48,21 @@ export default function Experience() {
               <div className="absolute bottom-4 z-0 mb-2 flex w-full p-2 text-2xl  ">Construction Worker</div>
               <div className="flex overflow-hidden whitespace-nowrap rounded-full p-2 px-2.5 font-satoshi text-lg font-normal drop-shadow-md hover:text-[#0b0b0b]">
                 RIR Construction Central London
+              </div>
+            </div>
+          </a>
+          <a className="relative flex h-[325px] flex-col justify-end rounded-2xl border-8 border-[#f1f0ee] bg-[#f1f0ee] text-[#242527] transition-all delay-150 duration-300  ease-in-out hover:font-bold hover:text-[#ffffff] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef] lg:hidden">
+            <div className="absolute inset-0 h-[14.5rem] w-full  overflow-hidden rounded-xl  bg-[#404045] transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:bg-[#252529] hover:transition-all hover:duration-300">
+              <img
+                src="https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?cs=srgb&dl=pexels-pixabay-356079.jpg&fm=jpg"
+                className="h-[15rem] w-full object-cover  transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:transition-all hover:duration-300"
+                alt="123"
+              />
+            </div>
+            <div className="hover:text-[#242527] ">
+              <div className="absolute bottom-4 z-0 mb-2 flex w-full p-2 text-2xl  ">What is next...</div>
+              <div className="flex overflow-hidden whitespace-nowrap rounded-full p-2 px-2.5 font-satoshi text-lg font-normal drop-shadow-md hover:text-[#0b0b0b]">
+                Software Developer ?
               </div>
             </div>
           </a>
