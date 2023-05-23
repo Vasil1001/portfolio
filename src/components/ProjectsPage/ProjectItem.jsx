@@ -14,9 +14,18 @@ export default function ProjectItem({ project }) {
       <hr className="my-2" />
 
       <p className="text-left text-gray-600 ">{project.shortDescription}</p>
-      <div className="flex grow items-end gap-3.5 text-gray-600">
-        <button className="p-1">Github</button>
-        <button className="p-1">Website</button>
+      <div className="flex grow items-end gap-2 text-gray-600">
+        {project.github && (
+          <a href={project.github} target="_blank" className="p-1 px-1.5 bg-[#e8e7e5] hover:bg-[#dfdddb] rounded-lg">
+            GitHub
+          </a>
+        )}
+
+        {project.website && (
+          <a href={project.website} target="_blank" className="p-1 px-1.5 bg-[#e8e7e5] hover:bg-[#dfdddb] rounded-lg">
+            Website
+          </a>
+        )}
       </div>
       <img src="project.png" alt="" />
     </div>
