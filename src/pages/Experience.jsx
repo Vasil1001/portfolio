@@ -23,7 +23,7 @@ export default function Experience() {
             <div className="hover:text-[#242527] ">
               <div className="absolute bottom-4 z-0 mb-1 flex w-full p-2 text-2xl  ">Web Developer Intern</div>
               <div className="flex overflow-hidden whitespace-nowrap rounded-full text-sm p-2 px-2.5 font-satoshi text-md xl:text-md font-normal drop-shadow-md hover:text-[#0b0b0b]">
-                Internship in Seville Spain for Voyager Seville
+                Internship in Seville, Spain for Voyager Seville
               </div>
             </div>
           </a>
@@ -37,7 +37,7 @@ export default function Experience() {
             </div>
             <div className="hover:text-[#242527] ">
               <div className="absolute bottom-4 z-0 mb-1 flex w-full p-2 text-2xl  ">Waiter</div>
-              <div className="flex overflow-hidden whitespace-nowrap rounded-full p-2 px-2.5 font-satoshi text-lg font-normal drop-shadow-md hover:text-[#0b0b0b]">
+              <div className="flex overflow-hidden whitespace-nowrap rounded-full p-2 px-2.5 font-satoshi text-md font-normal drop-shadow-md hover:text-[#0b0b0b]">
                 ASAP Catering London
               </div>
             </div>
@@ -52,7 +52,7 @@ export default function Experience() {
             </div>
             <div className="hover:text-[#242527] ">
               <div className="absolute bottom-4 z-0 mb-1 flex w-full p-2 text-2xl  ">Construction Worker</div>
-              <div className="flex overflow-hidden whitespace-nowrap rounded-full p-2 px-2.5 font-satoshi text-md xl:text-lg font-normal drop-shadow-md hover:text-[#0b0b0b]">
+              <div className="flex overflow-hidden whitespace-nowrap rounded-full p-2 px-2.5 font-satoshi text-md font-normal drop-shadow-md hover:text-[#0b0b0b]">
                 RIR Construction Central London
               </div>
             </div>
@@ -61,7 +61,7 @@ export default function Experience() {
             <div className="absolute inset-0 h-[11rem] w-full overflow-hidden rounded-xl bg-[#404045] transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:bg-[#252529] hover:transition-all hover:duration-300">
               <img
                 src="https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?cs=srgb&dl=pexels-pixabay-356079.jpg&fm=jpg"
-                className="h-[11rem] w-full object-cover  transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:transition-all hover:duration-300"
+                className="h-[11rem] w-full object-cover transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:transition-all hover:duration-300"
                 alt="123"
               />
             </div>
