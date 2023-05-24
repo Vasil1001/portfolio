@@ -85,7 +85,7 @@ export default function About() {
           </div>
         </div>
         <div className="car align-center col-span-4 flex flex-col items-center justify-center  rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717]  dark:hover:bg-[#edeeef] sm:col-span-2 3xl:col-span-1">
-          <div className=" flex-wrap overflow-hidden rounded-xl">
+          <div className=" flex-wrap p-1 overflow-hidden rounded-xl">
             <img src={me} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
           </div>
         </div>
