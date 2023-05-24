@@ -60,7 +60,7 @@ export default function Projects() {
 
             <div className="cardQuiz col-span-2 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] text-center dark:hover:border-[#000] md:col-span-1 lg:col-span-1">
               <div className="card2 flex min-h-full min-w-full flex-wrap justify-center   overflow-hidden rounded-xl p-1">
-                <img src={iOS_quiz} className="min-h-full max-w-full cursor-pointer  rounded-xl hover:rounded-[21px] " alt="quiz" />
+                <img src={iOS_quiz} className="min-h-full min-w-full cursor-pointer  rounded-xl hover:rounded-[21px] " alt="quiz" />
               </div>
             </div>
 
@@ -280,7 +280,7 @@ export default function Projects() {
             <div className=" col-span-full flex flex-wrap gap-3.5 md:flex-nowrap">
               <div className="projMainPageCard grow-1 float-left w-full flex-wrap text-center dark:bg-[#edeeef] md:w-1/2">
                 <div className="flex justify-between">
-                  <h1 className="px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text2xl">
+                  <h1 className="md:text2xl px-2 py-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3">
                     Prompt Image Generator
                     <hr className="mt-2 " />
                   </h1>
@@ -289,7 +289,7 @@ export default function Projects() {
                 <p className="homeProjectDescription">
                   {/* A NextJS fullstack project that allows users to generate an image from typing a prompt and describing the image they want. The
                   project is in progress, the image below is a concept of what it should look like. */}
-                  A Next.js fullstack project that allows users to generate an image from typing a prompt and describing the image they want. 
+                  A Next.js fullstack project that allows users to generate an image from typing a prompt and describing the image they want.
                 </p>
                 <div className="my-1 mb-1.5 flex flex-wrap gap-1 px-1">
                   <img
@@ -334,9 +334,7 @@ export default function Projects() {
                   </h1>
                   <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
                 </div>
-                <p className="homeProjectDescription">
-                  A simple React application created to practice with Tailwind layouts using the Pokedex API.
-                </p>
+                <p className="homeProjectDescription">A simple React application created to practice with Tailwind layouts using the Pokedex API.</p>
                 <div className="my-1 mb-1.5 flex flex-wrap gap-1 px-1">
                   <img
                     class="select-none"
