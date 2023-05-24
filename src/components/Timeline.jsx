@@ -16,7 +16,8 @@ export default function Timeline() {
                   tourist attractions in Seville. My daily tasks included:
                   <br></br> <br></br>- Developing responsive layouts for the company's website using WordPress
                   <br></br>- Adding functionality for pages translated into multiple languages
-                  <br></br>- Collaborating with a team to organize bookings and guide English-speaking groups with the tours - Fixing the company blog
+                  <br></br>- Collaborating with a team to organize bookings English-speaking groups 
+                  <br></br>- Fixing the company blog
                   page and writing articles about the company's attractions
                 </p>
               </div>
@@ -34,7 +35,7 @@ export default function Timeline() {
 
               <div className="cardHoverShadow flex flex-col rounded-lg bg-[#ffffff] px-5 py-4 text-gray-700 sm:relative sm:before:absolute sm:before:left-[-43px] sm:before:top-2 sm:before:z-[1] sm:before:h-4 sm:before:w-4 sm:before:rounded-full md:px-8">
                 <h3 className="font-inter text-xl font-bold tracking-wide">Waiter at ASAP Catering</h3>
-                <time className="mb-2 text-xs uppercase tracking-wide dark:text-gray-400">June 2017 - December 2020</time>
+                <time className="mb-2 text-xs uppercase tracking-wide dark:text-gray-400">June 2017 - April 2020</time>
                 <p className="text-justify text-sm leading-snug text-opacity-100 md:text-base">
                   My first job in London was as a waiter at a catering company, called ASAP Catering, and I was there for 3 years. <br></br>I worked
                   in many different venues and helped organize various events, from small private parties to big corporate ones.
@@ -43,10 +44,10 @@ export default function Timeline() {
 
               <div className="cardHoverShadow flex flex-col rounded-lg bg-[#ffffff] px-5 py-4 text-gray-700 sm:relative sm:before:absolute sm:before:left-[-43px] sm:before:top-2 sm:before:z-[1] sm:before:h-4 sm:before:w-4 sm:before:rounded-full md:px-8">
                 <h3 className="font-inter text-xl font-bold tracking-wide">Moved to London</h3>
-                <time className="mb-2 text-xs uppercase tracking-wide dark:text-gray-400">Dec 2020</time>
+                <time className="mb-2 text-xs uppercase tracking-wide dark:text-gray-400">June 2017</time>
                 <p className="text-justify text-sm leading-snug text-opacity-100 md:text-base">
-                  I moved to London from Greece for university and in 2017 & ended up going to the University of Westminster and studying Computer
-                  Science. I worked part time jobs during my time at the University of Westminster, and developed a passion for software engineering
+                  In June of 2017 I moved to London from Greece. In 2019 I went to University of Westminster where I studied Computer
+                  Science and built a solid foundation in Software Development. I worked part time jobs during my time at university, and developed a passion for software engineering
                   through personal projects and university.
                 </p>
               </div>

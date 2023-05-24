@@ -4,55 +4,54 @@ import Timeline from '../components/Timeline'
 export default function Experience() {
   return (
     <div className="mb-0 ">
-       <div className="col-span-4 mb-3.5  row-span-2 rounded-xl border border-[#e5e4e4] bg-[#f5f4f3] p-6 lg:col-span-4">
-          <div className="flex justify-between">
-            <h1 className="px-2  text-left font-supreme text-3xl font-semibold text-[#2f3136] dark:text-[#383b41] md:text-4xl">Work Experience</h1>
+      <div className="col-span-4 row-span-2  mb-3.5 rounded-xl border border-[#e5e4e4] bg-[#f5f4f3] p-6 lg:col-span-4">
+        <div className="flex justify-between">
+          <h1 className="px-2  text-left font-supreme text-3xl font-semibold text-[#2f3136] dark:text-[#383b41] md:text-4xl">Work Experience</h1>
         </div>
       </div>
       <div className="mb-3.5 flex flex-col items-center">
-        
         <div className="grid w-full grid-cols-1 justify-center gap-3.5 px-3.5 sm:grid-cols-1 sm:px-0 md:grid-cols-2 lg:grid-cols-3">
-          <a className="relative flex h-[325px] flex-col justify-end rounded-2xl border-8 border-[#f1f0ee] bg-[#f1f0ee] text-[#242527] transition-all delay-150  duration-300 ease-in-out hover:font-bold hover:text-[#ffffff] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef]">
-            <div className="absolute inset-0 h-[11rem] w-full  overflow-hidden rounded-xl  bg-[#404045] transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:bg-[#252529] hover:transition-all hover:duration-300">
+          <a className="relative flex h-[385px] flex-col justify-end rounded-2xl border-8 border-[#f1f0ee] bg-[#f1f0ee] text-[#242527] transition-all delay-150  duration-300 ease-in-out hover:font-bold hover:text-[#ffffff] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef]">
+            <div className="absolute inset-0 h-[12.5rem] w-full  overflow-hidden rounded-xl  bg-[#404045] transition-all delay-150 duration-300 ease-in-out hover:h-[369px] hover:bg-[#252529] hover:transition-all hover:duration-300">
               <img
                 src="https://youteam.io/blog/wp-content/uploads/2021/07/web-developer-min-1.jpeg"
-                className="h-[11rem] w-full object-cover  transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:transition-all hover:duration-300"
+                className="h-[12.5rem] w-full object-cover transition-all delay-150 duration-300 ease-in-out hover:h-[369px] hover:transition-all hover:duration-300"
                 alt="123"
               />
             </div>
-            <div className="hover:text-[#242527] ">
-              <div className="absolute bottom-4 z-0 mb-1 flex w-full p-2 text-2xl  ">Web Developer Intern</div>
-              <div className="flex overflow-hidden whitespace-nowrap rounded-full text-sm p-2 px-2.5 font-satoshi text-md xl:text-md font-normal drop-shadow-md hover:text-[#0b0b0b]">
-                Internship in Seville, Spain for Voyager Seville
+            <div className="absolute  bottom-2 z-0 px-1 hover:text-[#242527] ">
+              <div className=" flex w-full px-2 text-2xl">Web Developer Intern</div>
+              <div className="text-md flex flex-wrap overflow-hidden rounded-full px-2 text-left font-satoshi font-normal drop-shadow-md hover:text-[#0b0b0b] 2xl:text-lg">
+                Internship in Seville, Spain
               </div>
             </div>
           </a>
-          <a className="relative flex h-[325px] flex-col justify-end rounded-2xl border-8 border-[#f1f0ee] bg-[#f1f0ee] text-[#242527] transition-all delay-150  duration-300 ease-in-out hover:font-bold hover:text-[#ffffff] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef]">
-            <div className="absolute inset-0 h-[11rem] w-full  overflow-hidden rounded-xl  bg-[#404045] transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:bg-[#252529] hover:transition-all hover:duration-300">
+          <a className="relative flex h-[385px] flex-col justify-end rounded-2xl border-8 border-[#f1f0ee] bg-[#f1f0ee] text-[#242527] transition-all delay-150  duration-300 ease-in-out hover:font-bold hover:text-[#ffffff] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef]">
+            <div className="absolute inset-0 h-[12.5rem] w-full  overflow-hidden rounded-xl  bg-[#404045] transition-all delay-150 duration-300 ease-in-out hover:h-[369px] hover:bg-[#252529] hover:transition-all hover:duration-300">
               <img
                 src="https://possector.com/wordpress/wp-content/uploads/2013/07/waiter-good-service1.jpg"
-                className="h-[11rem] w-full object-cover  transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:transition-all hover:duration-300"
+                className="h-[12.5rem] w-full object-cover transition-all delay-150 duration-300 ease-in-out hover:h-[369px] hover:transition-all hover:duration-300"
                 alt="123"
               />
             </div>
             <div className="hover:text-[#242527] ">
               <div className="absolute bottom-4 z-0 mb-1 flex w-full p-2 text-2xl  ">Waiter</div>
-              <div className="flex overflow-hidden whitespace-nowrap rounded-full p-2 px-2.5 font-satoshi text-md font-normal drop-shadow-md hover:text-[#0b0b0b]">
+              <div className="text-md flex flex-wrap overflow-hidden rounded-full px-2 text-left font-satoshi font-normal drop-shadow-md hover:text-[#0b0b0b] 2xl:text-lg">
                 ASAP Catering London
               </div>
             </div>
           </a>
-          <a className="relative flex h-[325px] flex-col justify-end rounded-2xl border-8 border-[#f1f0ee] bg-[#f1f0ee] text-[#242527] transition-all delay-150  duration-300 ease-in-out hover:font-bold hover:text-[#ffffff] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef]">
-            <div className="absolute inset-0 h-[11rem] w-full  overflow-hidden rounded-xl  bg-[#404045] transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:bg-[#252529] hover:transition-all hover:duration-300">
+          <a className="relative flex h-[385px] flex-col justify-end rounded-2xl border-8 border-[#f1f0ee] bg-[#f1f0ee] text-[#242527] transition-all delay-150  duration-300 ease-in-out hover:font-bold hover:text-[#ffffff] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef]">
+            <div className="absolute inset-0 h-[12.5rem] w-full  overflow-hidden rounded-xl  bg-[#404045] transition-all delay-150 duration-300 ease-in-out hover:h-[369px] hover:bg-[#252529] hover:transition-all hover:duration-300">
               <img
                 src="https://www.mhwilliams.com/wp-content/uploads/2020/01/11.jpeg"
-                className="h-[11rem] w-full object-cover  transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:transition-all hover:duration-300"
+                className="h-[12.5rem] w-full object-cover transition-all delay-150 duration-300 ease-in-out hover:h-[369px] hover:transition-all hover:duration-300"
                 alt="123"
               />
             </div>
             <div className="hover:text-[#242527] ">
               <div className="absolute bottom-4 z-0 mb-1 flex w-full p-2 text-2xl  ">Construction Worker</div>
-              <div className="flex overflow-hidden whitespace-nowrap rounded-full p-2 px-2.5 font-satoshi text-md font-normal drop-shadow-md hover:text-[#0b0b0b]">
+              <div className="text-md flex flex-wrap overflow-hidden rounded-full px-2 text-left font-satoshi font-normal drop-shadow-md hover:text-[#0b0b0b] 2xl:text-lg">
                 RIR Construction Central London
               </div>
             </div>
