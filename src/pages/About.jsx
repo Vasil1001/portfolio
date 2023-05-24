@@ -30,7 +30,7 @@ export default function About() {
   return (
     <div className="mb-0 mt-2">
       <div className=" grid grid-cols-4 flex-wrap gap-3.5 px-3.5 sm:px-0  md:text-[20.5px]">
-        <div className="col-span-full row-span-1 flex flex-col rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef] sm:col-span-4 lg:col-span-2 3xl:col-span-2">
+        <div className="col-span-full row-span-1 flex grow flex-col rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef] sm:col-span-4 lg:col-span-2 3xl:col-span-2">
           <div className="flex items-start justify-between ">
             <div className="flex flex-col">
               <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-3xl">Tech Interests</h1>
@@ -75,60 +75,21 @@ export default function About() {
               <br /> <br />
               I learned a lot and met many good people through these jobs.
               <br /> <br />
-              <span className='text-sm text-slate-500'>Tech</span>
-              <hr className="mb-1 bg-gray-800 border-2" />
-              Learning new technologies during and after my studies was highly enjoyable, especially stacks such as React, that improved the look of my backend projects from university.
-               <br /> <br /> 
-              Integrating new tech such as Tailwind, Node.js & Express.js among many other technologies in my projects has
-              also been a blast.
+              <span className="text-sm text-slate-500">Tech</span>
+              <hr className="mb-1 border-2 bg-gray-800" />
+              Learning new technologies during and after my studies was highly enjoyable, especially stacks such as React, that improved the look of
+              my backend projects from university.
+              <br /> <br />
+              Integrating new tech such as Tailwind, Node.js & Express.js among many other technologies in my projects has also been a blast.
             </p>
           </div>
         </div>
-        <div className="car align-center col-span-4 flex flex-col items-center justify-center  rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717]  dark:hover:bg-[#edeeef] sm:col-span-2 3xl:col-span-1">
-          <div className=" flex-wrap p-1 overflow-hidden rounded-xl">
+        <div className="car align-center col-span-4 flex shrink-0 flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717]  dark:hover:bg-[#edeeef] sm:col-span-2 ">
+          <div className=" flex-wrap overflow-hidden rounded-xl p-1.5">
             <img src={me} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
           </div>
         </div>
 
-        <div className=" align-center col-span-full row-span-1 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb]  bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018] sm:col-span-2 3xl:col-span-1">
-          <div className=" w-full flex-1  flex-wrap overflow-hidden rounded-xl">
-            <Swiper
-              // install Swiper modules
-              modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-              spaceBetween={50}
-              slidesPerView={1}
-              navigation
-              autoplay={{
-                delay: 4000,
-                disableOnInteraction: false,
-                pauseOnMouseEnter: true,
-              }}
-              pagination={{ clickable: true }}
-              onSwiper={(swiper) => console.log(swiper)}
-              onSlideChange={() => console.log('slide change')}
-            >
-              <SwiperSlide>
-                <img src={Forest_house} alt="Hills" className="h-full w-full overflow-hidden" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={Land_rocks} alt="Hills" className="h-full w-full overflow-hidden" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={Hills} alt="Hills" className="h-full w-full overflow-hidden" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={Castle} alt="Hills" className="h-full w-full overflow-hidden" />
-              </SwiperSlide>
-
-              <SwiperSlide>
-                <img src={Dome} alt="Hills" className="h-full w-full overflow-hidden" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={purple_rock_kb} alt="Hills" className="h-full w-full overflow-hidden" />
-              </SwiperSlide>
-            </Swiper>
-          </div>
-        </div>
         <div className="car mainCard col-span-4 sm:col-span-2 3xl:col-span-1">
           <h1 className="mb-1 text-left  font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-3xl">Playlist</h1>
           <div className="col-span-1">Music</div>
@@ -184,7 +145,7 @@ export default function About() {
             <button className="mt-5 flex flex-col items-end"></button>
           </form>
         </div>
-        <div className=" align-center col-span-full row-span-1 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb]  bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018] sm:col-span-2 lg:col-span-2 2xl:col-span-2 3xl:col-span-1 ">
+        {/* <div className=" align-center col-span-full row-span-1 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb]  bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018] sm:col-span-2 lg:col-span-2 2xl:col-span-2 3xl:col-span-1 ">
           <div className=" w-full flex-1  flex-wrap overflow-hidden rounded-xl">
             <Swiper
               // install Swiper modules
@@ -206,6 +167,46 @@ export default function About() {
               </SwiperSlide>
               <SwiperSlide>
                 <img src={house_hill} alt="Hills" className="h-full w-full overflow-hidden" />
+              </SwiperSlide>
+            </Swiper>
+          </div>
+        </div> */}
+
+        <div className="align-center col-span-full flex shrink-0 flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb]  bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018] sm:col-span-2 3xl:col-span-1">
+          <div className=" w-full  flex-1 flex-wrap overflow-hidden rounded-xl">
+            <Swiper
+              // install Swiper modules
+              modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+              spaceBetween={50}
+              slidesPerView={1}
+              navigation
+              autoplay={{
+                delay: 4000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+              }}
+              pagination={{ clickable: true }}
+              onSwiper={(swiper) => console.log(swiper)}
+              onSlideChange={() => console.log('slide change')}
+            >
+              <SwiperSlide>
+                <img src={Forest_house} alt="Hills" className="h-full w-full overflow-hidden" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={Land_rocks} alt="Hills" className="h-full w-full overflow-hidden" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={Hills} alt="Hills" className="h-full w-full overflow-hidden" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={Castle} alt="Hills" className="h-full w-full overflow-hidden" />
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <img src={Dome} alt="Hills" className="h-full w-full overflow-hidden" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={purple_rock_kb} alt="Hills" className="h-full w-full overflow-hidden" />
               </SwiperSlide>
             </Swiper>
           </div>
