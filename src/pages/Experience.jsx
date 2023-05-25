@@ -21,7 +21,7 @@ export default function Experience() {
             </div>
             <div className="absolute  bottom-2 z-0 px-1 hover:text-[#242527] ">
               <div className=" flex w-full px-2 text-2xl">Web Developer Intern</div>
-              <div className="text-md flex flex-wrap overflow-hidden rounded-full px-2 text-left font-satoshi font-normal drop-shadow-md hover:text-[#0b0b0b] 2xl:text-lg">
+              <div className="text-lg flex flex-wrap overflow-hidden rounded-full px-2 text-left font-satoshi font-normal drop-shadow-md hover:text-[#0b0b0b] 2xl:text-xl">
                 Internship in Seville, Spain
               </div>
             </div>
@@ -36,7 +36,7 @@ export default function Experience() {
             </div>
             <div className="hover:text-[#242527] ">
               <div className="absolute bottom-4 z-0 mb-1 flex w-full p-2 text-2xl  ">Waiter</div>
-              <div className="text-md flex flex-wrap overflow-hidden rounded-full px-2 text-left font-satoshi font-normal drop-shadow-md hover:text-[#0b0b0b] 2xl:text-lg">
+              <div className="text-lg flex flex-wrap overflow-hidden rounded-full px-2 text-left font-satoshi font-normal drop-shadow-md hover:text-[#0b0b0b] 2xl:text-xl">
                 ASAP Catering London
               </div>
             </div>
@@ -51,21 +51,21 @@ export default function Experience() {
             </div>
             <div className="hover:text-[#242527] ">
               <div className="absolute bottom-4 z-0 mb-1 flex w-full p-2 text-2xl  ">Construction Worker</div>
-              <div className="text-md flex flex-wrap overflow-hidden rounded-full px-2 text-left font-satoshi font-normal drop-shadow-md hover:text-[#0b0b0b] 2xl:text-lg">
+              <div className="text-lg flex flex-wrap overflow-hidden rounded-full px-2 text-left font-satoshi font-normal drop-shadow-md hover:text-[#0b0b0b] 2xl:text-xl">
                 RIR Construction Central London
               </div>
             </div>
           </a>
-          <a className="relative flex h-[325px] flex-col justify-end rounded-2xl border-8 border-[#f1f0ee] bg-[#f1f0ee] text-[#242527] transition-all delay-150 duration-300  ease-in-out hover:font-bold hover:text-[#ffffff] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef] lg:hidden">
-            <div className="absolute inset-0 h-[11rem] w-full overflow-hidden rounded-xl bg-[#404045] transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:bg-[#252529] hover:transition-all hover:duration-300">
+          <a className="relative lg:hidden flex h-[385px] flex-col justify-end rounded-2xl border-8 border-[#f1f0ee] bg-[#f1f0ee] text-[#242527] transition-all delay-150  duration-300 ease-in-out hover:font-bold hover:text-[#ffffff] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef]">
+            <div className="absolute inset-0 h-[12.5rem] w-full  overflow-hidden rounded-xl  bg-[#404045] transition-all delay-150 duration-300 ease-in-out hover:h-[369px] hover:bg-[#252529] hover:transition-all hover:duration-300">
               <img
                 src="https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?cs=srgb&dl=pexels-pixabay-356079.jpg&fm=jpg"
-                className="h-[11rem] w-full object-cover transition-all delay-150 duration-300 ease-in-out hover:h-[308px] hover:transition-all hover:duration-300"
+                className="h-[12.5rem] w-full object-cover transition-all delay-150 duration-300 ease-in-out hover:h-[369px] hover:transition-all hover:duration-300"
                 alt="123"
               />
             </div>
             <div className="hover:text-[#242527] ">
-              <div className="absolute bottom-4 z-0 mb-2 flex w-full p-2 text-2xl  ">What is next...</div>
+              <div className="absolute bottom-4 z-0 mb-2 flex w-full p-2 text-2xl  ">What next...</div>
               <div className="flex overflow-hidden whitespace-nowrap rounded-full p-2 px-2.5 font-satoshi text-lg font-normal drop-shadow-md hover:text-[#0b0b0b]">
                 Software Developer ?
               </div>

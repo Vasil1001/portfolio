@@ -95,7 +95,7 @@ export default function AboutMe() {
               </div>
               <div className="px-6 text-[17px] text-[#3b3d42]">
                 <p>
-                  I have solid experience building HTML, CSS, and JavaScript applications through personal projects, as well as attending the Web
+                  I have solid experience building with HTML, CSS, and JavaScript through personal projects as well as from a Web
                   Development module at University
                 </p>
               </div>
@@ -103,12 +103,12 @@ export default function AboutMe() {
             {/* One card END */}
 
             {/* One card START */}
-            <div className="col-span-full flex flex-col items-center justify-between rounded-xl bg-[#fffefe] py-6 text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
+            <div className="col-span-full flex flex-col items-center justify-between rounded-xl bg-[#fffefe]   py-6 text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
               <h className="mb-2 text-[19.5px] font-bold">Frontend Framework</h>
               <div className="mb-2 flex">
                 <i class="devicon-react-original-wordmark colored text-6xl"></i>
               </div>
-              <div className="px-6 text-[17px] text-[#3b3d42]">
+              <div className="px-6 text-[17px] ">
                 <p>
                   I mostly work with React.js on my front end focused projects. I have gained experience building clean React projects with proper
                   file structure and styling.
