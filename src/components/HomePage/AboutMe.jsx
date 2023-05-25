@@ -12,33 +12,29 @@ export default function AboutMe() {
     <>
       <div className="cont grid grid-cols-4 flex-wrap gap-3.5 px-3.5 sm:px-0">
         <div className="car mainCard col-span-4 row-span-2 lg:col-span-2">
-            <div className="flex justify-between">
+          <div className="flex justify-between">
+            <h1 className=" pt-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">Personal Note</h1>
 
-              <h1 className=" pt-1 text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:mb-3 md:text-4xl">
-                Personal Note
-              </h1>
-
-              <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
-            </div>
-            <hr className="my-3" />
-            <p className="text-justify lg:leading-normal tracking-wide font-supreme text-lg text-gray-700 dark:text-[#383b41] md:text-[21px]">
-              I am a Software Developer who grew up in Greece, with a passion for building clean designs and visually appealing applications.
-              <br /> <br />
-              Frontend and full-stack technologies have been main focus for projects lately. 
-              <br /> <br />
-              Some that I'm currently developing with include: React,
-              Tailwind, and Node.js with Express.js.
-              <br /> <br />
-              Learning interesting new technologies has motivated me to plan and work on projects that I have fun building, resulting in better
-              learning outcomes.
-              <br /> <br />
-              Staying up to date with web technologies in particular and working with React has been highly enjoyable and it motivated me to plan
-              and build interesting software.
-            </p>
+            <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
           </div>
-        <div className="car align-center col-span-4 flex  flex-col items-center justify-center rounded-2xl  border-2 border-[#ebebeb] bg-[#f1f0ee] p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#edeeef]  lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
-          <div className=" flex-wrap overflow-hidden rounded-xl">
-            <img src={me} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
+          <hr className="my-3" />
+          <p className="text-justify font-supreme text-lg tracking-wide text-gray-700 dark:text-[#383b41] md:text-[20.5px] lg:leading-normal">
+            I am a Software Developer who grew up in Greece, with a passion for building clean designs and visually appealing applications.
+            <br /> <br />
+            Frontend and full-stack technologies have been main focus for projects lately.
+            <br /> <br />
+            Some that I'm currently developing with include: React, Tailwind, and Node.js with Express.js.
+            <br /> <br />
+            Learning interesting new technologies has motivated me to plan and work on projects that I have fun building, resulting in better learning
+            outcomes.
+            <br /> <br />
+            Staying up to date with web technologies in particular and working with React has been highly enjoyable and it motivated me to plan and
+            build interesting software.
+          </p>
+        </div>
+        <div className=" align-center col-span-4 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-1.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#edeeef] lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
+          <div className=" flex-wrap overflow-hidden rounded-xl p-1.5">
+            <img src={me} alt="asd" className="min-h-full w-full overflow-hidden rounded-xl" />
           </div>
         </div>
 
@@ -68,7 +64,7 @@ export default function AboutMe() {
             <textarea
               type="text"
               name="message"
-              className="mt-3.5 grow block  w-full rounded-lg border border-gray-300 bg-[#fefefe] p-2.5 text-sm text-gray-900 shadow-md focus:border-blue-500 focus:ring-blue-500 dark:border-gray-400 dark:bg-[#f0f2f4] dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+              className="mt-3.5 block w-full  grow rounded-lg border border-gray-300 bg-[#fefefe] p-2.5 text-sm text-gray-900 shadow-md focus:border-blue-500 focus:ring-blue-500 dark:border-gray-400 dark:bg-[#f0f2f4] dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
               placeholder="Write your message"
               required
               rows="2"
@@ -84,6 +80,115 @@ export default function AboutMe() {
         <div className="cardgreen align-center col-span-4 row-span-1 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee]  p-3.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#1d0018] md:col-span-2 2xl:col-span-2 3xl:col-span-1">
           <div className="card2 w-full flex-1  flex-wrap overflow-hidden rounded-xl">
             <img src={house_stars} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
+          </div>
+        </div>
+
+        <div className="car mainCard col-span-4 ">
+          <div className="grid grid-cols-4 gap-5  xl:grid-cols-3">
+            {/* One card START */}
+            <div className="col-span-full flex flex-col items-center justify-between rounded-xl bg-[#fffefe] py-6 text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
+              <h className="mb-2 text-[19.5px] font-bold">Web Development</h>
+              <div className="mb-2 flex ">
+                <i className="devicon-css3-plain colored text-6xl"></i>
+                <i className="devicon-html5-plain colored text-6xl"></i>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" className="h-14" />
+              </div>
+              <div className="px-6 text-[17px] text-[#3b3d42]">
+                <p>
+                  I have solid experience building HTML, CSS, and JavaScript applications through personal projects, as well as attending the Web
+                  Development module at University
+                </p>
+              </div>
+            </div>
+            {/* One card END */}
+
+            {/* One card START */}
+            <div className="col-span-full flex flex-col items-center justify-between rounded-xl bg-[#fffefe] py-6 text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
+              <h className="mb-2 text-[19.5px] font-bold">Frontend Framework</h>
+              <div className="mb-2 flex">
+                <i class="devicon-react-original-wordmark colored text-6xl"></i>
+              </div>
+              <div className="px-6 text-[17px] text-[#3b3d42]">
+                <p>
+                  I mostly work with React.js on my front end focused projects. I have gained experience building clean React projects with proper
+                  file structure and styling.
+                </p>
+              </div>
+            </div>
+            {/* One card END */}
+
+            {/* One card START */}
+            <div className="col-span-full flex flex-col items-center justify-between rounded-xl bg-[#fffefe] py-6  text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
+              <h className="mb-2 text-[19.5px] font-bold">Backend Development</h>
+              <div className="mb-2 flex gap-3">
+                <i class="devicon-nodejs-plain colored text-5xl"></i>
+                <i class="devicon-express-original colored text-5xl"></i>
+                <i class="devicon-java-plain-wordmark colored text-5xl"></i>
+                <i class="devicon-spring-plain-wordmark colored text-5xl"></i>
+              </div>
+              <div className="px-6 text-[17px] text-[#3b3d42]">
+                <p>
+                  At university I worked with Java and some C# for Backend and after graduating I learned Java Spring Boot. After working with React,
+                  I gravitated towards JavaScript and decided to learn Node.js and Express.js for my REST APIs.
+                </p>
+              </div>
+            </div>
+            {/* One card END */}
+
+            {/* One card START */}
+            <div className="col-span-full flex flex-col items-center justify-between rounded-xl bg-[#fffefe] py-6  text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
+              <h className="mb-2 text-[19.5px] font-bold">Databases Systems</h>
+              <div className="mb-2 flex gap-3">
+                <i class="devicon-mysql-plain-wordmark colored text-6xl"></i>
+                <i class="devicon-mongodb-plain-wordmark colored text-6xl"></i>
+
+                {/* <i class="devicon-microsoftsqlserver-plain-wordmark text-6xl"></i> */}
+                <i class="devicon-firebase-plain-wordmark colored text-6xl"></i>
+              </div>
+              <div className="px-6 text-[17px] text-[#3b3d42]">
+                <p>
+                  Database Systems was one of my University modules, and throuought my studies I used MySQL and Firebase. After graduating I learned
+                  MongoDB.
+                </p>
+              </div>
+            </div>
+            {/* One card END */}
+
+            {/* One card START */}
+            <div className="col-span-full flex flex-col items-center justify-between rounded-xl bg-[#fffefe] py-6  text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
+              <h className="mb-2 text-[19.5px] font-bold">Frontend Design and UI</h>
+              <div className="mb-2 flex gap-3">
+                {/* <i class="devicon-tailwindcss-original-wordmark text-6xl colored"></i> */}
+
+                <i class="devicon-tailwindcss-plain colored text-6xl"></i>
+              </div>
+              <div className="px-6 text-[17px] text-[#3b3d42]">
+                <p>
+                  To ensure that my applications are responsive and clean I use Tailwind, which allows me to design with mobile first approach and be
+                  as creative as possible.
+                </p>
+              </div>
+            </div>
+            {/* One card END */}
+
+            {/* One card START */}
+            <div className="col-span-full flex flex-col items-center justify-between rounded-xl bg-[#fffefe] py-6  text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
+              <h className="mb-2 text-[19.5px] font-bold">Source Control</h>
+              <div className="mb-2 flex gap-3">
+                {/* <i class="devicon-tailwindcss-original-wordmark text-6xl colored"></i> */}
+
+                <i class="devicon-git-plain colored text-6xl"></i>
+
+                <i class="devicon-github-original-wordmark colored text-6xl"></i>
+              </div>
+              <div className="px-6 text-[17px] text-[#3b3d42]">
+                <p>
+                  To keep track of my code changes and project versions I use Git and GitHub. Most of my projects are hosted on GitHub, where I try to
+                  work on side projects continually.
+                </p>
+              </div>
+            </div>
+            {/* One card END */}
           </div>
         </div>
       </div>

@@ -32,11 +32,11 @@
   .slider:before {
     position: absolute;
     content: '';
-    height: 1.35em;
+    height: 1.15em;
     width: 0.11em;
     border-radius: 10px;
     left: 0.3em;
-    bottom: 0.4em;
+    bottom: 0.3em;
     background-color: white;
     transition: 0.4s;
   }
