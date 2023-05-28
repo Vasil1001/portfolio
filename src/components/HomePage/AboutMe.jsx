@@ -83,34 +83,34 @@ export default function AboutMe() {
           </div>
         </div>
 
-        <div className="car mainCard col-span-4 ">
-          <div className="grid grid-cols-4 gap-5  xl:grid-cols-3">
+        <div className="  col-span-4 ">
+          <div className="grid grid-cols-4 gap-3.5  xl:grid-cols-3">
             {/* One card START */}
-            <div className="col-span-full flex flex-col items-center justify-between rounded-xl bg-[#fffefe] py-6 text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
-              <h className="mb-2 text-[19.5px] font-bold">Web Development</h>
+            <div className="col-span-full flex flex-col items-center justify-between rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] py-6 text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
+              <h className="text-[19.5px] font-bold mb-3">Web Development</h>
               <div className="mb-2 flex ">
                 <i className="devicon-css3-plain colored text-6xl"></i>
                 <i className="devicon-html5-plain colored text-6xl"></i>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" className="h-14" />
               </div>
-              <div className="px-6 text-[17px] text-[#3b3d42]">
+              <div className="px-6 text-[17px] text-[#3b3d42] mt-3">
                 <p>
-                  I have solid experience building with HTML, CSS, and JavaScript through personal projects as well as from a Web
-                  Development module at University
+                  I have solid experience building with HTML, CSS, and JavaScript through personal projects as well as from a Web Development module
+                  at University
                 </p>
               </div>
             </div>
             {/* One card END */}
 
             {/* One card START */}
-            <div className="col-span-full flex flex-col items-center justify-between rounded-xl bg-[#fffefe]   py-6 text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
-              <h className="mb-2 text-[19.5px] font-bold">Frontend Framework</h>
+            <div className="col-span-full flex flex-col items-center justify-between rounded-2xl border border-[#ebebeb] bg-[#f1f0ee]   py-6 text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
+              <h className="mb-3 text-[19.5px] font-bold ">Frontend Framework</h>
               <div className="mb-2 flex">
                 <i class="devicon-react-original-wordmark colored text-6xl"></i>
               </div>
-              <div className="px-6 text-[17px] ">
+              <div className="px-6 text-[17px] text-[#3b3d42] mt-3">
                 <p>
-                  I mostly work with React.js on my front end focused projects. I have gained experience building clean React projects with proper
+                  I have gained solid experience building clean projects with React.js with proper
                   file structure and styling.
                 </p>
               </div>
@@ -118,34 +118,34 @@ export default function AboutMe() {
             {/* One card END */}
 
             {/* One card START */}
-            <div className="col-span-full flex flex-col items-center justify-between rounded-xl bg-[#fffefe] py-6  text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
-              <h className="mb-2 text-[19.5px] font-bold">Backend Development</h>
+            <div className="col-span-full flex flex-col items-center justify-between rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] py-6  text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
+              <h className="mb-3 text-[19.5px] font-bold">Backend Development</h>
               <div className="mb-2 flex gap-3">
                 <i class="devicon-nodejs-plain colored text-5xl"></i>
                 <i class="devicon-express-original colored text-5xl"></i>
                 <i class="devicon-java-plain-wordmark colored text-5xl"></i>
                 <i class="devicon-spring-plain-wordmark colored text-5xl"></i>
               </div>
-              <div className="px-6 text-[17px] text-[#3b3d42]">
+              <div className="px-6 text-[17px] text-[#3b3d42] mt-3">
                 <p>
-                  At university I worked with Java and some C# for Backend and after graduating I learned Java Spring Boot. After working with React,
-                  I gravitated towards JavaScript and decided to learn Node.js and Express.js for my REST APIs.
+                  During university I used Java, Spring Boot and some C# for backend. After working with React,
+                  I gravitated towards JavaScript & Node.js + Express.js.
                 </p>
               </div>
             </div>
             {/* One card END */}
 
             {/* One card START */}
-            <div className="col-span-full flex flex-col items-center justify-between rounded-xl bg-[#fffefe] py-6  text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
+            <div className="col-span-full flex flex-col items-center justify-between rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] py-6  text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
               <h className="mb-2 text-[19.5px] font-bold">Databases Systems</h>
-              <div className="mb-2 flex gap-3">
+              <div className="mb-3 flex gap-3">
                 <i class="devicon-mysql-plain-wordmark colored text-6xl"></i>
                 <i class="devicon-mongodb-plain-wordmark colored text-6xl"></i>
 
                 {/* <i class="devicon-microsoftsqlserver-plain-wordmark text-6xl"></i> */}
                 <i class="devicon-firebase-plain-wordmark colored text-6xl"></i>
               </div>
-              <div className="px-6 text-[17px] text-[#3b3d42]">
+              <div className="px-6 text-[17px] text-[#3b3d42] mt-3">
                 <p>
                   Database Systems was one of my University modules, and throuought my studies I used MySQL and Firebase. After graduating I learned
                   MongoDB.
@@ -155,14 +155,14 @@ export default function AboutMe() {
             {/* One card END */}
 
             {/* One card START */}
-            <div className="col-span-full flex flex-col items-center justify-between rounded-xl bg-[#fffefe] py-6  text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
-              <h className="mb-2 text-[19.5px] font-bold">Frontend Design and UI</h>
+            <div className="col-span-full flex flex-col items-center justify-between rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] py-6  text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
+              <h className="mb-3 text-[19.5px] font-bold">Frontend Design and UI</h>
               <div className="mb-2 flex gap-3">
                 {/* <i class="devicon-tailwindcss-original-wordmark text-6xl colored"></i> */}
 
                 <i class="devicon-tailwindcss-plain colored text-6xl"></i>
               </div>
-              <div className="px-6 text-[17px] text-[#3b3d42]">
+              <div className="px-6 text-[17px] text-[#3b3d42] mt-3">
                 <p>
                   To ensure that my applications are responsive and clean I use Tailwind, which allows me to design with mobile first approach and be
                   as creative as possible.
@@ -172,8 +172,8 @@ export default function AboutMe() {
             {/* One card END */}
 
             {/* One card START */}
-            <div className="col-span-full flex flex-col items-center justify-between rounded-xl bg-[#fffefe] py-6  text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
-              <h className="mb-2 text-[19.5px] font-bold">Source Control</h>
+            <div className="col-span-full flex flex-col items-center justify-between rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] py-6  text-center text-lg text-[#202124] shadow-sm sm:col-span-2 xl:col-span-1">
+              <h className="mb-3 text-[19.5px] font-bold">Source Control</h>
               <div className="mb-2 flex gap-3">
                 {/* <i class="devicon-tailwindcss-original-wordmark text-6xl colored"></i> */}
 
@@ -181,7 +181,7 @@ export default function AboutMe() {
 
                 <i class="devicon-github-original-wordmark colored text-6xl"></i>
               </div>
-              <div className="px-6 text-[17px] text-[#3b3d42]">
+              <div className="px-6 text-[17px] text-[#3b3d42] mt-3">
                 <p>
                   To keep track of my code changes and project versions I use Git and GitHub. Most of my projects are hosted on GitHub, where I try to
                   work on side projects continually.

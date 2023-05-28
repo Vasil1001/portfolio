@@ -14,7 +14,7 @@ export default function Experience() {
           <a className="relative flex h-[385px] flex-col justify-end rounded-2xl border-8 border-[#f1f0ee] bg-[#f1f0ee] text-[#242527] transition-all delay-150  duration-300 ease-in-out hover:font-bold hover:text-[#ffffff] hover:transition-all hover:duration-300 dark:border-[#edeeef] dark:bg-[#edeeef]">
             <div className="absolute inset-0 h-[12.5rem] w-full  overflow-hidden rounded-xl  bg-[#404045] transition-all delay-150 duration-300 ease-in-out hover:h-[369px] hover:bg-[#252529] hover:transition-all hover:duration-300">
               <img
-                src="https://youteam.io/blog/wp-content/uploads/2021/07/web-developer-min-1.jpeg"
+                src="https://media.graphassets.com/E6Mynw5iSWmqwk09Q1o4"
                 className="h-[12.5rem] w-full object-cover transition-all delay-150 duration-300 ease-in-out hover:h-[369px] hover:transition-all hover:duration-300"
                 alt="123"
               />
