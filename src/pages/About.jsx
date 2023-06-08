@@ -11,10 +11,13 @@ import house_gap from '../assets/ai/house-gap.webp'
 import house_hill from '../assets/ai/house-hill.webp'
 import house_river from '../assets/ai/house-river.webp'
 import wooden_house from '../assets/ai/wooden-house.webp'
+import lake_hills from '../assets/ai/land-hills.webp'
+import land_rocks from '../assets/ai/land-rocks.webp'
 import house_stars from '../assets/ai/house-stars.webp'
+import moon from '../assets/ai/moon.webp'
 import me from '../assets/ai/me1.jpg'
 import { HiOutlineExternalLink } from 'react-icons/hi'
-import { BsGithub, BsLightbulb, BsLinkedin, BsLightbulbOffFill, BsFillFileEarmarkTextFill, BsFillMoonStarsFill } from 'react-icons/bs'
+import { BsLinkedin } from 'react-icons/bs'
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper'
 
@@ -30,7 +33,7 @@ export default function About() {
   return (
     <div className="mb-0 mt-2">
       <div className=" grid grid-cols-4 flex-wrap gap-3.5 px-3.5 sm:px-0  md:text-[20.5px]">
-        <div className="col-span-full row-span-1 flex grow flex-col rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef] sm:col-span-4 lg:col-span-2 3xl:col-span-2">
+        <div className="mainCard col-span-full row-span-1 flex grow flex-col rounded-2xl border border-[#ebebeb] bg-[#f1f0ee] p-6 text-center dark:bg-[#edeeef] sm:col-span-4 lg:col-span-2 3xl:col-span-2">
           <div className="flex items-start justify-between ">
             <div className="flex flex-col">
               <h1 className="text-left font-noto text-3xl font-semibold text-[#202124] dark:text-[#383b41] md:text-3xl">Tech Interests</h1>
@@ -41,13 +44,19 @@ export default function About() {
             I am passionate about technology and I am always looking for new ways to improve my skills and design cleaner and more visually appealing
             applications.
             <br /> <br />
-            New and interesting technologies sparked an interest and made me want to explore even more. Learning Tailwind, Firebase, NodeJS & Express
-            and many more only improved my React projects and skills.
+            New and interesting technologies sparked my interest during and after university and made me want to explore even more.
+            <br /> <br />
+            Learning and using Tailwind CSS, Firebase, Node.js & Express.js, and many more immensely improved and added to my React projects and
+            skills.
             <br /> <br />
             I build projects that help me grow as a developer and because I genuinely enjoy it.
             <br /> <br />
             Currently I am exploring Next.js and Typescript and trying to work on projects daily.
+            
           </p>
+          <div class="relative">
+            <img src={land_rocks} alt="Hills" className="mt-3 max-h-60 w-full overflow-hidden rounded-xl object-cover" />
+          </div>
         </div>
         <div className="car mainCard col-span-4 row-span-2 lg:col-span-2">
           <div className="">
@@ -57,15 +66,36 @@ export default function About() {
               </div>
             </div>
             <hr className="my-2 border-0" />
-            <p className="text-md text-justify text-gray-600 dark:text-[#383b41]  ">
+            <div class="relative">
+              <img src={moon} alt="Hills" className="max-h-60 w-full overflow-hidden rounded-tr-xl rounded-tl-xl object-cover" />
+            </div>
+
+            <div className="mt-4  justify-between gap-5">
+              <div className="text-md col-span-2 text-left text-justify text-gray-600 dark:text-[#383b41]  ">
+                My name is Vasilis, I am a Junior Developer living in London, UK. I focus on building front-end and fullstack web applications using
+                React, JavaScript, Node.js & Express.js and more!
+              </div>
+            </div>
+            <p className="text-md mt-2 text-justify text-gray-600 dark:text-[#383b41]  ">
               <span className="text-sm text-slate-500">Where I come from</span>
               <hr className="mb-1 border-2" />
-              I was born in Bulgaria, but I grew up in Northern Greece, in a small town near the sea. I played football for my local team for 5 years,
-              and enjoy music and TV Series a ton.
+              </p>
+              <div className="mt-2  grid grid-cols-4 gap-5 min-h-44 flex flex-wrap overflow-visible">
+                <div className="text-md col-span-2 text-left text-justify text-gray-600 dark:text-[#383b41]  ">
+                  I was born in Bulgaria, but I grew up in Northern Greece, in a small town near the sea. I played football for my local team for 5
+                  years and enjoy music and TV Series a ton.
+                </div>
+                <div className=" col-span-2 justify-end overflow-hidden rounded-md">
+                  <img src={Forest_house} alt="Hills" className="h-52  w-full flex-wrap overflow-hidden rounded-sm object-cover" />
+                </div>
+              </div>
+
+              <div className='block lg:hidden'><br /></div>
+              <p className="text-md mt-2 text-justify text-gray-600 dark:text-[#383b41]  ">
+              I love getting to travel back and be a tourist where I grew up and explore places and sandy beaches I haven't been to before.
               <br /> <br />
-              I love getting to travel back and be a tourist where I grew up and explore places and sandy beaches I have never been to before.
-              <br /> <br />
-              In 2017 I moved to London and I started working part time jobs along with my studies.
+              In 2017 I moved to London and I started working part time jobs along with my studies. I studied Computer Science at University of
+              Westminster from 2019 - 2022.
               <br /> <br />
               <span className="text-sm text-slate-500">Work Experience</span>
               <hr className="mb-1 border-2" />
