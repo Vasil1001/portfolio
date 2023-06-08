@@ -63,7 +63,7 @@ export default function About() {
               I was born in Bulgaria, but I grew up in Northern Greece, in a small town near the sea. I played football for my local team for 5 years,
               and enjoy music and TV Series a ton.
               <br /> <br />
-              I love getting to travel back and be a tourist where I grew up and explore places and sandy beaches I had never been to before.
+              I love getting to travel back and be a tourist where I grew up and explore places and sandy beaches I have never been to before.
               <br /> <br />
               In 2017 I moved to London and I started working part time jobs along with my studies.
               <br /> <br />
