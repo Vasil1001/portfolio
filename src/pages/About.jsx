@@ -73,7 +73,7 @@ export default function About() {
             <div className="mt-4  justify-between gap-5">
               <div className="text-md col-span-2 text-left text-justify text-gray-600 dark:text-[#383b41]  ">
                 My name is Vasilis, I am a Junior Developer living in London, UK. I focus on building front-end and fullstack web applications using
-                React, JavaScript, Node.js & Express.js and more!
+                React, JavaScript, Node.js & Express.js andv   more!
               </div>
             </div>
             <p className="text-md mt-2 text-justify text-gray-600 dark:text-[#383b41]  ">

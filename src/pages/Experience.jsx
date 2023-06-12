@@ -52,7 +52,7 @@ export default function Experience() {
             <div className="hover:text-[#242527] ">
               <div className="absolute bottom-4 z-0 mb-1 flex w-full p-2 text-2xl  ">Construction Worker</div>
               <div className="text-lg flex flex-wrap overflow-hidden rounded-full px-2 text-left font-satoshi font-normal drop-shadow-md hover:text-[#0b0b0b] 2xl:text-xl">
-                RIR Construction Central London
+                RIR Construction
               </div>
             </div>
           </a>
