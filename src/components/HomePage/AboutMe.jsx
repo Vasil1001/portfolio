@@ -40,7 +40,7 @@ export default function AboutMe() {
         </div>
 
         <Skills />
-        <Experience />
+        
         <div className="mainCard col-span-4 row-span-1 flex flex-col p-6 text-center md:col-span-2 3xl:col-span-1">
           <div className="flex items-start justify-between ">
             <div className="flex flex-col">
@@ -83,7 +83,7 @@ export default function AboutMe() {
             <img src={house_stars} alt="asd" className="h-full w-full overflow-hidden rounded-xl" />
           </div>
         </div>
-
+        <Experience />
         <div className="  col-span-4 ">
           <div className="grid grid-cols-4 gap-3.5  xl:grid-cols-3">
             {/* One card START */}
