@@ -114,6 +114,7 @@ export default {
         outfit: ['Outfit', 'sans-serif'],
         supreme: ['Supreme', 'sans-serif'],
         jetbrainsmono: ['JetBrains Mono', 'sans-serif'],
+        figtree: ['Figtree', 'sans-serif'],
       },
       screens: {
         sm: '640px',
