@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { useRef } from 'react'
+import { HiOutlineExternalLink } from 'react-icons/hi'
 
 export default function ProjectItem({ project }) {
   const ref = useRef(null)
@@ -19,9 +20,14 @@ export default function ProjectItem({ project }) {
         key={project.id}
         className="col-span-4 flex h-80 flex-col flex-wrap  justify-between overflow-hidden rounded-xl border border-[#e5e4e4] bg-[#f5f4f3] p-6 shadow-sm hover:shadow-md md:col-span-2 lg:col-span-1 2xl:col-span-1 "
       >
-        <Link className="text-left" to={`/project/${project.id}`}>
-          <h1 className="font-satoshi text-xl font-semibold text-gray-700 ">{project.name}</h1>
-        </Link>
+        <div className="flex justify-between">
+          <Link className="text-left" to={`/project/${project.id}`}>
+            <h1 className="font-satoshi text-xl font-semibold text-gray-700 hover:text-gray-900 ">{project.name}</h1>
+          </Link>
+          <Link className="flex text-right" to={`/project/${project.id}`}>
+            <HiOutlineExternalLink className="car cursor-pointer hover:text-[#207c86]" size={'1.4rem'} />
+          </Link>
+        </div>
 
         <hr className="my-2" />
 
