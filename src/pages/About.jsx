@@ -15,7 +15,7 @@ import lake_hills from '../assets/ai/land-hills.webp'
 import land_rocks from '../assets/ai/land-rocks.webp'
 import house_stars from '../assets/ai/house-stars.webp'
 import moon from '../assets/ai/moon.webp'
-import me from '../assets/ai/me1.jpg'
+import me from '../assets/mesq.jpeg'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 import { BsLinkedin } from 'react-icons/bs'
 // import Swiper core and required modules

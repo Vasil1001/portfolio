@@ -1,6 +1,6 @@
 import React from 'react'
 import house_stars from '../../assets/ai/house-stars.webp'
-import me from '../../assets/ai/me1.jpg'
+import mesq from '../../assets/mesq.jpeg'
 import SendEmailButton from '../SendEmailButton/SendEmailButton'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 import '../SendEmailButton/SendEmailButton.css'
@@ -35,12 +35,12 @@ export default function AboutMe() {
         </div>
         <div className=" align-center col-span-4 flex flex-col items-center justify-center rounded-2xl border-2 border-[#ebebeb] bg-[#f1f0ee] p-1.5 text-center transition-all hover:p-0 hover:transition-all dark:bg-[#edeeef] dark:hover:border-[#171717] dark:hover:bg-[#edeeef] lg:col-span-2 2xl:col-span-2 3xl:col-span-1">
           <div className=" flex-wrap overflow-hidden rounded-xl p-1.5">
-            <img src={me} alt="asd" className="min-h-full w-full overflow-hidden rounded-xl" />
+            <img src={mesq} alt="asd" className="min-h-full w-full overflow-hidden rounded-xl" />
           </div>
         </div>
 
         <Skills />
-        
+
         <div className="mainCard col-span-4 row-span-1 flex flex-col p-6 text-center md:col-span-2 3xl:col-span-1">
           <div className="flex items-start justify-between ">
             <div className="flex flex-col">
